@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "fossil_minecraft:block/upgradedfossilrock1",
+    "up": "fossil_minecraft:block/upgradedfossilrock1",
+    "north": "fossil_minecraft:block/upgradedfossilrock1",
+    "east": "fossil_minecraft:block/upgradedfossilrock1",
+    "south": "fossil_minecraft:block/upgradedfossilrock1",
+    "west": "fossil_minecraft:block/upgradedfossilrock1",
+    "particle": "fossil_minecraft:block/upgradedfossilrock1"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,1217 @@
+Java Launcher: C:\Program Files\Pylo\MCreator\jdk\bin\java.exe
+Arguments: '--input, C:\Users\Gavinh\MCreatorWorkspaces\fossil_minecraft\build\libs\modid-1.0.jar, --output, C:\Users\Gavinh\MCreatorWorkspaces\fossil_minecraft\build\reobfJar\output.jar, --names, C:\Users\Gavinh\MCreatorWorkspaces\fossil_minecraft\build\reobfJar\mappings.tsrg, --lib, C:\Users\Gavinh\.mcreator\gradle\caches\forge_gradle\deobf_dependencies\software\bernie\geckolib\geckolib-forge-1.20.1\4.2.2_mapped_official_1.20.1\geckolib-forge-1.20.1-4.2.2_mapped_official_1.20.1.jar, --lib, C:\Users\Gavinh\.mcreator\gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.20.1-47.1.0_mapped_official_1.20.1\forge-1.20.1-47.1.0_mapped_official_1.20.1-recomp.jar, --lib, C:\Users\Gavinh\.mcreator\gradle\caches\forge_gradle\minecraft_repo\versions\1.20.1\client-extra.jar, --lib, C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlloader\1.20.1-47.1.0\f7b5e4ef130d184e0ea48e6d8bf0a2d90757e8c6\fmlloader-1.20.1-47.1.0.jar, --lib, C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\JarJarSelector\0.3.19\376cc9c8ea60720cf027c01fc033de915699801c\JarJarSelector-0.3.19.jar, --lib, C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\JarJarMetadata\0.3.19\83feaa9b770e6ac0e96ee4fc23fa89325c5fe2\JarJarMetadata-0.3.19.jar, --lib, C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\com.google.guava\guava\31.1-jre\60458f877d055d0c9114d9e1a2efb737b4bc282c\guava-31.1-jre.jar, --lib, C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\3.0.2\25ea2e8b0c338a877313bd4672d3fe056ea78f0d\jsr305-3.0.2.jar, --lib, C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\ca.weblite\java-objc-bridge\1.1\1227f9e0666314f9de41477e3ec277e542ed7f7b\java-objc-bridge-1.1.jar, --lib, C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\forgespi\7.0.1\3b4972a0cdb135853dba219be61a79b22cff1309\forgespi-7.0.1.jar, --lib, C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\mergetool\1.1.5\f3da18e12c696d35a47c82cbb2cc8b5aa15e1154\mergetool-1.1.5-api.jar, --lib, C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\org.jetbrains\annotations\24.0.1\13c5c75c4206580aa4d683bffee658caae6c9f43\annotations-24.0.1.jar, --lib, C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\cpw.mods\securejarhandler\2.1.10\51e6a22c6c716beb11e244bf5b8be480f51dd6b5\securejarhandler-2.1.10.jar, --lib, C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\cpw.mods\modlauncher\10.0.9\6d9443f56f50bb85cea383686ff9c867391458b\modlauncher-10.0.9.jar, --lib, C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\org.openjdk.nashorn\nashorn-core\15.3\43977e804697048fc8d81d333a36c17d07a5b3dd\nashorn-core-15.3.jar, --lib, C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-commons\9.5\19ab5b5800a3910d30d3a3e64fdb00fd0cb42de0\asm-commons-9.5.jar, --lib, C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-util\9.5\64b5a1fc8c1b15ed2efd6a063e976bc8d3dc5ffe\asm-util-9.5.jar, --lib, C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-analysis\9.5\490bacc77de7cbc0be1a30bb3471072d705be4a4\asm-analysis-9.5.jar, --lib, C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-tree\9.5\fd33c8b6373abaa675be407082fdfda35021254a\asm-tree-9.5.jar, --lib, C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\org.ow2.asm\asm\9.5\dc6ea1875f4d64fbc85e1691c95b96a3d8569c90\asm-9.5.jar, --lib, C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\accesstransformers\8.0.4\272d240aa73f42195b2a68e2ebd8b701ecf41f63\accesstransformers-8.0.4.jar, --lib, C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\org.antlr\antlr4\4.9.1\e92af8ab33e428461927b484e90bb155a4f3a052\antlr4-4.9.1.jar, --lib, C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\org.antlr\antlr4-runtime\4.9.1\428664f05d2b7f7b7610204b5aa7c1763f62011a\antlr4-runtime-4.9.1.jar, --lib, C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.20.1-47.1.0\69ca36ae5b8d45c377a5485dc38a7343e5ebf33c\fmlcore-1.20.1-47.1.0.jar, --lib, C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\eventbus\6.0.5\699143dd438431d06b57416944f7cedbe52e1475\eventbus-6.0.5.jar, --lib, C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\coremods\5.0.1\386b00279628b105b2d507539c46e134e96f6237\coremods-5.0.1.jar, --lib, C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\unsafe\0.2.0\54d7a0a5e8fdb71b973025caa46f341ae5904f39\unsafe-0.2.0.jar, --lib, C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\com.electronwill.night-config\toml\3.6.4\51d6cefb2b55ee55ee26b16391212fb2c7dfb4f4\toml-3.6.4.jar, --lib, C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\com.electronwill.night-config\core\3.6.4\510f174abbf1c947494db50ef2445683bd52c230\core-3.6.4.jar, --lib, C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\org.apache.maven\maven-artifact\3.8.5\4433f50c07debefaed0553bd0068f4f48d449313\maven-artifact-3.8.5.jar, --lib, C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\net.jodah\typetools\0.6.3\a01aaa6ddaea9ec07ec4f209487b7a46a526283a\typetools-0.6.3.jar, --lib, C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\net.minecrell\terminalconsoleappender\1.2.0\96d02cd3b384ff015a8fef4223bcb4ccf1717c95\terminalconsoleappender-1.2.0.jar, --lib, C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\org.jline\jline-reader\3.12.1\4382ab1382c7b6f379377ed5f665dc2f6e1218bc\jline-reader-3.12.1.jar, --lib, C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\org.jline\jline-terminal\3.12.1\c777448314e050d980a6b697c140f3bfe9eb7416\jline-terminal-3.12.1.jar, --lib, C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\org.spongepowered\mixin\0.8.5\9d1c0c3a304ae6697ecd477218fa61b850bf57fc\mixin-0.8.5.jar, --lib, C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\cpw.mods\bootstraplauncher\1.1.2\c546e00443d8432cda6baa1c860346980742628\bootstraplauncher-1.1.2.jar, --lib, C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\JarJarFileSystems\0.3.19\2464eb7d6b9ddb9db36a82cf8a95193e5c6fe020\JarJarFileSystems-0.3.19.jar, --lib, C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlearlydisplay\1.20.1-47.1.0\faf61a8a8cc80e82a5691fac00149f06eeaf0438\fmlearlydisplay-1.20.1-47.1.0.jar, --lib, C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.20.1-47.1.0\a2cd58d15791eaac9983e30be0995e66bd48633e\javafmllanguage-1.20.1-47.1.0.jar, --lib, C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.20.1-47.1.0\f1f11b7217b8320f1b3eb81c746b7b8a70a9ba06\lowcodelanguage-1.20.1-47.1.0.jar, --lib, C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.20.1-47.1.0\ff1b8eeb1bd00dfb130263b8952b931f5369252e\mclanguage-1.20.1-47.1.0.jar, --lib, C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\com.github.oshi\oshi-core\6.2.2\54f5efc19bca95d709d9a37d19ffcbba3d21c1a6\oshi-core-6.2.2.jar, --lib, C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.10\dd9b193aef96e973d5a11ab13cd17430c2e4306b\gson-2.10.jar, --lib, C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\com.google.guava\failureaccess\1.0.1\1dcf1de382a0bf95a3d8b0849546c88bac1292c9\failureaccess-1.0.1.jar, --lib, C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\com.ibm.icu\icu4j\71.1\9e7d3304c23f9ba5cb71915f7cce23231a57a445\icu4j-71.1.jar, --lib, C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\com.mojang\authlib\4.0.43\2ff9d747a77570a07a60d32ac77eb6162ad2a2d9\authlib-4.0.43.jar, --lib, C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\com.mojang\blocklist\1.0.10\5c685c5ffa94c4cd39496c7184c1d122e515ecef\blocklist-1.0.10.jar, --lib, C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\com.mojang\brigadier\1.1.8\5244ce82c3337bba4a196a3ce858bfaecc74404a\brigadier-1.1.8.jar, --lib, C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\com.mojang\datafixerupper\6.0.8\3ba4a30557a9b057760af4011f909ba619fc5125\datafixerupper-6.0.8.jar, --lib, C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\com.mojang\logging\1.1.1\832b8e6674a9b325a5175a3a6267dfaf34c85139\logging-1.1.1.jar, --lib, C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\com.mojang\patchy\2.2.10\da05971b07cbb379d002cf7eaec6a2048211fefc\patchy-2.2.10.jar, --lib, C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\com.mojang\text2speech\1.17.9\3cad216e3a7f0c19b4b394388bc9ffc446f13b14\text2speech-1.17.9.jar, --lib, C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\org.apache.httpcomponents\httpclient\4.5.13\e5f6cae5ca7ecaac1ec2827a9e2d65ae2869cada\httpclient-4.5.13.jar, --lib, C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\commons-codec\commons-codec\1.15\49d94806b6e3dc933dacbd8acb0fdbab8ebd1e5d\commons-codec-1.15.jar, --lib, C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\commons-io\commons-io\2.11.0\a2503f302b11ebde7ebc3df41daebe0e4eea3689\commons-io-2.11.0.jar, --lib, C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\commons-logging\commons-logging\1.2\4bfc12adfe4842bf07b657f0369c4cb522955686\commons-logging-1.2.jar, --lib, C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\io.netty\netty-handler\4.1.82.Final\644041d1fa96a5d3130a29e8978630d716d76e38\netty-handler-4.1.82.Final.jar, --lib, C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\io.netty\netty-codec\4.1.82.Final\b77200379acb345a9ffdece1c605e591ac3e4e0a\netty-codec-4.1.82.Final.jar, --lib, C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\io.netty\netty-transport-classes-epoll\4.1.82.Final\e7c7dd18deac93105797f30057c912651ea76521\netty-transport-classes-epoll-4.1.82.Final.jar, --lib, C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\io.netty\netty-transport-native-unix-common\4.1.82.Final\3e895b35ca1b8a0eca56cacff4c2dde5d2c6abce\netty-transport-native-unix-common-4.1.82.Final.jar, --lib, C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\io.netty\netty-transport\4.1.82.Final\e431a218d91acb6476ccad5f5aafde50aa3945ca\netty-transport-4.1.82.Final.jar, --lib, C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\io.netty\netty-buffer\4.1.82.Final\a544270cf1ae8b8077082f5036436a9a9971ea71\netty-buffer-4.1.82.Final.jar, --lib, C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\io.netty\netty-resolver\4.1.82.Final\38f665ae8dcd29032eea31245ba7806bed2e0fa8\netty-resolver-4.1.82.Final.jar, --lib, C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\io.netty\netty-common\4.1.82.Final\22d148e85c3f5ebdacc0ce1f5aabb1d420f73f3\netty-common-4.1.82.Final.jar, --lib, C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\it.unimi.dsi\fastutil\8.5.9\bb7ea75ecdb216654237830b3a96d87ad91f8cc5\fastutil-8.5.9.jar, --lib, C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\net.java.dev.jna\jna-platform\5.12.1\97406a297c852f4a41e688a176ec675f72e8329\jna-platform-5.12.1.jar, --lib, C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\net.java.dev.jna\jna\5.12.1\b1e93a735caea94f503e95e6fe79bf9cdc1e985d\jna-5.12.1.jar, --lib, C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\net.sf.jopt-simple\jopt-simple\5.0.4\4fdac2fbe92dfad86aa6e9301736f6b4342a3f5c\jopt-simple-5.0.4.jar, --lib, C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\org.apache.commons\commons-compress\1.21\4ec95b60d4e86b5c95a0e919cb172a0af98011ef\commons-compress-1.21.jar, --lib, C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\org.apache.commons\commons-lang3\3.12.0\c6842c86792ff03b9f1d1fe2aab8dc23aa6c6f0e\commons-lang3-3.12.0.jar, --lib, C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\org.apache.httpcomponents\httpcore\4.4.15\7f2e0c573eaa7a74bac2e89b359e1f73d92a0a1d\httpcore-4.4.15.jar, --lib, C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\org.apache.logging.log4j\log4j-core\2.19.0\3b6eeb4de4c49c0fe38a4ee27188ff5fee44d0bb\log4j-core-2.19.0.jar, --lib, C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\org.apache.logging.log4j\log4j-slf4j2-impl\2.19.0\5c04bfdd63ce9dceb2e284b81e96b6a70010ee10\log4j-slf4j2-impl-2.19.0.jar, --lib, C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\org.apache.logging.log4j\log4j-api\2.19.0\ea1b37f38c327596b216542bc636cfdc0b8036fa\log4j-api-2.19.0.jar, --lib, C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\org.joml\joml\1.10.5\22566d58af70ad3d72308bab63b8339906deb649\joml-1.10.5.jar, --lib, C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-glfw\3.3.1\cbac1b8d30cb4795149c1ef540f912671a8616d0\lwjgl-glfw-3.3.1.jar, --lib, C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-glfw\3.3.1\ed892f945cf7e79c8756796f32d00fa4ceaf573b\lwjgl-glfw-3.3.1-natives-windows.jar, --lib, C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-glfw\3.3.1\beda65ee503443e60aa196d58ed31f8d001dc22a\lwjgl-glfw-3.3.1-natives-windows-arm64.jar, --lib, C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-glfw\3.3.1\b997e3391d6ce8f05487e7335d95c606043884a1\lwjgl-glfw-3.3.1-natives-windows-x86.jar, --lib, C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-jemalloc\3.3.1\a817bcf213db49f710603677457567c37d53e103\lwjgl-jemalloc-3.3.1.jar, --lib, C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-jemalloc\3.3.1\948a89b76a16aa324b046ae9308891216ffce5f9\lwjgl-jemalloc-3.3.1-natives-windows.jar, --lib, C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-jemalloc\3.3.1\cae85c4edb219c88b6a0c26a87955ad98dc9519d\lwjgl-jemalloc-3.3.1-natives-windows-arm64.jar, --lib, C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-jemalloc\3.3.1\fb476c8ec110e1c137ad3ce8a7f7bfe6b11c6324\lwjgl-jemalloc-3.3.1-natives-windows-x86.jar, --lib, C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-openal\3.3.1\2623a6b8ae1dfcd880738656a9f0243d2e6840bd\lwjgl-openal-3.3.1.jar, --lib, C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-openal\3.3.1\30a474d0e57193d7bc128849a3ab66bc9316fdb1\lwjgl-openal-3.3.1-natives-windows.jar, --lib, C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-openal\3.3.1\40d65f1a7368a2aa47336f9cb69f5a190cf9975a\lwjgl-openal-3.3.1-natives-windows-arm64.jar, --lib, C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-openal\3.3.1\888349f7b1be6fbae58bf8edfb9ef12def04c4e3\lwjgl-openal-3.3.1-natives-windows-x86.jar, --lib, C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-opengl\3.3.1\831a5533a21a5f4f81bbc51bb13e9899319b5411\lwjgl-opengl-3.3.1.jar, --lib, C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-opengl\3.3.1\c1807e9bd571402787d7e37e3029776ae2513bb8\lwjgl-opengl-3.3.1-natives-windows.jar, --lib, C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-opengl\3.3.1\527d78f1e9056aff3ed02ce93019c73c5e8f1721\lwjgl-opengl-3.3.1-natives-windows-arm64.jar, --lib, C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-opengl\3.3.1\deef3eb9b178ff2ff3ce893cc72ae741c3a17974\lwjgl-opengl-3.3.1-natives-windows-x86.jar, --lib, C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-stb\3.3.1\b119297cf8ed01f247abe8685857f8e7fcf5980f\lwjgl-stb-3.3.1.jar, --lib, C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-stb\3.3.1\86315914ac119efdb02dc9e8e978ade84f1702af\lwjgl-stb-3.3.1-natives-windows.jar, --lib, C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-stb\3.3.1\fde63cdd2605c00636721a6c8b961e41d1f6b247\lwjgl-stb-3.3.1-natives-windows-arm64.jar, --lib, C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-stb\3.3.1\a8d41f419eecb430b7c91ea2ce2c5c451cae2091\lwjgl-stb-3.3.1-natives-windows-x86.jar, --lib, C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-tinyfd\3.3.1\ff1914111ef2e3e0110ef2dabc8d8cdaad82347\lwjgl-tinyfd-3.3.1.jar, --lib, C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-tinyfd\3.3.1\a5d830475ec0958d9fdba1559efa99aef211e6ff\lwjgl-tinyfd-3.3.1-natives-windows.jar, --lib, C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-tinyfd\3.3.1\83a5e780df610829ff3a737822b4f931cffecd91\lwjgl-tinyfd-3.3.1-natives-windows-arm64.jar, --lib, C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-tinyfd\3.3.1\842eedd876fae354abc308c98a263f6bbc9e8a4d\lwjgl-tinyfd-3.3.1-natives-windows-x86.jar, --lib, C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl\3.3.1\ae58664f88e18a9bb2c77b063833ca7aaec484cb\lwjgl-3.3.1.jar, --lib, C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl\3.3.1\36c37f16ab611b3aa11f3bcf80b1d509b4ce6b\lwjgl-3.3.1-natives-windows.jar, --lib, C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl\3.3.1\f46cadcf95675908fd3a550d63d9d709cb68998\lwjgl-3.3.1-natives-windows-arm64.jar, --lib, C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl\3.3.1\3b14f4beae9dd39791ec9e12190a9380cd8a3ce6\lwjgl-3.3.1-natives-windows-x86.jar, --lib, C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\com.machinezoo.noexception\noexception\1.7.1\b65330c98e38a1f915fa54a6e5eca496505e3f0a\noexception-1.7.1.jar, --lib, C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\org.slf4j\slf4j-api\2.0.1\f48d81adce2abf5ad3cfe463df517952749e03bc\slf4j-api-2.0.1.jar, --lib, C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\org.codehaus.plexus\plexus-utils\3.3.0\cf43b5391de623b36fe066a21127baef82c64022\plexus-utils-3.3.0.jar, --lib, C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\com.google.guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\b421526c5f297295adef1c886e5246c39d4ac629\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar, --lib, C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\org.checkerframework\checker-qual\3.12.0\d5692f0526415fcc6de94bb5bfbd3afd9dd3b3e5\checker-qual-3.12.0.jar, --lib, C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\com.google.errorprone\error_prone_annotations\2.11.0\c5a0ace696d3f8b1c1d8cc036d8c03cc0cbe6b69\error_prone_annotations-2.11.0.jar, --lib, C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\com.google.j2objc\j2objc-annotations\1.3\ba035118bc8bac37d7eff77700720999acd9986d\j2objc-annotations-1.3.jar, --lib, C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\org.antlr\ST4\4.3\92f2c1ad8d84abcbeead6cf7f2c53a04166293c2\ST4-4.3.jar, --lib, C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\org.antlr\antlr-runtime\3.5.2\cd9cd41361c155f3af0f653009dcecb08d8b4afd\antlr-runtime-3.5.2.jar, --lib, C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\org.abego.treelayout\org.abego.treelayout.core\1.0.3\457216e8e6578099ae63667bb1e4439235892028\org.abego.treelayout.core-1.0.3.jar, --lib, C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\org.glassfish\javax.json\1.0.4\3178f73569fd7a1e5ffc464e680f7a8cc784b85a\javax.json-1.0.4.jar, --disable-abstract-param'
+Classpath:
+ - C:\Users\Gavinh\.mcreator\gradle\caches\forge_gradle\maven_downloader\net\minecraftforge\ForgeAutoRenamingTool\1.0.6\ForgeAutoRenamingTool-1.0.6-all.jar
+Working directory: C:\Users\Gavinh\MCreatorWorkspaces\fossil_minecraft\build\reobfJar
+Main class: net.minecraftforge.fart.Main
+====================================
+Forge Auto Renaming Tool v1.0.6
+lib: C:\Users\Gavinh\.mcreator\gradle\caches\forge_gradle\deobf_dependencies\software\bernie\geckolib\geckolib-forge-1.20.1\4.2.2_mapped_official_1.20.1\geckolib-forge-1.20.1-4.2.2_mapped_official_1.20.1.jar
+lib: C:\Users\Gavinh\.mcreator\gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.20.1-47.1.0_mapped_official_1.20.1\forge-1.20.1-47.1.0_mapped_official_1.20.1-recomp.jar
+lib: C:\Users\Gavinh\.mcreator\gradle\caches\forge_gradle\minecraft_repo\versions\1.20.1\client-extra.jar
+lib: C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlloader\1.20.1-47.1.0\f7b5e4ef130d184e0ea48e6d8bf0a2d90757e8c6\fmlloader-1.20.1-47.1.0.jar
+lib: C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\JarJarSelector\0.3.19\376cc9c8ea60720cf027c01fc033de915699801c\JarJarSelector-0.3.19.jar
+lib: C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\JarJarMetadata\0.3.19\83feaa9b770e6ac0e96ee4fc23fa89325c5fe2\JarJarMetadata-0.3.19.jar
+lib: C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\com.google.guava\guava\31.1-jre\60458f877d055d0c9114d9e1a2efb737b4bc282c\guava-31.1-jre.jar
+lib: C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\3.0.2\25ea2e8b0c338a877313bd4672d3fe056ea78f0d\jsr305-3.0.2.jar
+lib: C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\ca.weblite\java-objc-bridge\1.1\1227f9e0666314f9de41477e3ec277e542ed7f7b\java-objc-bridge-1.1.jar
+lib: C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\forgespi\7.0.1\3b4972a0cdb135853dba219be61a79b22cff1309\forgespi-7.0.1.jar
+lib: C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\mergetool\1.1.5\f3da18e12c696d35a47c82cbb2cc8b5aa15e1154\mergetool-1.1.5-api.jar
+lib: C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\org.jetbrains\annotations\24.0.1\13c5c75c4206580aa4d683bffee658caae6c9f43\annotations-24.0.1.jar
+lib: C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\cpw.mods\securejarhandler\2.1.10\51e6a22c6c716beb11e244bf5b8be480f51dd6b5\securejarhandler-2.1.10.jar
+lib: C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\cpw.mods\modlauncher\10.0.9\6d9443f56f50bb85cea383686ff9c867391458b\modlauncher-10.0.9.jar
+lib: C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\org.openjdk.nashorn\nashorn-core\15.3\43977e804697048fc8d81d333a36c17d07a5b3dd\nashorn-core-15.3.jar
+lib: C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-commons\9.5\19ab5b5800a3910d30d3a3e64fdb00fd0cb42de0\asm-commons-9.5.jar
+lib: C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-util\9.5\64b5a1fc8c1b15ed2efd6a063e976bc8d3dc5ffe\asm-util-9.5.jar
+lib: C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-analysis\9.5\490bacc77de7cbc0be1a30bb3471072d705be4a4\asm-analysis-9.5.jar
+lib: C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-tree\9.5\fd33c8b6373abaa675be407082fdfda35021254a\asm-tree-9.5.jar
+lib: C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\org.ow2.asm\asm\9.5\dc6ea1875f4d64fbc85e1691c95b96a3d8569c90\asm-9.5.jar
+lib: C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\accesstransformers\8.0.4\272d240aa73f42195b2a68e2ebd8b701ecf41f63\accesstransformers-8.0.4.jar
+lib: C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\org.antlr\antlr4\4.9.1\e92af8ab33e428461927b484e90bb155a4f3a052\antlr4-4.9.1.jar
+lib: C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\org.antlr\antlr4-runtime\4.9.1\428664f05d2b7f7b7610204b5aa7c1763f62011a\antlr4-runtime-4.9.1.jar
+lib: C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.20.1-47.1.0\69ca36ae5b8d45c377a5485dc38a7343e5ebf33c\fmlcore-1.20.1-47.1.0.jar
+lib: C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\eventbus\6.0.5\699143dd438431d06b57416944f7cedbe52e1475\eventbus-6.0.5.jar
+lib: C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\coremods\5.0.1\386b00279628b105b2d507539c46e134e96f6237\coremods-5.0.1.jar
+lib: C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\unsafe\0.2.0\54d7a0a5e8fdb71b973025caa46f341ae5904f39\unsafe-0.2.0.jar
+lib: C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\com.electronwill.night-config\toml\3.6.4\51d6cefb2b55ee55ee26b16391212fb2c7dfb4f4\toml-3.6.4.jar
+lib: C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\com.electronwill.night-config\core\3.6.4\510f174abbf1c947494db50ef2445683bd52c230\core-3.6.4.jar
+lib: C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\org.apache.maven\maven-artifact\3.8.5\4433f50c07debefaed0553bd0068f4f48d449313\maven-artifact-3.8.5.jar
+lib: C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\net.jodah\typetools\0.6.3\a01aaa6ddaea9ec07ec4f209487b7a46a526283a\typetools-0.6.3.jar
+lib: C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\net.minecrell\terminalconsoleappender\1.2.0\96d02cd3b384ff015a8fef4223bcb4ccf1717c95\terminalconsoleappender-1.2.0.jar
+lib: C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\org.jline\jline-reader\3.12.1\4382ab1382c7b6f379377ed5f665dc2f6e1218bc\jline-reader-3.12.1.jar
+lib: C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\org.jline\jline-terminal\3.12.1\c777448314e050d980a6b697c140f3bfe9eb7416\jline-terminal-3.12.1.jar
+lib: C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\org.spongepowered\mixin\0.8.5\9d1c0c3a304ae6697ecd477218fa61b850bf57fc\mixin-0.8.5.jar
+lib: C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\cpw.mods\bootstraplauncher\1.1.2\c546e00443d8432cda6baa1c860346980742628\bootstraplauncher-1.1.2.jar
+lib: C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\JarJarFileSystems\0.3.19\2464eb7d6b9ddb9db36a82cf8a95193e5c6fe020\JarJarFileSystems-0.3.19.jar
+lib: C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlearlydisplay\1.20.1-47.1.0\faf61a8a8cc80e82a5691fac00149f06eeaf0438\fmlearlydisplay-1.20.1-47.1.0.jar
+lib: C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.20.1-47.1.0\a2cd58d15791eaac9983e30be0995e66bd48633e\javafmllanguage-1.20.1-47.1.0.jar
+lib: C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.20.1-47.1.0\f1f11b7217b8320f1b3eb81c746b7b8a70a9ba06\lowcodelanguage-1.20.1-47.1.0.jar
+lib: C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.20.1-47.1.0\ff1b8eeb1bd00dfb130263b8952b931f5369252e\mclanguage-1.20.1-47.1.0.jar
+lib: C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\com.github.oshi\oshi-core\6.2.2\54f5efc19bca95d709d9a37d19ffcbba3d21c1a6\oshi-core-6.2.2.jar
+lib: C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.10\dd9b193aef96e973d5a11ab13cd17430c2e4306b\gson-2.10.jar
+lib: C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\com.google.guava\failureaccess\1.0.1\1dcf1de382a0bf95a3d8b0849546c88bac1292c9\failureaccess-1.0.1.jar
+lib: C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\com.ibm.icu\icu4j\71.1\9e7d3304c23f9ba5cb71915f7cce23231a57a445\icu4j-71.1.jar
+lib: C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\com.mojang\authlib\4.0.43\2ff9d747a77570a07a60d32ac77eb6162ad2a2d9\authlib-4.0.43.jar
+lib: C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\com.mojang\blocklist\1.0.10\5c685c5ffa94c4cd39496c7184c1d122e515ecef\blocklist-1.0.10.jar
+lib: C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\com.mojang\brigadier\1.1.8\5244ce82c3337bba4a196a3ce858bfaecc74404a\brigadier-1.1.8.jar
+lib: C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\com.mojang\datafixerupper\6.0.8\3ba4a30557a9b057760af4011f909ba619fc5125\datafixerupper-6.0.8.jar
+lib: C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\com.mojang\logging\1.1.1\832b8e6674a9b325a5175a3a6267dfaf34c85139\logging-1.1.1.jar
+lib: C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\com.mojang\patchy\2.2.10\da05971b07cbb379d002cf7eaec6a2048211fefc\patchy-2.2.10.jar
+lib: C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\com.mojang\text2speech\1.17.9\3cad216e3a7f0c19b4b394388bc9ffc446f13b14\text2speech-1.17.9.jar
+lib: C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\org.apache.httpcomponents\httpclient\4.5.13\e5f6cae5ca7ecaac1ec2827a9e2d65ae2869cada\httpclient-4.5.13.jar
+lib: C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\commons-codec\commons-codec\1.15\49d94806b6e3dc933dacbd8acb0fdbab8ebd1e5d\commons-codec-1.15.jar
+lib: C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\commons-io\commons-io\2.11.0\a2503f302b11ebde7ebc3df41daebe0e4eea3689\commons-io-2.11.0.jar
+lib: C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\commons-logging\commons-logging\1.2\4bfc12adfe4842bf07b657f0369c4cb522955686\commons-logging-1.2.jar
+lib: C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\io.netty\netty-handler\4.1.82.Final\644041d1fa96a5d3130a29e8978630d716d76e38\netty-handler-4.1.82.Final.jar
+lib: C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\io.netty\netty-codec\4.1.82.Final\b77200379acb345a9ffdece1c605e591ac3e4e0a\netty-codec-4.1.82.Final.jar
+lib: C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\io.netty\netty-transport-classes-epoll\4.1.82.Final\e7c7dd18deac93105797f30057c912651ea76521\netty-transport-classes-epoll-4.1.82.Final.jar
+lib: C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\io.netty\netty-transport-native-unix-common\4.1.82.Final\3e895b35ca1b8a0eca56cacff4c2dde5d2c6abce\netty-transport-native-unix-common-4.1.82.Final.jar
+lib: C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\io.netty\netty-transport\4.1.82.Final\e431a218d91acb6476ccad5f5aafde50aa3945ca\netty-transport-4.1.82.Final.jar
+lib: C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\io.netty\netty-buffer\4.1.82.Final\a544270cf1ae8b8077082f5036436a9a9971ea71\netty-buffer-4.1.82.Final.jar
+lib: C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\io.netty\netty-resolver\4.1.82.Final\38f665ae8dcd29032eea31245ba7806bed2e0fa8\netty-resolver-4.1.82.Final.jar
+lib: C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\io.netty\netty-common\4.1.82.Final\22d148e85c3f5ebdacc0ce1f5aabb1d420f73f3\netty-common-4.1.82.Final.jar
+lib: C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\it.unimi.dsi\fastutil\8.5.9\bb7ea75ecdb216654237830b3a96d87ad91f8cc5\fastutil-8.5.9.jar
+lib: C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\net.java.dev.jna\jna-platform\5.12.1\97406a297c852f4a41e688a176ec675f72e8329\jna-platform-5.12.1.jar
+lib: C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\net.java.dev.jna\jna\5.12.1\b1e93a735caea94f503e95e6fe79bf9cdc1e985d\jna-5.12.1.jar
+lib: C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\net.sf.jopt-simple\jopt-simple\5.0.4\4fdac2fbe92dfad86aa6e9301736f6b4342a3f5c\jopt-simple-5.0.4.jar
+lib: C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\org.apache.commons\commons-compress\1.21\4ec95b60d4e86b5c95a0e919cb172a0af98011ef\commons-compress-1.21.jar
+lib: C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\org.apache.commons\commons-lang3\3.12.0\c6842c86792ff03b9f1d1fe2aab8dc23aa6c6f0e\commons-lang3-3.12.0.jar
+lib: C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\org.apache.httpcomponents\httpcore\4.4.15\7f2e0c573eaa7a74bac2e89b359e1f73d92a0a1d\httpcore-4.4.15.jar
+lib: C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\org.apache.logging.log4j\log4j-core\2.19.0\3b6eeb4de4c49c0fe38a4ee27188ff5fee44d0bb\log4j-core-2.19.0.jar
+lib: C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\org.apache.logging.log4j\log4j-slf4j2-impl\2.19.0\5c04bfdd63ce9dceb2e284b81e96b6a70010ee10\log4j-slf4j2-impl-2.19.0.jar
+lib: C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\org.apache.logging.log4j\log4j-api\2.19.0\ea1b37f38c327596b216542bc636cfdc0b8036fa\log4j-api-2.19.0.jar
+lib: C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\org.joml\joml\1.10.5\22566d58af70ad3d72308bab63b8339906deb649\joml-1.10.5.jar
+lib: C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-glfw\3.3.1\cbac1b8d30cb4795149c1ef540f912671a8616d0\lwjgl-glfw-3.3.1.jar
+lib: C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-glfw\3.3.1\ed892f945cf7e79c8756796f32d00fa4ceaf573b\lwjgl-glfw-3.3.1-natives-windows.jar
+lib: C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-glfw\3.3.1\beda65ee503443e60aa196d58ed31f8d001dc22a\lwjgl-glfw-3.3.1-natives-windows-arm64.jar
+lib: C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-glfw\3.3.1\b997e3391d6ce8f05487e7335d95c606043884a1\lwjgl-glfw-3.3.1-natives-windows-x86.jar
+lib: C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-jemalloc\3.3.1\a817bcf213db49f710603677457567c37d53e103\lwjgl-jemalloc-3.3.1.jar
+lib: C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-jemalloc\3.3.1\948a89b76a16aa324b046ae9308891216ffce5f9\lwjgl-jemalloc-3.3.1-natives-windows.jar
+lib: C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-jemalloc\3.3.1\cae85c4edb219c88b6a0c26a87955ad98dc9519d\lwjgl-jemalloc-3.3.1-natives-windows-arm64.jar
+lib: C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-jemalloc\3.3.1\fb476c8ec110e1c137ad3ce8a7f7bfe6b11c6324\lwjgl-jemalloc-3.3.1-natives-windows-x86.jar
+lib: C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-openal\3.3.1\2623a6b8ae1dfcd880738656a9f0243d2e6840bd\lwjgl-openal-3.3.1.jar
+lib: C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-openal\3.3.1\30a474d0e57193d7bc128849a3ab66bc9316fdb1\lwjgl-openal-3.3.1-natives-windows.jar
+lib: C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-openal\3.3.1\40d65f1a7368a2aa47336f9cb69f5a190cf9975a\lwjgl-openal-3.3.1-natives-windows-arm64.jar
+lib: C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-openal\3.3.1\888349f7b1be6fbae58bf8edfb9ef12def04c4e3\lwjgl-openal-3.3.1-natives-windows-x86.jar
+lib: C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-opengl\3.3.1\831a5533a21a5f4f81bbc51bb13e9899319b5411\lwjgl-opengl-3.3.1.jar
+lib: C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-opengl\3.3.1\c1807e9bd571402787d7e37e3029776ae2513bb8\lwjgl-opengl-3.3.1-natives-windows.jar
+lib: C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-opengl\3.3.1\527d78f1e9056aff3ed02ce93019c73c5e8f1721\lwjgl-opengl-3.3.1-natives-windows-arm64.jar
+lib: C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-opengl\3.3.1\deef3eb9b178ff2ff3ce893cc72ae741c3a17974\lwjgl-opengl-3.3.1-natives-windows-x86.jar
+lib: C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-stb\3.3.1\b119297cf8ed01f247abe8685857f8e7fcf5980f\lwjgl-stb-3.3.1.jar
+lib: C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-stb\3.3.1\86315914ac119efdb02dc9e8e978ade84f1702af\lwjgl-stb-3.3.1-natives-windows.jar
+lib: C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-stb\3.3.1\fde63cdd2605c00636721a6c8b961e41d1f6b247\lwjgl-stb-3.3.1-natives-windows-arm64.jar
+lib: C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-stb\3.3.1\a8d41f419eecb430b7c91ea2ce2c5c451cae2091\lwjgl-stb-3.3.1-natives-windows-x86.jar
+lib: C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-tinyfd\3.3.1\ff1914111ef2e3e0110ef2dabc8d8cdaad82347\lwjgl-tinyfd-3.3.1.jar
+lib: C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-tinyfd\3.3.1\a5d830475ec0958d9fdba1559efa99aef211e6ff\lwjgl-tinyfd-3.3.1-natives-windows.jar
+lib: C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-tinyfd\3.3.1\83a5e780df610829ff3a737822b4f931cffecd91\lwjgl-tinyfd-3.3.1-natives-windows-arm64.jar
+lib: C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-tinyfd\3.3.1\842eedd876fae354abc308c98a263f6bbc9e8a4d\lwjgl-tinyfd-3.3.1-natives-windows-x86.jar
+lib: C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl\3.3.1\ae58664f88e18a9bb2c77b063833ca7aaec484cb\lwjgl-3.3.1.jar
+lib: C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl\3.3.1\36c37f16ab611b3aa11f3bcf80b1d509b4ce6b\lwjgl-3.3.1-natives-windows.jar
+lib: C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl\3.3.1\f46cadcf95675908fd3a550d63d9d709cb68998\lwjgl-3.3.1-natives-windows-arm64.jar
+lib: C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl\3.3.1\3b14f4beae9dd39791ec9e12190a9380cd8a3ce6\lwjgl-3.3.1-natives-windows-x86.jar
+lib: C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\com.machinezoo.noexception\noexception\1.7.1\b65330c98e38a1f915fa54a6e5eca496505e3f0a\noexception-1.7.1.jar
+lib: C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\org.slf4j\slf4j-api\2.0.1\f48d81adce2abf5ad3cfe463df517952749e03bc\slf4j-api-2.0.1.jar
+lib: C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\org.codehaus.plexus\plexus-utils\3.3.0\cf43b5391de623b36fe066a21127baef82c64022\plexus-utils-3.3.0.jar
+lib: C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\com.google.guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\b421526c5f297295adef1c886e5246c39d4ac629\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar
+lib: C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\org.checkerframework\checker-qual\3.12.0\d5692f0526415fcc6de94bb5bfbd3afd9dd3b3e5\checker-qual-3.12.0.jar
+lib: C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\com.google.errorprone\error_prone_annotations\2.11.0\c5a0ace696d3f8b1c1d8cc036d8c03cc0cbe6b69\error_prone_annotations-2.11.0.jar
+lib: C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\com.google.j2objc\j2objc-annotations\1.3\ba035118bc8bac37d7eff77700720999acd9986d\j2objc-annotations-1.3.jar
+lib: C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\org.antlr\ST4\4.3\92f2c1ad8d84abcbeead6cf7f2c53a04166293c2\ST4-4.3.jar
+lib: C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\org.antlr\antlr-runtime\3.5.2\cd9cd41361c155f3af0f653009dcecb08d8b4afd\antlr-runtime-3.5.2.jar
+lib: C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\org.abego.treelayout\org.abego.treelayout.core\1.0.3\457216e8e6578099ae63667bb1e4439235892028\org.abego.treelayout.core-1.0.3.jar
+lib: C:\Users\Gavinh\.mcreator\gradle\caches\modules-2\files-2.1\org.glassfish\javax.json\1.0.4\3178f73569fd7a1e5ffc464e680f7a8cc784b85a\javax.json-1.0.4.jar
+log: null
+input: C:\Users\Gavinh\MCreatorWorkspaces\fossil_minecraft\build\libs\modid-1.0.jar
+output: C:\Users\Gavinh\MCreatorWorkspaces\fossil_minecraft\build\reobfJar\output.jar
+threads: 16
+Names: C:\Users\Gavinh\MCreatorWorkspaces\fossil_minecraft\build\reobfJar\mappings.tsrg(reversed: false)
+Fix Annotations: false
+Fix Records: false
+Fix Identifiers: false
+Fix SourceFile: false
+Fix Line Numbers: false
+Strip codesigning signatures: false
+Adding Libraries to Inheritance
+Reading Input: C:\Users\Gavinh\MCreatorWorkspaces\fossil_minecraft\build\libs\modid-1.0.jar
+Adding input to inheritance map
+Processing entries
+Conflicting propagated mapping for net/mcreator/fossilminecraft/client/model/ModelSeidon/setupAnim(Lnet/minecraft/world/entity/Entity;FFFFF)V from net/minecraft/client/model/EntityModel/setupAnim(Lnet/minecraft/world/entity/Entity;FFFFF)V: setupAnim -> m_6973_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/client/model/ModelCarchar/setupAnim(Lnet/minecraft/world/entity/Entity;FFFFF)V from net/minecraft/client/model/EntityModel/setupAnim(Lnet/minecraft/world/entity/Entity;FFFFF)V: setupAnim -> m_6973_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/client/model/ModelSeidon/renderToBuffer(Lcom/mojang/blaze3d/vertex/PoseStack;Lcom/mojang/blaze3d/vertex/VertexConsumer;IIFFFF)V from net/minecraft/client/model/Model/renderToBuffer(Lcom/mojang/blaze3d/vertex/PoseStack;Lcom/mojang/blaze3d/vertex/VertexConsumer;IIFFFF)V: renderToBuffer -> m_7695_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/client/model/ModelCarchar/renderToBuffer(Lcom/mojang/blaze3d/vertex/PoseStack;Lcom/mojang/blaze3d/vertex/VertexConsumer;IIFFFF)V from net/minecraft/client/model/Model/renderToBuffer(Lcom/mojang/blaze3d/vertex/PoseStack;Lcom/mojang/blaze3d/vertex/VertexConsumer;IIFFFF)V: renderToBuffer -> m_7695_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/block/ReviverBlock$1/createMenu(ILnet/minecraft/world/entity/player/Inventory;Lnet/minecraft/world/entity/player/Player;)Lnet/minecraft/world/inventory/AbstractContainerMenu; from net/minecraft/world/inventory/MenuConstructor/createMenu(ILnet/minecraft/world/entity/player/Inventory;Lnet/minecraft/world/entity/player/Player;)Lnet/minecraft/world/inventory/AbstractContainerMenu;: createMenu -> m_7208_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/block/CleanerBlock$1/createMenu(ILnet/minecraft/world/entity/player/Inventory;Lnet/minecraft/world/entity/player/Player;)Lnet/minecraft/world/inventory/AbstractContainerMenu; from net/minecraft/world/inventory/MenuConstructor/createMenu(ILnet/minecraft/world/entity/player/Inventory;Lnet/minecraft/world/entity/player/Player;)Lnet/minecraft/world/inventory/AbstractContainerMenu;: createMenu -> m_7208_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/block/ReviverBlock$1/getDisplayName()Lnet/minecraft/network/chat/Component; from net/minecraft/world/MenuProvider/getDisplayName()Lnet/minecraft/network/chat/Component;: getDisplayName -> m_5446_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/block/CleanerBlock$1/getDisplayName()Lnet/minecraft/network/chat/Component; from net/minecraft/world/MenuProvider/getDisplayName()Lnet/minecraft/network/chat/Component;: getDisplayName -> m_5446_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/client/gui/ShanshanMedalGUIScreen/keyPressed(III)Z from net/minecraft/client/gui/screens/inventory/AbstractContainerScreen/keyPressed(III)Z: keyPressed -> m_7933_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/client/gui/SonarUpgradeGUIScreen/keyPressed(III)Z from net/minecraft/client/gui/screens/inventory/AbstractContainerScreen/keyPressed(III)Z: keyPressed -> m_7933_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/client/gui/ReviverGUIScreen/keyPressed(III)Z from net/minecraft/client/gui/screens/inventory/AbstractContainerScreen/keyPressed(III)Z: keyPressed -> m_7933_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/client/gui/TrexMedalGUIScreen/keyPressed(III)Z from net/minecraft/client/gui/screens/inventory/AbstractContainerScreen/keyPressed(III)Z: keyPressed -> m_7933_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/client/gui/ShanshanMedalGUIScreen/render(Lnet/minecraft/client/gui/GuiGraphics;IIF)V from net/minecraft/client/gui/screens/inventory/AbstractContainerScreen/render(Lnet/minecraft/client/gui/GuiGraphics;IIF)V: render -> m_88315_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/client/gui/CleanerGUIScreen/keyPressed(III)Z from net/minecraft/client/gui/screens/inventory/AbstractContainerScreen/keyPressed(III)Z: keyPressed -> m_7933_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/client/gui/ShanshanMedalGUIScreen/onClose()V from net/minecraft/client/gui/screens/inventory/AbstractContainerScreen/onClose()V: onClose -> m_7379_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/client/gui/CleanerGUIScreen/render(Lnet/minecraft/client/gui/GuiGraphics;IIF)V from net/minecraft/client/gui/screens/inventory/AbstractContainerScreen/render(Lnet/minecraft/client/gui/GuiGraphics;IIF)V: render -> m_88315_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/client/gui/ShanshanMedalGUIScreen/init()V from net/minecraft/client/gui/screens/inventory/AbstractContainerScreen/init()V: init -> m_7856_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/client/gui/ReviverGUIScreen/render(Lnet/minecraft/client/gui/GuiGraphics;IIF)V from net/minecraft/client/gui/screens/inventory/AbstractContainerScreen/render(Lnet/minecraft/client/gui/GuiGraphics;IIF)V: render -> m_88315_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/client/gui/SonarUpgradeGUIScreen/render(Lnet/minecraft/client/gui/GuiGraphics;IIF)V from net/minecraft/client/gui/screens/inventory/AbstractContainerScreen/render(Lnet/minecraft/client/gui/GuiGraphics;IIF)V: render -> m_88315_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/client/model/ModelVraptor/setupAnim(Lnet/minecraft/world/entity/Entity;FFFFF)V from net/minecraft/client/model/EntityModel/setupAnim(Lnet/minecraft/world/entity/Entity;FFFFF)V: setupAnim -> m_6973_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/client/model/ModelURaptor/setupAnim(Lnet/minecraft/world/entity/Entity;FFFFF)V from net/minecraft/client/model/EntityModel/setupAnim(Lnet/minecraft/world/entity/Entity;FFFFF)V: setupAnim -> m_6973_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/client/model/ModelTrex/setupAnim(Lnet/minecraft/world/entity/Entity;FFFFF)V from net/minecraft/client/model/EntityModel/setupAnim(Lnet/minecraft/world/entity/Entity;FFFFF)V: setupAnim -> m_6973_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/client/model/ModelTrex/renderToBuffer(Lcom/mojang/blaze3d/vertex/PoseStack;Lcom/mojang/blaze3d/vertex/VertexConsumer;IIFFFF)V from net/minecraft/client/model/Model/renderToBuffer(Lcom/mojang/blaze3d/vertex/PoseStack;Lcom/mojang/blaze3d/vertex/VertexConsumer;IIFFFF)V: renderToBuffer -> m_7695_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/client/model/ModelShanShan/setupAnim(Lnet/minecraft/world/entity/Entity;FFFFF)V from net/minecraft/client/model/EntityModel/setupAnim(Lnet/minecraft/world/entity/Entity;FFFFF)V: setupAnim -> m_6973_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/client/model/ModelShanShan/renderToBuffer(Lcom/mojang/blaze3d/vertex/PoseStack;Lcom/mojang/blaze3d/vertex/VertexConsumer;IIFFFF)V from net/minecraft/client/model/Model/renderToBuffer(Lcom/mojang/blaze3d/vertex/PoseStack;Lcom/mojang/blaze3d/vertex/VertexConsumer;IIFFFF)V: renderToBuffer -> m_7695_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/block/CleanerBlock/onRemove(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Z)V from net/minecraft/world/level/block/state/BlockBehaviour/onRemove(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Z)V: onRemove -> m_6810_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/block/ReviverBlock/onRemove(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Z)V from net/minecraft/world/level/block/state/BlockBehaviour/onRemove(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Z)V: onRemove -> m_6810_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/block/FossilBlock/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I: getLightBlock -> m_7753_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/block/entity/ReviverBlockEntity/getUpdateTag()Lnet/minecraft/nbt/CompoundTag; from net/minecraft/world/level/block/entity/BlockEntity/getUpdateTag()Lnet/minecraft/nbt/CompoundTag;: getUpdateTag -> m_5995_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/block/entity/ReviverBlockEntity/load(Lnet/minecraft/nbt/CompoundTag;)V from net/minecraft/world/level/block/entity/BaseContainerBlockEntity/load(Lnet/minecraft/nbt/CompoundTag;)V: load -> m_142466_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/block/entity/CleanerBlockEntity/getUpdateTag()Lnet/minecraft/nbt/CompoundTag; from net/minecraft/world/level/block/entity/BlockEntity/getUpdateTag()Lnet/minecraft/nbt/CompoundTag;: getUpdateTag -> m_5995_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/client/gui/ShanshanMedalGUIScreen/renderLabels(Lnet/minecraft/client/gui/GuiGraphics;II)V from net/minecraft/client/gui/screens/inventory/AbstractContainerScreen/renderLabels(Lnet/minecraft/client/gui/GuiGraphics;II)V: renderLabels -> m_280003_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/client/gui/ReviverGUIScreen/onClose()V from net/minecraft/client/gui/screens/inventory/AbstractContainerScreen/onClose()V: onClose -> m_7379_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/client/gui/CleanerGUIScreen/onClose()V from net/minecraft/client/gui/screens/inventory/AbstractContainerScreen/onClose()V: onClose -> m_7379_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/client/gui/CleanerGUIScreen/init()V from net/minecraft/client/gui/screens/inventory/AbstractContainerScreen/init()V: init -> m_7856_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/client/gui/TrexMedalGUIScreen/render(Lnet/minecraft/client/gui/GuiGraphics;IIF)V from net/minecraft/client/gui/screens/inventory/AbstractContainerScreen/render(Lnet/minecraft/client/gui/GuiGraphics;IIF)V: render -> m_88315_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/client/gui/TrexMedalGUIScreen/onClose()V from net/minecraft/client/gui/screens/inventory/AbstractContainerScreen/onClose()V: onClose -> m_7379_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/client/gui/CleanerGUIScreen/renderLabels(Lnet/minecraft/client/gui/GuiGraphics;II)V from net/minecraft/client/gui/screens/inventory/AbstractContainerScreen/renderLabels(Lnet/minecraft/client/gui/GuiGraphics;II)V: renderLabels -> m_280003_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/client/gui/ReviverGUIScreen/init()V from net/minecraft/client/gui/screens/inventory/AbstractContainerScreen/init()V: init -> m_7856_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/client/gui/ShanshanMedalGUIScreen/containerTick()V from net/minecraft/client/gui/screens/inventory/AbstractContainerScreen/containerTick()V: containerTick -> m_181908_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/client/gui/ReviverGUIScreen/renderLabels(Lnet/minecraft/client/gui/GuiGraphics;II)V from net/minecraft/client/gui/screens/inventory/AbstractContainerScreen/renderLabels(Lnet/minecraft/client/gui/GuiGraphics;II)V: renderLabels -> m_280003_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/block/entity/CleanerBlockEntity/load(Lnet/minecraft/nbt/CompoundTag;)V from net/minecraft/world/level/block/entity/BaseContainerBlockEntity/load(Lnet/minecraft/nbt/CompoundTag;)V: load -> m_142466_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/block/entity/ReviverBlockEntity/isEmpty()Z from net/minecraft/world/level/block/entity/RandomizableContainerBlockEntity/isEmpty()Z: isEmpty -> m_7983_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/block/ReviverBlock/triggerEvent(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;II)Z from net/minecraft/world/level/block/state/BlockBehaviour/triggerEvent(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;II)Z: triggerEvent -> m_8133_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/block/CleanerBlock/triggerEvent(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;II)Z from net/minecraft/world/level/block/state/BlockBehaviour/triggerEvent(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;II)Z: triggerEvent -> m_8133_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/client/model/ModelURaptor/renderToBuffer(Lcom/mojang/blaze3d/vertex/PoseStack;Lcom/mojang/blaze3d/vertex/VertexConsumer;IIFFFF)V from net/minecraft/client/model/Model/renderToBuffer(Lcom/mojang/blaze3d/vertex/PoseStack;Lcom/mojang/blaze3d/vertex/VertexConsumer;IIFFFF)V: renderToBuffer -> m_7695_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/block/CleanerBlock/getMenuProvider(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/MenuProvider; from net/minecraft/world/level/block/state/BlockBehaviour/getMenuProvider(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/MenuProvider;: getMenuProvider -> m_7246_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/client/model/ModelVraptor/renderToBuffer(Lcom/mojang/blaze3d/vertex/PoseStack;Lcom/mojang/blaze3d/vertex/VertexConsumer;IIFFFF)V from net/minecraft/client/model/Model/renderToBuffer(Lcom/mojang/blaze3d/vertex/PoseStack;Lcom/mojang/blaze3d/vertex/VertexConsumer;IIFFFF)V: renderToBuffer -> m_7695_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/client/gui/SonarUpgradeGUIScreen/onClose()V from net/minecraft/client/gui/screens/inventory/AbstractContainerScreen/onClose()V: onClose -> m_7379_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/block/CleanerBlock/getAnalogOutputSignal(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getAnalogOutputSignal(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;)I: getAnalogOutputSignal -> m_6782_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/block/CleanerBlock/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I: getLightBlock -> m_7753_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/block/ReviverBlock/getMenuProvider(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/MenuProvider; from net/minecraft/world/level/block/state/BlockBehaviour/getMenuProvider(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/MenuProvider;: getMenuProvider -> m_7246_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/block/entity/ReviverBlockEntity/getUpdatePacket()Lnet/minecraft/network/protocol/Packet; from net/minecraft/world/level/block/entity/BlockEntity/getUpdatePacket()Lnet/minecraft/network/protocol/Packet;: getUpdatePacket -> m_58483_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/block/entity/ReviverBlockEntity/saveAdditional(Lnet/minecraft/nbt/CompoundTag;)V from net/minecraft/world/level/block/entity/BaseContainerBlockEntity/saveAdditional(Lnet/minecraft/nbt/CompoundTag;)V: saveAdditional -> m_183515_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/block/entity/ReviverBlockEntity/canPlaceItem(ILnet/minecraft/world/item/ItemStack;)Z from net/minecraft/world/Container/canPlaceItem(ILnet/minecraft/world/item/ItemStack;)Z: canPlaceItem -> m_7013_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/block/entity/CleanerBlockEntity/isEmpty()Z from net/minecraft/world/level/block/entity/RandomizableContainerBlockEntity/isEmpty()Z: isEmpty -> m_7983_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/block/entity/ReviverBlockEntity/getDefaultName()Lnet/minecraft/network/chat/Component; from net/minecraft/world/level/block/entity/BaseContainerBlockEntity/getDefaultName()Lnet/minecraft/network/chat/Component;: getDefaultName -> m_6820_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/client/gui/ShanshanMedalGUIScreen/renderBg(Lnet/minecraft/client/gui/GuiGraphics;FII)V from net/minecraft/client/gui/screens/inventory/AbstractContainerScreen/renderBg(Lnet/minecraft/client/gui/GuiGraphics;FII)V: renderBg -> m_7286_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/client/gui/ReviverGUIScreen/containerTick()V from net/minecraft/client/gui/screens/inventory/AbstractContainerScreen/containerTick()V: containerTick -> m_181908_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/client/gui/CleanerGUIScreen/containerTick()V from net/minecraft/client/gui/screens/inventory/AbstractContainerScreen/containerTick()V: containerTick -> m_181908_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/client/gui/ReviverGUIScreen/renderBg(Lnet/minecraft/client/gui/GuiGraphics;FII)V from net/minecraft/client/gui/screens/inventory/AbstractContainerScreen/renderBg(Lnet/minecraft/client/gui/GuiGraphics;FII)V: renderBg -> m_7286_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/client/gui/TrexMedalGUIScreen/init()V from net/minecraft/client/gui/screens/inventory/AbstractContainerScreen/init()V: init -> m_7856_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/client/gui/CleanerGUIScreen/renderBg(Lnet/minecraft/client/gui/GuiGraphics;FII)V from net/minecraft/client/gui/screens/inventory/AbstractContainerScreen/renderBg(Lnet/minecraft/client/gui/GuiGraphics;FII)V: renderBg -> m_7286_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/block/entity/CleanerBlockEntity/getUpdatePacket()Lnet/minecraft/network/protocol/Packet; from net/minecraft/world/level/block/entity/BlockEntity/getUpdatePacket()Lnet/minecraft/network/protocol/Packet;: getUpdatePacket -> m_58483_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/client/gui/TrexMedalGUIScreen/renderLabels(Lnet/minecraft/client/gui/GuiGraphics;II)V from net/minecraft/client/gui/screens/inventory/AbstractContainerScreen/renderLabels(Lnet/minecraft/client/gui/GuiGraphics;II)V: renderLabels -> m_280003_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/block/entity/CleanerBlockEntity/saveAdditional(Lnet/minecraft/nbt/CompoundTag;)V from net/minecraft/world/level/block/entity/BaseContainerBlockEntity/saveAdditional(Lnet/minecraft/nbt/CompoundTag;)V: saveAdditional -> m_183515_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/block/entity/ReviverBlockEntity/getContainerSize()I from net/minecraft/world/Container/getContainerSize()I: getContainerSize -> m_6643_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/block/ReviverBlock/getAnalogOutputSignal(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getAnalogOutputSignal(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;)I: getAnalogOutputSignal -> m_6782_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/block/entity/ReviverBlockEntity/getItems()Lnet/minecraft/core/NonNullList; from net/minecraft/world/level/block/entity/RandomizableContainerBlockEntity/getItems()Lnet/minecraft/core/NonNullList;: getItems -> m_7086_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/block/ReviverBlock/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I: getLightBlock -> m_7753_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/block/CleanerBlock/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List; from net/minecraft/world/level/block/state/BlockBehaviour/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List;: getDrops -> m_49635_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/client/gui/SonarUpgradeGUIScreen/init()V from net/minecraft/client/gui/screens/inventory/AbstractContainerScreen/init()V: init -> m_7856_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/block/CleanerBlock/hasAnalogOutputSignal(Lnet/minecraft/world/level/block/state/BlockState;)Z from net/minecraft/world/level/block/state/BlockBehaviour/hasAnalogOutputSignal(Lnet/minecraft/world/level/block/state/BlockState;)Z: hasAnalogOutputSignal -> m_7278_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/block/ReviverBlock/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List; from net/minecraft/world/level/block/state/BlockBehaviour/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List;: getDrops -> m_49635_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/block/CleanerBlock/use(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;Lnet/minecraft/world/phys/BlockHitResult;)Lnet/minecraft/world/InteractionResult; from net/minecraft/world/level/block/state/BlockBehaviour/use(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;Lnet/minecraft/world/phys/BlockHitResult;)Lnet/minecraft/world/InteractionResult;: use -> m_6227_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/block/entity/ReviverBlockEntity/createMenu(ILnet/minecraft/world/entity/player/Inventory;)Lnet/minecraft/world/inventory/AbstractContainerMenu; from net/minecraft/world/level/block/entity/BaseContainerBlockEntity/createMenu(ILnet/minecraft/world/entity/player/Inventory;)Lnet/minecraft/world/inventory/AbstractContainerMenu;: createMenu -> m_6555_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/block/entity/ReviverBlockEntity/setItems(Lnet/minecraft/core/NonNullList;)V from net/minecraft/world/level/block/entity/RandomizableContainerBlockEntity/setItems(Lnet/minecraft/core/NonNullList;)V: setItems -> m_6520_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/block/entity/ReviverBlockEntity/setRemoved()V from net/minecraft/world/level/block/entity/BlockEntity/setRemoved()V: setRemoved -> m_7651_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/block/entity/CleanerBlockEntity/canPlaceItem(ILnet/minecraft/world/item/ItemStack;)Z from net/minecraft/world/Container/canPlaceItem(ILnet/minecraft/world/item/ItemStack;)Z: canPlaceItem -> m_7013_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/client/gui/TrexMedalGUIScreen/containerTick()V from net/minecraft/client/gui/screens/inventory/AbstractContainerScreen/containerTick()V: containerTick -> m_181908_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/block/entity/CleanerBlockEntity/getDefaultName()Lnet/minecraft/network/chat/Component; from net/minecraft/world/level/block/entity/BaseContainerBlockEntity/getDefaultName()Lnet/minecraft/network/chat/Component;: getDefaultName -> m_6820_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/block/entity/ReviverBlockEntity/getMaxStackSize()I from net/minecraft/world/Container/getMaxStackSize()I: getMaxStackSize -> m_6893_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/block/entity/CleanerBlockEntity/getContainerSize()I from net/minecraft/world/Container/getContainerSize()I: getContainerSize -> m_6643_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/block/entity/ReviverBlockEntity/getDisplayName()Lnet/minecraft/network/chat/Component; from net/minecraft/world/level/block/entity/BaseContainerBlockEntity/getDisplayName()Lnet/minecraft/network/chat/Component;: getDisplayName -> m_5446_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/block/entity/CleanerBlockEntity/getItems()Lnet/minecraft/core/NonNullList; from net/minecraft/world/level/block/entity/RandomizableContainerBlockEntity/getItems()Lnet/minecraft/core/NonNullList;: getItems -> m_7086_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/block/entity/CleanerBlockEntity/createMenu(ILnet/minecraft/world/entity/player/Inventory;)Lnet/minecraft/world/inventory/AbstractContainerMenu; from net/minecraft/world/level/block/entity/BaseContainerBlockEntity/createMenu(ILnet/minecraft/world/entity/player/Inventory;)Lnet/minecraft/world/inventory/AbstractContainerMenu;: createMenu -> m_6555_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/block/entity/CleanerBlockEntity/setItems(Lnet/minecraft/core/NonNullList;)V from net/minecraft/world/level/block/entity/RandomizableContainerBlockEntity/setItems(Lnet/minecraft/core/NonNullList;)V: setItems -> m_6520_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/block/CleanerBlock/newBlockEntity(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/level/block/entity/BlockEntity; from net/minecraft/world/level/block/EntityBlock/newBlockEntity(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/level/block/entity/BlockEntity;: newBlockEntity -> m_142194_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/block/ReviverBlock/hasAnalogOutputSignal(Lnet/minecraft/world/level/block/state/BlockState;)Z from net/minecraft/world/level/block/state/BlockBehaviour/hasAnalogOutputSignal(Lnet/minecraft/world/level/block/state/BlockState;)Z: hasAnalogOutputSignal -> m_7278_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/client/gui/SonarUpgradeGUIScreen/renderLabels(Lnet/minecraft/client/gui/GuiGraphics;II)V from net/minecraft/client/gui/screens/inventory/AbstractContainerScreen/renderLabels(Lnet/minecraft/client/gui/GuiGraphics;II)V: renderLabels -> m_280003_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/client/gui/SonarUpgradeGUIScreen/containerTick()V from net/minecraft/client/gui/screens/inventory/AbstractContainerScreen/containerTick()V: containerTick -> m_181908_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/block/entity/CleanerBlockEntity/setRemoved()V from net/minecraft/world/level/block/entity/BlockEntity/setRemoved()V: setRemoved -> m_7651_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/block/entity/ReviverBlockEntity/canPlaceItemThroughFace(ILnet/minecraft/world/item/ItemStack;Lnet/minecraft/core/Direction;)Z from net/minecraft/world/WorldlyContainer/canPlaceItemThroughFace(ILnet/minecraft/world/item/ItemStack;Lnet/minecraft/core/Direction;)Z: canPlaceItemThroughFace -> m_7155_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/client/gui/TrexMedalGUIScreen/renderBg(Lnet/minecraft/client/gui/GuiGraphics;FII)V from net/minecraft/client/gui/screens/inventory/AbstractContainerScreen/renderBg(Lnet/minecraft/client/gui/GuiGraphics;FII)V: renderBg -> m_7286_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/block/entity/ReviverBlockEntity/getSlotsForFace(Lnet/minecraft/core/Direction;)[I from net/minecraft/world/WorldlyContainer/getSlotsForFace(Lnet/minecraft/core/Direction;)[I: getSlotsForFace -> m_7071_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/block/ReviverBlock/use(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;Lnet/minecraft/world/phys/BlockHitResult;)Lnet/minecraft/world/InteractionResult; from net/minecraft/world/level/block/state/BlockBehaviour/use(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;Lnet/minecraft/world/phys/BlockHitResult;)Lnet/minecraft/world/InteractionResult;: use -> m_6227_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/block/entity/CleanerBlockEntity/getMaxStackSize()I from net/minecraft/world/Container/getMaxStackSize()I: getMaxStackSize -> m_6893_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/block/ReviverBlock/newBlockEntity(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/level/block/entity/BlockEntity; from net/minecraft/world/level/block/EntityBlock/newBlockEntity(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/level/block/entity/BlockEntity;: newBlockEntity -> m_142194_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/client/gui/SonarUpgradeGUIScreen/renderBg(Lnet/minecraft/client/gui/GuiGraphics;FII)V from net/minecraft/client/gui/screens/inventory/AbstractContainerScreen/renderBg(Lnet/minecraft/client/gui/GuiGraphics;FII)V: renderBg -> m_7286_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/block/entity/CleanerBlockEntity/getDisplayName()Lnet/minecraft/network/chat/Component; from net/minecraft/world/level/block/entity/BaseContainerBlockEntity/getDisplayName()Lnet/minecraft/network/chat/Component;: getDisplayName -> m_5446_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/block/entity/CleanerBlockEntity/canPlaceItemThroughFace(ILnet/minecraft/world/item/ItemStack;Lnet/minecraft/core/Direction;)Z from net/minecraft/world/WorldlyContainer/canPlaceItemThroughFace(ILnet/minecraft/world/item/ItemStack;Lnet/minecraft/core/Direction;)Z: canPlaceItemThroughFace -> m_7155_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/block/entity/CleanerBlockEntity/getSlotsForFace(Lnet/minecraft/core/Direction;)[I from net/minecraft/world/WorldlyContainer/getSlotsForFace(Lnet/minecraft/core/Direction;)[I: getSlotsForFace -> m_7071_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/block/entity/CleanerBlockEntity/canTakeItemThroughFace(ILnet/minecraft/world/item/ItemStack;Lnet/minecraft/core/Direction;)Z from net/minecraft/world/WorldlyContainer/canTakeItemThroughFace(ILnet/minecraft/world/item/ItemStack;Lnet/minecraft/core/Direction;)Z: canTakeItemThroughFace -> m_7157_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/world/inventory/ShanshanMedalGUIMenu/stillValid(Lnet/minecraft/world/entity/player/Player;)Z from net/minecraft/world/inventory/AbstractContainerMenu/stillValid(Lnet/minecraft/world/entity/player/Player;)Z: stillValid -> m_6875_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/world/inventory/SonarUpgradeGUIMenu/moveItemStackTo(Lnet/minecraft/world/item/ItemStack;IIZ)Z from net/minecraft/world/inventory/AbstractContainerMenu/moveItemStackTo(Lnet/minecraft/world/item/ItemStack;IIZ)Z: moveItemStackTo -> m_38903_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/world/inventory/SonarUpgradeGUIMenu/removed(Lnet/minecraft/world/entity/player/Player;)V from net/minecraft/world/inventory/AbstractContainerMenu/removed(Lnet/minecraft/world/entity/player/Player;)V: removed -> m_6877_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/world/inventory/SonarUpgradeGUIMenu/stillValid(Lnet/minecraft/world/entity/player/Player;)Z from net/minecraft/world/inventory/AbstractContainerMenu/stillValid(Lnet/minecraft/world/entity/player/Player;)Z: stillValid -> m_6875_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/world/inventory/TrexMedalGUIMenu/stillValid(Lnet/minecraft/world/entity/player/Player;)Z from net/minecraft/world/inventory/AbstractContainerMenu/stillValid(Lnet/minecraft/world/entity/player/Player;)Z: stillValid -> m_6875_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/world/inventory/TrexMedalGUIMenu/quickMoveStack(Lnet/minecraft/world/entity/player/Player;I)Lnet/minecraft/world/item/ItemStack; from net/minecraft/world/inventory/AbstractContainerMenu/quickMoveStack(Lnet/minecraft/world/entity/player/Player;I)Lnet/minecraft/world/item/ItemStack;: quickMoveStack -> m_7648_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/world/inventory/ReviverGUIMenu/moveItemStackTo(Lnet/minecraft/world/item/ItemStack;IIZ)Z from net/minecraft/world/inventory/AbstractContainerMenu/moveItemStackTo(Lnet/minecraft/world/item/ItemStack;IIZ)Z: moveItemStackTo -> m_38903_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/world/inventory/ReviverGUIMenu/removed(Lnet/minecraft/world/entity/player/Player;)V from net/minecraft/world/inventory/AbstractContainerMenu/removed(Lnet/minecraft/world/entity/player/Player;)V: removed -> m_6877_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/block/entity/ReviverBlockEntity/canTakeItemThroughFace(ILnet/minecraft/world/item/ItemStack;Lnet/minecraft/core/Direction;)Z from net/minecraft/world/WorldlyContainer/canTakeItemThroughFace(ILnet/minecraft/world/item/ItemStack;Lnet/minecraft/core/Direction;)Z: canTakeItemThroughFace -> m_7157_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/world/inventory/ReviverGUIMenu/stillValid(Lnet/minecraft/world/entity/player/Player;)Z from net/minecraft/world/inventory/AbstractContainerMenu/stillValid(Lnet/minecraft/world/entity/player/Player;)Z: stillValid -> m_6875_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/world/inventory/CleanerGUIMenu/moveItemStackTo(Lnet/minecraft/world/item/ItemStack;IIZ)Z from net/minecraft/world/inventory/AbstractContainerMenu/moveItemStackTo(Lnet/minecraft/world/item/ItemStack;IIZ)Z: moveItemStackTo -> m_38903_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/world/inventory/ShanshanMedalGUIMenu/quickMoveStack(Lnet/minecraft/world/entity/player/Player;I)Lnet/minecraft/world/item/ItemStack; from net/minecraft/world/inventory/AbstractContainerMenu/quickMoveStack(Lnet/minecraft/world/entity/player/Player;I)Lnet/minecraft/world/item/ItemStack;: quickMoveStack -> m_7648_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/world/inventory/SonarUpgradeGUIMenu/quickMoveStack(Lnet/minecraft/world/entity/player/Player;I)Lnet/minecraft/world/item/ItemStack; from net/minecraft/world/inventory/AbstractContainerMenu/quickMoveStack(Lnet/minecraft/world/entity/player/Player;I)Lnet/minecraft/world/item/ItemStack;: quickMoveStack -> m_7648_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/world/inventory/ReviverGUIMenu/quickMoveStack(Lnet/minecraft/world/entity/player/Player;I)Lnet/minecraft/world/item/ItemStack; from net/minecraft/world/inventory/AbstractContainerMenu/quickMoveStack(Lnet/minecraft/world/entity/player/Player;I)Lnet/minecraft/world/item/ItemStack;: quickMoveStack -> m_7648_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/world/inventory/CleanerGUIMenu/removed(Lnet/minecraft/world/entity/player/Player;)V from net/minecraft/world/inventory/AbstractContainerMenu/removed(Lnet/minecraft/world/entity/player/Player;)V: removed -> m_6877_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/world/inventory/CleanerGUIMenu/stillValid(Lnet/minecraft/world/entity/player/Player;)Z from net/minecraft/world/inventory/AbstractContainerMenu/stillValid(Lnet/minecraft/world/entity/player/Player;)Z: stillValid -> m_6875_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/world/inventory/CleanerGUIMenu/quickMoveStack(Lnet/minecraft/world/entity/player/Player;I)Lnet/minecraft/world/item/ItemStack; from net/minecraft/world/inventory/AbstractContainerMenu/quickMoveStack(Lnet/minecraft/world/entity/player/Player;I)Lnet/minecraft/world/item/ItemStack;: quickMoveStack -> m_7648_
+Conflicting propagated mapping for software/bernie/geckolib/renderer/GeoEntityRenderer/shouldShowName(Lnet/minecraft/world/entity/Entity;)Z from net/minecraft/client/renderer/entity/EntityRenderer/shouldShowName(Lnet/minecraft/world/entity/Entity;)Z: shouldShowName -> m_6512_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/client/renderer/ShanShanRenderer/getTextureLocation(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/resources/ResourceLocation; from net/minecraft/client/renderer/entity/EntityRenderer/getTextureLocation(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/resources/ResourceLocation;: getTextureLocation -> m_5478_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/client/renderer/TrexRenderer/getTextureLocation(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/resources/ResourceLocation; from net/minecraft/client/renderer/entity/EntityRenderer/getTextureLocation(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/resources/ResourceLocation;: getTextureLocation -> m_5478_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/client/renderer/SeidonRenderer/getTextureLocation(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/resources/ResourceLocation; from net/minecraft/client/renderer/entity/EntityRenderer/getTextureLocation(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/resources/ResourceLocation;: getTextureLocation -> m_5478_
+Conflicting propagated mapping for software/bernie/geckolib/renderer/GeoEntityRenderer/getTextureLocation(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/resources/ResourceLocation; from net/minecraft/client/renderer/entity/EntityRenderer/getTextureLocation(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/resources/ResourceLocation;: getTextureLocation -> m_5478_
+Conflicting propagated mapping for software/bernie/geckolib/renderer/GeoEntityRenderer/render(Lnet/minecraft/world/entity/Entity;FFLcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;I)V from net/minecraft/client/renderer/entity/EntityRenderer/render(Lnet/minecraft/world/entity/Entity;FFLcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;I)V: render -> m_7392_
+Conflicting propagated mapping for net/minecraft/world/entity/LivingEntity/lambda$addAdditionalSaveData$3(Lnet/minecraft/nbt/CompoundTag;Lnet/minecraft/nbt/Tag;)V from net/minecraft/world/entity/player/Player/lambda$addAdditionalSaveData$3(Lnet/minecraft/nbt/CompoundTag;Lnet/minecraft/nbt/Tag;)V: lambda$addAdditionalSaveData$3 -> m_219754_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/entity/ShanShanEntity/getHurtSound(Lnet/minecraft/world/damagesource/DamageSource;)Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/entity/monster/Monster/getHurtSound(Lnet/minecraft/world/damagesource/DamageSource;)Lnet/minecraft/sounds/SoundEvent;: getHurtSound -> m_7975_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/entity/TrexEntity/getHurtSound(Lnet/minecraft/world/damagesource/DamageSource;)Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/entity/monster/Monster/getHurtSound(Lnet/minecraft/world/damagesource/DamageSource;)Lnet/minecraft/sounds/SoundEvent;: getHurtSound -> m_7975_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/entity/SeidonEntity/getHurtSound(Lnet/minecraft/world/damagesource/DamageSource;)Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/entity/monster/Monster/getHurtSound(Lnet/minecraft/world/damagesource/DamageSource;)Lnet/minecraft/sounds/SoundEvent;: getHurtSound -> m_7975_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/entity/ShanShanEntity/getAddEntityPacket()Lnet/minecraft/network/protocol/Packet; from net/minecraft/world/entity/Entity/getAddEntityPacket()Lnet/minecraft/network/protocol/Packet;: getAddEntityPacket -> m_5654_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/entity/ShanShanEntity/getDeathSound()Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/entity/monster/Monster/getDeathSound()Lnet/minecraft/sounds/SoundEvent;: getDeathSound -> m_5592_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/entity/TrexEntity/getAddEntityPacket()Lnet/minecraft/network/protocol/Packet; from net/minecraft/world/entity/Entity/getAddEntityPacket()Lnet/minecraft/network/protocol/Packet;: getAddEntityPacket -> m_5654_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/entity/TrexEntity/getDeathSound()Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/entity/monster/Monster/getDeathSound()Lnet/minecraft/sounds/SoundEvent;: getDeathSound -> m_5592_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/entity/ShanShanEntity/dropCustomDeathLoot(Lnet/minecraft/world/damagesource/DamageSource;IZ)V from net/minecraft/world/entity/Mob/dropCustomDeathLoot(Lnet/minecraft/world/damagesource/DamageSource;IZ)V: dropCustomDeathLoot -> m_7472_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/entity/ShanShanEntity/getMobType()Lnet/minecraft/world/entity/MobType; from net/minecraft/world/entity/LivingEntity/getMobType()Lnet/minecraft/world/entity/MobType;: getMobType -> m_6336_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/entity/TrexEntity/dropCustomDeathLoot(Lnet/minecraft/world/damagesource/DamageSource;IZ)V from net/minecraft/world/entity/Mob/dropCustomDeathLoot(Lnet/minecraft/world/damagesource/DamageSource;IZ)V: dropCustomDeathLoot -> m_7472_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/entity/TrexEntity/hurt(Lnet/minecraft/world/damagesource/DamageSource;F)Z from net/minecraft/world/entity/LivingEntity/hurt(Lnet/minecraft/world/damagesource/DamageSource;F)Z: hurt -> m_6469_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/entity/SeidonEntity/getAddEntityPacket()Lnet/minecraft/network/protocol/Packet; from net/minecraft/world/entity/Entity/getAddEntityPacket()Lnet/minecraft/network/protocol/Packet;: getAddEntityPacket -> m_5654_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/entity/SeidonEntity/getDeathSound()Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/entity/monster/Monster/getDeathSound()Lnet/minecraft/sounds/SoundEvent;: getDeathSound -> m_5592_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/entity/TrexEntity/getMobType()Lnet/minecraft/world/entity/MobType; from net/minecraft/world/entity/LivingEntity/getMobType()Lnet/minecraft/world/entity/MobType;: getMobType -> m_6336_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/entity/SeidonEntity/dropCustomDeathLoot(Lnet/minecraft/world/damagesource/DamageSource;IZ)V from net/minecraft/world/entity/Mob/dropCustomDeathLoot(Lnet/minecraft/world/damagesource/DamageSource;IZ)V: dropCustomDeathLoot -> m_7472_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/entity/SeidonEntity/getMobType()Lnet/minecraft/world/entity/MobType; from net/minecraft/world/entity/LivingEntity/getMobType()Lnet/minecraft/world/entity/MobType;: getMobType -> m_6336_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/entity/SeidonEntity/registerGoals()V from net/minecraft/world/entity/Mob/registerGoals()V: registerGoals -> m_8099_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/entity/TrexEntity/registerGoals()V from net/minecraft/world/entity/Mob/registerGoals()V: registerGoals -> m_8099_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/entity/ShanShanEntity/registerGoals()V from net/minecraft/world/entity/Mob/registerGoals()V: registerGoals -> m_8099_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/client/renderer/UraptorRenderer/getTextureLocation(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/resources/ResourceLocation; from net/minecraft/client/renderer/entity/EntityRenderer/getTextureLocation(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/resources/ResourceLocation;: getTextureLocation -> m_5478_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/client/renderer/VraptorRenderer/getTextureLocation(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/resources/ResourceLocation; from net/minecraft/client/renderer/entity/EntityRenderer/getTextureLocation(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/resources/ResourceLocation;: getTextureLocation -> m_5478_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/entity/VraptorEntity/getHurtSound(Lnet/minecraft/world/damagesource/DamageSource;)Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/entity/monster/Monster/getHurtSound(Lnet/minecraft/world/damagesource/DamageSource;)Lnet/minecraft/sounds/SoundEvent;: getHurtSound -> m_7975_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/entity/UraptorEntity/getHurtSound(Lnet/minecraft/world/damagesource/DamageSource;)Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/entity/monster/Monster/getHurtSound(Lnet/minecraft/world/damagesource/DamageSource;)Lnet/minecraft/sounds/SoundEvent;: getHurtSound -> m_7975_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/entity/VraptorEntity/getAddEntityPacket()Lnet/minecraft/network/protocol/Packet; from net/minecraft/world/entity/Entity/getAddEntityPacket()Lnet/minecraft/network/protocol/Packet;: getAddEntityPacket -> m_5654_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/entity/VraptorEntity/getDeathSound()Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/entity/monster/Monster/getDeathSound()Lnet/minecraft/sounds/SoundEvent;: getDeathSound -> m_5592_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/entity/VraptorEntity/dropCustomDeathLoot(Lnet/minecraft/world/damagesource/DamageSource;IZ)V from net/minecraft/world/entity/Mob/dropCustomDeathLoot(Lnet/minecraft/world/damagesource/DamageSource;IZ)V: dropCustomDeathLoot -> m_7472_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/entity/VraptorEntity/getMobType()Lnet/minecraft/world/entity/MobType; from net/minecraft/world/entity/LivingEntity/getMobType()Lnet/minecraft/world/entity/MobType;: getMobType -> m_6336_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/entity/VraptorEntity/registerGoals()V from net/minecraft/world/entity/Mob/registerGoals()V: registerGoals -> m_8099_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/entity/UraptorEntity/getAddEntityPacket()Lnet/minecraft/network/protocol/Packet; from net/minecraft/world/entity/Entity/getAddEntityPacket()Lnet/minecraft/network/protocol/Packet;: getAddEntityPacket -> m_5654_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/entity/UraptorEntity/getDeathSound()Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/entity/monster/Monster/getDeathSound()Lnet/minecraft/sounds/SoundEvent;: getDeathSound -> m_5592_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/entity/UraptorEntity/dropCustomDeathLoot(Lnet/minecraft/world/damagesource/DamageSource;IZ)V from net/minecraft/world/entity/Mob/dropCustomDeathLoot(Lnet/minecraft/world/damagesource/DamageSource;IZ)V: dropCustomDeathLoot -> m_7472_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/entity/UraptorEntity/getMobType()Lnet/minecraft/world/entity/MobType; from net/minecraft/world/entity/LivingEntity/getMobType()Lnet/minecraft/world/entity/MobType;: getMobType -> m_6336_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/entity/UraptorEntity/registerGoals()V from net/minecraft/world/entity/Mob/registerGoals()V: registerGoals -> m_8099_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/entity/CarcharEntity$1/getAttackReachSqr(Lnet/minecraft/world/entity/LivingEntity;)D from net/minecraft/world/entity/ai/goal/MeleeAttackGoal/getAttackReachSqr(Lnet/minecraft/world/entity/LivingEntity;)D: getAttackReachSqr -> m_6639_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/entity/SeidonEntity$1/getAttackReachSqr(Lnet/minecraft/world/entity/LivingEntity;)D from net/minecraft/world/entity/ai/goal/MeleeAttackGoal/getAttackReachSqr(Lnet/minecraft/world/entity/LivingEntity;)D: getAttackReachSqr -> m_6639_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/entity/ShanShanEntity$1/getAttackReachSqr(Lnet/minecraft/world/entity/LivingEntity;)D from net/minecraft/world/entity/ai/goal/MeleeAttackGoal/getAttackReachSqr(Lnet/minecraft/world/entity/LivingEntity;)D: getAttackReachSqr -> m_6639_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/entity/TrexEntity$1/getAttackReachSqr(Lnet/minecraft/world/entity/LivingEntity;)D from net/minecraft/world/entity/ai/goal/MeleeAttackGoal/getAttackReachSqr(Lnet/minecraft/world/entity/LivingEntity;)D: getAttackReachSqr -> m_6639_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/entity/CarcharEntity/getHurtSound(Lnet/minecraft/world/damagesource/DamageSource;)Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/entity/LivingEntity/getHurtSound(Lnet/minecraft/world/damagesource/DamageSource;)Lnet/minecraft/sounds/SoundEvent;: getHurtSound -> m_7975_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/entity/CarcharEntity/getBreedOffspring(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/AgeableMob;)Lnet/minecraft/world/entity/AgeableMob; from net/minecraft/world/entity/AgeableMob/getBreedOffspring(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/AgeableMob;)Lnet/minecraft/world/entity/AgeableMob;: getBreedOffspring -> m_142606_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/entity/CarcharEntity/getDimensions(Lnet/minecraft/world/entity/Pose;)Lnet/minecraft/world/entity/EntityDimensions; from net/minecraft/world/entity/LivingEntity/getDimensions(Lnet/minecraft/world/entity/Pose;)Lnet/minecraft/world/entity/EntityDimensions;: getDimensions -> m_6972_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/entity/CarcharEntity/mobInteract(Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResult; from net/minecraft/world/entity/animal/Animal/mobInteract(Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResult;: mobInteract -> m_6071_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/entity/CarcharEntity/getAddEntityPacket()Lnet/minecraft/network/protocol/Packet; from net/minecraft/world/entity/Entity/getAddEntityPacket()Lnet/minecraft/network/protocol/Packet;: getAddEntityPacket -> m_5654_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/entity/CarcharEntity/defineSynchedData()V from net/minecraft/world/entity/TamableAnimal/defineSynchedData()V: defineSynchedData -> m_8097_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/entity/CarcharEntity/getDeathSound()Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/entity/LivingEntity/getDeathSound()Lnet/minecraft/sounds/SoundEvent;: getDeathSound -> m_5592_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/entity/CarcharEntity/travel(Lnet/minecraft/world/phys/Vec3;)V from net/minecraft/world/entity/LivingEntity/travel(Lnet/minecraft/world/phys/Vec3;)V: travel -> m_7023_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/entity/CarcharEntity/aiStep()V from net/minecraft/world/entity/animal/Animal/aiStep()V: aiStep -> m_8107_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/entity/CarcharEntity/getMobType()Lnet/minecraft/world/entity/MobType; from net/minecraft/world/entity/LivingEntity/getMobType()Lnet/minecraft/world/entity/MobType;: getMobType -> m_6336_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/entity/CarcharEntity/registerGoals()V from net/minecraft/world/entity/Mob/registerGoals()V: registerGoals -> m_8099_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/entity/SeidonMedalEntity/getPickupItem()Lnet/minecraft/world/item/ItemStack; from net/minecraft/world/entity/projectile/AbstractArrow/getPickupItem()Lnet/minecraft/world/item/ItemStack;: getPickupItem -> m_7941_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/entity/CarcharEntity/isFood(Lnet/minecraft/world/item/ItemStack;)Z from net/minecraft/world/entity/animal/Animal/isFood(Lnet/minecraft/world/item/ItemStack;)Z: isFood -> m_6898_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/entity/CarcharEntity/baseTick()V from net/minecraft/world/entity/Mob/baseTick()V: baseTick -> m_6075_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/entity/CarcharEntity/tickDeath()V from net/minecraft/world/entity/LivingEntity/tickDeath()V: tickDeath -> m_6153_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/entity/ShanshanMedalEntity/getPickupItem()Lnet/minecraft/world/item/ItemStack; from net/minecraft/world/entity/projectile/AbstractArrow/getPickupItem()Lnet/minecraft/world/item/ItemStack;: getPickupItem -> m_7941_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/entity/SeidonMedalEntity/tick()V from net/minecraft/world/entity/projectile/AbstractArrow/tick()V: tick -> m_8119_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/entity/SeidonMedalEntity/doPostHurtEffects(Lnet/minecraft/world/entity/LivingEntity;)V from net/minecraft/world/entity/projectile/AbstractArrow/doPostHurtEffects(Lnet/minecraft/world/entity/LivingEntity;)V: doPostHurtEffects -> m_7761_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/entity/ShanshanMedalEntity/tick()V from net/minecraft/world/entity/projectile/AbstractArrow/tick()V: tick -> m_8119_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/entity/ShanshanMedalEntity/doPostHurtEffects(Lnet/minecraft/world/entity/LivingEntity;)V from net/minecraft/world/entity/projectile/AbstractArrow/doPostHurtEffects(Lnet/minecraft/world/entity/LivingEntity;)V: doPostHurtEffects -> m_7761_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/entity/SeidonMedalEntity/getAddEntityPacket()Lnet/minecraft/network/protocol/Packet; from net/minecraft/world/entity/projectile/Projectile/getAddEntityPacket()Lnet/minecraft/network/protocol/Packet;: getAddEntityPacket -> m_5654_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/entity/SeidonMedalEntity/onHitBlock(Lnet/minecraft/world/phys/BlockHitResult;)V from net/minecraft/world/entity/projectile/AbstractArrow/onHitBlock(Lnet/minecraft/world/phys/BlockHitResult;)V: onHitBlock -> m_8060_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/entity/ShanshanMedalEntity/getAddEntityPacket()Lnet/minecraft/network/protocol/Packet; from net/minecraft/world/entity/projectile/Projectile/getAddEntityPacket()Lnet/minecraft/network/protocol/Packet;: getAddEntityPacket -> m_5654_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/entity/ShanshanMedalEntity/onHitBlock(Lnet/minecraft/world/phys/BlockHitResult;)V from net/minecraft/world/entity/projectile/AbstractArrow/onHitBlock(Lnet/minecraft/world/phys/BlockHitResult;)V: onHitBlock -> m_8060_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/entity/SeidonMedalEntity/getItem()Lnet/minecraft/world/item/ItemStack; from net/minecraft/world/entity/projectile/ItemSupplier/getItem()Lnet/minecraft/world/item/ItemStack;: getItem -> m_7846_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/entity/ShanshanMedalEntity/getItem()Lnet/minecraft/world/item/ItemStack; from net/minecraft/world/entity/projectile/ItemSupplier/getItem()Lnet/minecraft/world/item/ItemStack;: getItem -> m_7846_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/entity/TrexMedalEntity/getPickupItem()Lnet/minecraft/world/item/ItemStack; from net/minecraft/world/entity/projectile/AbstractArrow/getPickupItem()Lnet/minecraft/world/item/ItemStack;: getPickupItem -> m_7941_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/entity/TrexMedalEntity/tick()V from net/minecraft/world/entity/projectile/AbstractArrow/tick()V: tick -> m_8119_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/entity/TrexMedalEntity/doPostHurtEffects(Lnet/minecraft/world/entity/LivingEntity;)V from net/minecraft/world/entity/projectile/AbstractArrow/doPostHurtEffects(Lnet/minecraft/world/entity/LivingEntity;)V: doPostHurtEffects -> m_7761_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/entity/TrexMedalEntity/getAddEntityPacket()Lnet/minecraft/network/protocol/Packet; from net/minecraft/world/entity/projectile/Projectile/getAddEntityPacket()Lnet/minecraft/network/protocol/Packet;: getAddEntityPacket -> m_5654_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/entity/TrexMedalEntity/onHitBlock(Lnet/minecraft/world/phys/BlockHitResult;)V from net/minecraft/world/entity/projectile/AbstractArrow/onHitBlock(Lnet/minecraft/world/phys/BlockHitResult;)V: onHitBlock -> m_8060_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/entity/TrexMedalEntity/getItem()Lnet/minecraft/world/item/ItemStack; from net/minecraft/world/entity/projectile/ItemSupplier/getItem()Lnet/minecraft/world/item/ItemStack;: getItem -> m_7846_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/entity/UraptorEntity$1/getAttackReachSqr(Lnet/minecraft/world/entity/LivingEntity;)D from net/minecraft/world/entity/ai/goal/MeleeAttackGoal/getAttackReachSqr(Lnet/minecraft/world/entity/LivingEntity;)D: getAttackReachSqr -> m_6639_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/entity/UraptorMedalEntity/getPickupItem()Lnet/minecraft/world/item/ItemStack; from net/minecraft/world/entity/projectile/AbstractArrow/getPickupItem()Lnet/minecraft/world/item/ItemStack;: getPickupItem -> m_7941_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/entity/UraptorMedalEntity/tick()V from net/minecraft/world/entity/projectile/AbstractArrow/tick()V: tick -> m_8119_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/entity/UraptorMedalEntity/doPostHurtEffects(Lnet/minecraft/world/entity/LivingEntity;)V from net/minecraft/world/entity/projectile/AbstractArrow/doPostHurtEffects(Lnet/minecraft/world/entity/LivingEntity;)V: doPostHurtEffects -> m_7761_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/entity/UraptorMedalEntity/getAddEntityPacket()Lnet/minecraft/network/protocol/Packet; from net/minecraft/world/entity/projectile/Projectile/getAddEntityPacket()Lnet/minecraft/network/protocol/Packet;: getAddEntityPacket -> m_5654_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/entity/UraptorMedalEntity/onHitBlock(Lnet/minecraft/world/phys/BlockHitResult;)V from net/minecraft/world/entity/projectile/AbstractArrow/onHitBlock(Lnet/minecraft/world/phys/BlockHitResult;)V: onHitBlock -> m_8060_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/entity/UraptorMedalEntity/getItem()Lnet/minecraft/world/item/ItemStack; from net/minecraft/world/entity/projectile/ItemSupplier/getItem()Lnet/minecraft/world/item/ItemStack;: getItem -> m_7846_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/entity/VraptorEntity$1/getAttackReachSqr(Lnet/minecraft/world/entity/LivingEntity;)D from net/minecraft/world/entity/ai/goal/MeleeAttackGoal/getAttackReachSqr(Lnet/minecraft/world/entity/LivingEntity;)D: getAttackReachSqr -> m_6639_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/entity/VraptorMedalEntity/getPickupItem()Lnet/minecraft/world/item/ItemStack; from net/minecraft/world/entity/projectile/AbstractArrow/getPickupItem()Lnet/minecraft/world/item/ItemStack;: getPickupItem -> m_7941_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/entity/VraptorMedalEntity/tick()V from net/minecraft/world/entity/projectile/AbstractArrow/tick()V: tick -> m_8119_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/entity/VraptorMedalEntity/doPostHurtEffects(Lnet/minecraft/world/entity/LivingEntity;)V from net/minecraft/world/entity/projectile/AbstractArrow/doPostHurtEffects(Lnet/minecraft/world/entity/LivingEntity;)V: doPostHurtEffects -> m_7761_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/entity/VraptorMedalEntity/getAddEntityPacket()Lnet/minecraft/network/protocol/Packet; from net/minecraft/world/entity/projectile/Projectile/getAddEntityPacket()Lnet/minecraft/network/protocol/Packet;: getAddEntityPacket -> m_5654_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/entity/VraptorMedalEntity/onHitBlock(Lnet/minecraft/world/phys/BlockHitResult;)V from net/minecraft/world/entity/projectile/AbstractArrow/onHitBlock(Lnet/minecraft/world/phys/BlockHitResult;)V: onHitBlock -> m_8060_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/entity/VraptorMedalEntity/getItem()Lnet/minecraft/world/item/ItemStack; from net/minecraft/world/entity/projectile/ItemSupplier/getItem()Lnet/minecraft/world/item/ItemStack;: getItem -> m_7846_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/world/features/FossilGenerationFeature/place(Lnet/minecraft/world/level/levelgen/feature/FeaturePlaceContext;)Z from net/minecraft/world/level/levelgen/feature/Feature/place(Lnet/minecraft/world/level/levelgen/feature/FeaturePlaceContext;)Z: place -> m_142674_
+Conflicting propagated mapping for net/minecraftforge/network/IContainerFactory/create(ILnet/minecraft/world/entity/player/Inventory;)Lnet/minecraft/world/inventory/AbstractContainerMenu; from net/minecraft/world/inventory/MenuType$MenuSupplier/create(ILnet/minecraft/world/entity/player/Inventory;)Lnet/minecraft/world/inventory/AbstractContainerMenu;: create -> m_39994_
+Conflicting propagated mapping for net/minecraftforge/event/BuildCreativeModeTabContentsEvent/accept(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/CreativeModeTab$TabVisibility;)V from net/minecraft/world/item/CreativeModeTab$Output/accept(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/CreativeModeTab$TabVisibility;)V: accept -> m_246267_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/item/SeidonMedalItem/getUseAnimation(Lnet/minecraft/world/item/ItemStack;)Lnet/minecraft/world/item/UseAnim; from net/minecraft/world/item/Item/getUseAnimation(Lnet/minecraft/world/item/ItemStack;)Lnet/minecraft/world/item/UseAnim;: getUseAnimation -> m_6164_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/item/SeidonMedalItem/use(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder; from net/minecraft/world/item/Item/use(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder;: use -> m_7203_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/item/SeidonMedalItem/getUseDuration(Lnet/minecraft/world/item/ItemStack;)I from net/minecraft/world/item/Item/getUseDuration(Lnet/minecraft/world/item/ItemStack;)I: getUseDuration -> m_8105_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/item/SeidonMedalItem/releaseUsing(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/LivingEntity;I)V from net/minecraft/world/item/Item/releaseUsing(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/LivingEntity;I)V: releaseUsing -> m_5551_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/item/ShanshanMedalItem/getUseAnimation(Lnet/minecraft/world/item/ItemStack;)Lnet/minecraft/world/item/UseAnim; from net/minecraft/world/item/Item/getUseAnimation(Lnet/minecraft/world/item/ItemStack;)Lnet/minecraft/world/item/UseAnim;: getUseAnimation -> m_6164_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/item/ShanshanMedalItem/use(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder; from net/minecraft/world/item/Item/use(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder;: use -> m_7203_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/item/ShanshanMedalItem/getUseDuration(Lnet/minecraft/world/item/ItemStack;)I from net/minecraft/world/item/Item/getUseDuration(Lnet/minecraft/world/item/ItemStack;)I: getUseDuration -> m_8105_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/item/ShanshanMedalItem/releaseUsing(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/LivingEntity;I)V from net/minecraft/world/item/Item/releaseUsing(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/LivingEntity;I)V: releaseUsing -> m_5551_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/item/SonarItem/use(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder; from net/minecraft/world/item/Item/use(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder;: use -> m_7203_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/item/TrexMedalItem/getUseAnimation(Lnet/minecraft/world/item/ItemStack;)Lnet/minecraft/world/item/UseAnim; from net/minecraft/world/item/Item/getUseAnimation(Lnet/minecraft/world/item/ItemStack;)Lnet/minecraft/world/item/UseAnim;: getUseAnimation -> m_6164_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/item/TrexMedalItem/use(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder; from net/minecraft/world/item/Item/use(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder;: use -> m_7203_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/item/TrexMedalItem/getUseDuration(Lnet/minecraft/world/item/ItemStack;)I from net/minecraft/world/item/Item/getUseDuration(Lnet/minecraft/world/item/ItemStack;)I: getUseDuration -> m_8105_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/item/TrexMedalItem/releaseUsing(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/LivingEntity;I)V from net/minecraft/world/item/Item/releaseUsing(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/LivingEntity;I)V: releaseUsing -> m_5551_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/item/UraptorMedalItem/getUseAnimation(Lnet/minecraft/world/item/ItemStack;)Lnet/minecraft/world/item/UseAnim; from net/minecraft/world/item/Item/getUseAnimation(Lnet/minecraft/world/item/ItemStack;)Lnet/minecraft/world/item/UseAnim;: getUseAnimation -> m_6164_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/item/UraptorMedalItem/use(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder; from net/minecraft/world/item/Item/use(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder;: use -> m_7203_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/item/UraptorMedalItem/getUseDuration(Lnet/minecraft/world/item/ItemStack;)I from net/minecraft/world/item/Item/getUseDuration(Lnet/minecraft/world/item/ItemStack;)I: getUseDuration -> m_8105_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/item/UraptorMedalItem/releaseUsing(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/LivingEntity;I)V from net/minecraft/world/item/Item/releaseUsing(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/LivingEntity;I)V: releaseUsing -> m_5551_
+Conflicting propagated mapping for net/minecraftforge/common/ForgeSpawnEggItem/getType(Lnet/minecraft/nbt/CompoundTag;)Lnet/minecraft/world/entity/EntityType; from net/minecraft/world/item/SpawnEggItem/getType(Lnet/minecraft/nbt/CompoundTag;)Lnet/minecraft/world/entity/EntityType;: getType -> m_43228_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/item/VraptorMedalItem/getUseAnimation(Lnet/minecraft/world/item/ItemStack;)Lnet/minecraft/world/item/UseAnim; from net/minecraft/world/item/Item/getUseAnimation(Lnet/minecraft/world/item/ItemStack;)Lnet/minecraft/world/item/UseAnim;: getUseAnimation -> m_6164_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/item/VraptorMedalItem/use(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder; from net/minecraft/world/item/Item/use(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder;: use -> m_7203_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/item/VraptorMedalItem/getUseDuration(Lnet/minecraft/world/item/ItemStack;)I from net/minecraft/world/item/Item/getUseDuration(Lnet/minecraft/world/item/ItemStack;)I: getUseDuration -> m_8105_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/item/VraptorMedalItem/releaseUsing(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/LivingEntity;I)V from net/minecraft/world/item/Item/releaseUsing(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/LivingEntity;I)V: releaseUsing -> m_5551_
+Conflicting propagated mapping for net/minecraftforge/common/util/FakePlayer/isInvulnerableTo(Lnet/minecraft/world/damagesource/DamageSource;)Z from net/minecraft/server/level/ServerPlayer/isInvulnerableTo(Lnet/minecraft/world/damagesource/DamageSource;)Z: isInvulnerableTo -> m_6673_
+Conflicting propagated mapping for net/minecraftforge/common/util/FakePlayer/canHarmPlayer(Lnet/minecraft/world/entity/player/Player;)Z from net/minecraft/server/level/ServerPlayer/canHarmPlayer(Lnet/minecraft/world/entity/player/Player;)Z: canHarmPlayer -> m_7099_
+Conflicting propagated mapping for net/minecraftforge/common/util/FakePlayer/updateOptions(Lnet/minecraft/network/protocol/game/ServerboundClientInformationPacket;)V from net/minecraft/server/level/ServerPlayer/updateOptions(Lnet/minecraft/network/protocol/game/ServerboundClientInformationPacket;)V: updateOptions -> m_9156_
+Conflicting propagated mapping for net/minecraftforge/common/util/FakePlayer/displayClientMessage(Lnet/minecraft/network/chat/Component;Z)V from net/minecraft/server/level/ServerPlayer/displayClientMessage(Lnet/minecraft/network/chat/Component;Z)V: displayClientMessage -> m_5661_
+Conflicting propagated mapping for net/minecraftforge/common/util/FakePlayer/die(Lnet/minecraft/world/damagesource/DamageSource;)V from net/minecraft/server/level/ServerPlayer/die(Lnet/minecraft/world/damagesource/DamageSource;)V: die -> m_6667_
+Conflicting propagated mapping for net/minecraftforge/common/util/FakePlayer/tick()V from net/minecraft/server/level/ServerPlayer/tick()V: tick -> m_8119_
+Conflicting propagated mapping for net/minecraftforge/common/util/FakePlayer/getServer()Lnet/minecraft/server/MinecraftServer; from net/minecraft/world/entity/Entity/getServer()Lnet/minecraft/server/MinecraftServer;: getServer -> m_20194_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/procedures/ShanshanMedalEntitySwingsItemProcedure$1/createMenu(ILnet/minecraft/world/entity/player/Inventory;Lnet/minecraft/world/entity/player/Player;)Lnet/minecraft/world/inventory/AbstractContainerMenu; from net/minecraft/world/inventory/MenuConstructor/createMenu(ILnet/minecraft/world/entity/player/Inventory;Lnet/minecraft/world/entity/player/Player;)Lnet/minecraft/world/inventory/AbstractContainerMenu;: createMenu -> m_7208_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/procedures/ShanshanMedalEntitySwingsItemProcedure$1/getDisplayName()Lnet/minecraft/network/chat/Component; from net/minecraft/world/MenuProvider/getDisplayName()Lnet/minecraft/network/chat/Component;: getDisplayName -> m_5446_
+Conflicting propagated mapping for net/minecraftforge/common/util/FakePlayer/awardStat(Lnet/minecraft/stats/Stat;I)V from net/minecraft/server/level/ServerPlayer/awardStat(Lnet/minecraft/stats/Stat;I)V: awardStat -> m_6278_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/procedures/SonarRightclickedProcedure$1/createMenu(ILnet/minecraft/world/entity/player/Inventory;Lnet/minecraft/world/entity/player/Player;)Lnet/minecraft/world/inventory/AbstractContainerMenu; from net/minecraft/world/inventory/MenuConstructor/createMenu(ILnet/minecraft/world/entity/player/Inventory;Lnet/minecraft/world/entity/player/Player;)Lnet/minecraft/world/inventory/AbstractContainerMenu;: createMenu -> m_7208_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/procedures/SonarRightclickedProcedure$1/getDisplayName()Lnet/minecraft/network/chat/Component; from net/minecraft/world/MenuProvider/getDisplayName()Lnet/minecraft/network/chat/Component;: getDisplayName -> m_5446_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/procedures/TrexMedalEntitySwingsItemProcedure$1/createMenu(ILnet/minecraft/world/entity/player/Inventory;Lnet/minecraft/world/entity/player/Player;)Lnet/minecraft/world/inventory/AbstractContainerMenu; from net/minecraft/world/inventory/MenuConstructor/createMenu(ILnet/minecraft/world/entity/player/Inventory;Lnet/minecraft/world/entity/player/Player;)Lnet/minecraft/world/inventory/AbstractContainerMenu;: createMenu -> m_7208_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/procedures/TrexMedalEntitySwingsItemProcedure$1/getDisplayName()Lnet/minecraft/network/chat/Component; from net/minecraft/world/MenuProvider/getDisplayName()Lnet/minecraft/network/chat/Component;: getDisplayName -> m_5446_
+Conflicting propagated mapping for net/minecraftforge/items/SlotItemHandler/set(Lnet/minecraft/world/item/ItemStack;)V from net/minecraft/world/inventory/Slot/set(Lnet/minecraft/world/item/ItemStack;)V: set -> m_5852_
+Conflicting propagated mapping for net/minecraftforge/items/SlotItemHandler/mayPlace(Lnet/minecraft/world/item/ItemStack;)Z from net/minecraft/world/inventory/Slot/mayPlace(Lnet/minecraft/world/item/ItemStack;)Z: mayPlace -> m_5857_
+Conflicting propagated mapping for net/minecraftforge/items/SlotItemHandler/remove(I)Lnet/minecraft/world/item/ItemStack; from net/minecraft/world/inventory/Slot/remove(I)Lnet/minecraft/world/item/ItemStack;: remove -> m_6201_
+Conflicting propagated mapping for net/minecraftforge/items/SlotItemHandler/onQuickCraft(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/ItemStack;)V from net/minecraft/world/inventory/Slot/onQuickCraft(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/ItemStack;)V: onQuickCraft -> m_40234_
+Conflicting propagated mapping for net/minecraftforge/items/SlotItemHandler/getItem()Lnet/minecraft/world/item/ItemStack; from net/minecraft/world/inventory/Slot/getItem()Lnet/minecraft/world/item/ItemStack;: getItem -> m_7993_
+Conflicting propagated mapping for net/minecraftforge/items/SlotItemHandler/getMaxStackSize(Lnet/minecraft/world/item/ItemStack;)I from net/minecraft/world/inventory/Slot/getMaxStackSize(Lnet/minecraft/world/item/ItemStack;)I: getMaxStackSize -> m_5866_
+Conflicting propagated mapping for net/minecraftforge/items/SlotItemHandler/mayPickup(Lnet/minecraft/world/entity/player/Player;)Z from net/minecraft/world/inventory/Slot/mayPickup(Lnet/minecraft/world/entity/player/Player;)Z: mayPickup -> m_8010_
+Conflicting propagated mapping for net/minecraftforge/items/SlotItemHandler/getMaxStackSize()I from net/minecraft/world/inventory/Slot/getMaxStackSize()I: getMaxStackSize -> m_6641_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/world/inventory/CleanerGUIMenu$2/mayPlace(Lnet/minecraft/world/item/ItemStack;)Z from net/minecraftforge/items/SlotItemHandler/mayPlace(Lnet/minecraft/world/item/ItemStack;)Z: mayPlace -> m_5857_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/world/inventory/ReviverGUIMenu$5/mayPlace(Lnet/minecraft/world/item/ItemStack;)Z from net/minecraftforge/items/SlotItemHandler/mayPlace(Lnet/minecraft/world/item/ItemStack;)Z: mayPlace -> m_5857_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/world/inventory/ReviverGUIMenu$6/onTake(Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/item/ItemStack;)V from net/minecraft/world/inventory/Slot/onTake(Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/item/ItemStack;)V: onTake -> m_142406_
+Conflicting propagated mapping for net/mcreator/fossilminecraft/world/inventory/ReviverGUIMenu$6/mayPlace(Lnet/minecraft/world/item/ItemStack;)Z from net/minecraftforge/items/SlotItemHandler/mayPlace(Lnet/minecraft/world/item/ItemStack;)Z: mayPlace -> m_5857_
+Adding extras
+Sorting
+Writing Output: C:\Users\Gavinh\MCreatorWorkspaces\fossil_minecraft\build\reobfJar\output.jar
+  META-INF/
+  META-INF/MANIFEST.MF
+  META-INF/mods.toml
+  assets/
+  assets/fossil_minecraft/
+  assets/fossil_minecraft/animations/
+  assets/fossil_minecraft/animations/carchar-geckolib.animation.json
+  assets/fossil_minecraft/animations/model.animation.json
+  assets/fossil_minecraft/blockstates/
+  assets/fossil_minecraft/blockstates/cleaner.json
+  assets/fossil_minecraft/blockstates/fossil.json
+  assets/fossil_minecraft/blockstates/reviver.json
+  assets/fossil_minecraft/geo/
+  assets/fossil_minecraft/geo/carchar-geckolib.geo.json
+  assets/fossil_minecraft/lang/
+  assets/fossil_minecraft/lang/en_us.json
+  assets/fossil_minecraft/models/
+  assets/fossil_minecraft/models/block/
+  assets/fossil_minecraft/models/block/cleaner.json
+  assets/fossil_minecraft/models/block/fossil.json
+  assets/fossil_minecraft/models/block/reviver.json
+  assets/fossil_minecraft/models/item/
+  assets/fossil_minecraft/models/item/acro_arms.json
+  assets/fossil_minecraft/models/item/acro_arms_blank.json
+  assets/fossil_minecraft/models/item/acro_body.json
+  assets/fossil_minecraft/models/item/acro_body_blank.json
+  assets/fossil_minecraft/models/item/acro_head.json
+  assets/fossil_minecraft/models/item/acro_head_blank.json
+  assets/fossil_minecraft/models/item/acro_legs.json
+  assets/fossil_minecraft/models/item/acro_legs_blank.json
+  assets/fossil_minecraft/models/item/alectro_arms.json
+  assets/fossil_minecraft/models/item/alectro_arms_blank.json
+  assets/fossil_minecraft/models/item/alectro_body.json
+  assets/fossil_minecraft/models/item/alectro_body_blank.json
+  assets/fossil_minecraft/models/item/alectro_head.json
+  assets/fossil_minecraft/models/item/alectro_head_blank.json
+  assets/fossil_minecraft/models/item/alectro_legs.json
+  assets/fossil_minecraft/models/item/alectro_legs_blank.json
+  assets/fossil_minecraft/models/item/alio_arms.json
+  assets/fossil_minecraft/models/item/alio_arms_blank.json
+  assets/fossil_minecraft/models/item/alio_body.json
+  assets/fossil_minecraft/models/item/alio_body_blank.json
+  assets/fossil_minecraft/models/item/alio_head.json
+  assets/fossil_minecraft/models/item/alio_head_blank.json
+  assets/fossil_minecraft/models/item/alio_legs.json
+  assets/fossil_minecraft/models/item/alio_legs_blank.json
+  assets/fossil_minecraft/models/item/allo_arms.json
+  assets/fossil_minecraft/models/item/allo_arms_blank.json
+  assets/fossil_minecraft/models/item/allo_body.json
+  assets/fossil_minecraft/models/item/allo_body_blank.json
+  assets/fossil_minecraft/models/item/allo_head.json
+  assets/fossil_minecraft/models/item/allo_head_blank.json
+  assets/fossil_minecraft/models/item/allo_legs.json
+  assets/fossil_minecraft/models/item/allo_legs_blank.json
+  assets/fossil_minecraft/models/item/carchar_arms.json
+  assets/fossil_minecraft/models/item/carchar_arms_blank.json
+  assets/fossil_minecraft/models/item/carchar_body.json
+  assets/fossil_minecraft/models/item/carchar_body_blank.json
+  assets/fossil_minecraft/models/item/carchar_head.json
+  assets/fossil_minecraft/models/item/carchar_head_blank.json
+  assets/fossil_minecraft/models/item/carchar_legs.json
+  assets/fossil_minecraft/models/item/carchar_legs_blank.json
+  assets/fossil_minecraft/models/item/carchar_spawn_egg.json
+  assets/fossil_minecraft/models/item/cleaner.json
+  assets/fossil_minecraft/models/item/compso_arms.json
+  assets/fossil_minecraft/models/item/compso_arms_blank.json
+  assets/fossil_minecraft/models/item/compso_body.json
+  assets/fossil_minecraft/models/item/compso_body_blank.json
+  assets/fossil_minecraft/models/item/compso_head.json
+  assets/fossil_minecraft/models/item/compso_head_blank.json
+  assets/fossil_minecraft/models/item/compso_legs.json
+  assets/fossil_minecraft/models/item/compso_legs_blank.json
+  assets/fossil_minecraft/models/item/cryo_arms.json
+  assets/fossil_minecraft/models/item/cryo_arms_blank.json
+  assets/fossil_minecraft/models/item/cryo_body.json
+  assets/fossil_minecraft/models/item/cryo_body_blank.json
+  assets/fossil_minecraft/models/item/cryo_head.json
+  assets/fossil_minecraft/models/item/cryo_head_blank.json
+  assets/fossil_minecraft/models/item/cryo_legs.json
+  assets/fossil_minecraft/models/item/cryo_legs_blank.json
+  assets/fossil_minecraft/models/item/daspleto_arms.json
+  assets/fossil_minecraft/models/item/daspleto_arms_blank.json
+  assets/fossil_minecraft/models/item/daspleto_body.json
+  assets/fossil_minecraft/models/item/daspleto_body_blank.json
+  assets/fossil_minecraft/models/item/daspleto_head.json
+  assets/fossil_minecraft/models/item/daspleto_head_blank.json
+  assets/fossil_minecraft/models/item/daspleto_legs.json
+  assets/fossil_minecraft/models/item/daspleto_legs_blank.json
+  assets/fossil_minecraft/models/item/delta_arms.json
+  assets/fossil_minecraft/models/item/delta_arms_blank.json
+  assets/fossil_minecraft/models/item/delta_body.json
+  assets/fossil_minecraft/models/item/delta_body_blank.json
+  assets/fossil_minecraft/models/item/delta_head.json
+  assets/fossil_minecraft/models/item/delta_head_blank.json
+  assets/fossil_minecraft/models/item/delta_legs.json
+  assets/fossil_minecraft/models/item/delta_legs_blank.json
+  assets/fossil_minecraft/models/item/drill.json
+  assets/fossil_minecraft/models/item/empty_medal.json
+  assets/fossil_minecraft/models/item/f_raptor_arms.json
+  assets/fossil_minecraft/models/item/f_raptor_arms_blank.json
+  assets/fossil_minecraft/models/item/f_raptor_body.json
+  assets/fossil_minecraft/models/item/f_raptor_body_blank.json
+  assets/fossil_minecraft/models/item/f_raptor_head.json
+  assets/fossil_minecraft/models/item/f_raptor_head_blank.json
+  assets/fossil_minecraft/models/item/f_raptor_legs.json
+  assets/fossil_minecraft/models/item/f_raptor_legs_blank.json
+  assets/fossil_minecraft/models/item/fossil.json
+  assets/fossil_minecraft/models/item/giganto_arms.json
+  assets/fossil_minecraft/models/item/giganto_arms_blank.json
+  assets/fossil_minecraft/models/item/giganto_body.json
+  assets/fossil_minecraft/models/item/giganto_body_blank.json
+  assets/fossil_minecraft/models/item/giganto_head.json
+  assets/fossil_minecraft/models/item/giganto_head_blank.json
+  assets/fossil_minecraft/models/item/giganto_legs.json
+  assets/fossil_minecraft/models/item/giganto_legs_blank.json
+  assets/fossil_minecraft/models/item/gorgo_arms.json
+  assets/fossil_minecraft/models/item/gorgo_arms_blank.json
+  assets/fossil_minecraft/models/item/gorgo_body.json
+  assets/fossil_minecraft/models/item/gorgo_body_blank.json
+  assets/fossil_minecraft/models/item/gorgo_head.json
+  assets/fossil_minecraft/models/item/gorgo_head_blank.json
+  assets/fossil_minecraft/models/item/gorgo_legs.json
+  assets/fossil_minecraft/models/item/gorgo_legs_blank.json
+  assets/fossil_minecraft/models/item/guan_arms.json
+  assets/fossil_minecraft/models/item/guan_arms_blank.json
+  assets/fossil_minecraft/models/item/guan_body.json
+  assets/fossil_minecraft/models/item/guan_body_blank.json
+  assets/fossil_minecraft/models/item/guan_head.json
+  assets/fossil_minecraft/models/item/guan_head_blank.json
+  assets/fossil_minecraft/models/item/guan_legs.json
+  assets/fossil_minecraft/models/item/guan_legs_blank.json
+  assets/fossil_minecraft/models/item/hammer.json
+  assets/fossil_minecraft/models/item/m_raptor_arms.json
+  assets/fossil_minecraft/models/item/m_raptor_arms_blank.json
+  assets/fossil_minecraft/models/item/m_raptor_body.json
+  assets/fossil_minecraft/models/item/m_raptor_body_blank.json
+  assets/fossil_minecraft/models/item/m_raptor_head.json
+  assets/fossil_minecraft/models/item/m_raptor_head_blank.json
+  assets/fossil_minecraft/models/item/m_raptor_legs.json
+  assets/fossil_minecraft/models/item/m_raptor_legs_blank.json
+  assets/fossil_minecraft/models/item/megalo_arms.json
+  assets/fossil_minecraft/models/item/megalo_arms_blank.json
+  assets/fossil_minecraft/models/item/megalo_body.json
+  assets/fossil_minecraft/models/item/megalo_body_blank.json
+  assets/fossil_minecraft/models/item/megalo_head.json
+  assets/fossil_minecraft/models/item/megalo_head_blank.json
+  assets/fossil_minecraft/models/item/megalo_legs.json
+  assets/fossil_minecraft/models/item/megalo_legs_blank.json
+  assets/fossil_minecraft/models/item/metria_arms.json
+  assets/fossil_minecraft/models/item/metria_arms_blank.json
+  assets/fossil_minecraft/models/item/metria_body.json
+  assets/fossil_minecraft/models/item/metria_body_blank.json
+  assets/fossil_minecraft/models/item/metria_head.json
+  assets/fossil_minecraft/models/item/metria_head_blank.json
+  assets/fossil_minecraft/models/item/metria_legs.json
+  assets/fossil_minecraft/models/item/metria_legs_blank.json
+  assets/fossil_minecraft/models/item/neo_arms.json
+  assets/fossil_minecraft/models/item/neo_arms_blank.json
+  assets/fossil_minecraft/models/item/neo_body.json
+  assets/fossil_minecraft/models/item/neo_body_blank.json
+  assets/fossil_minecraft/models/item/neo_head.json
+  assets/fossil_minecraft/models/item/neo_head_blank.json
+  assets/fossil_minecraft/models/item/neo_legs.json
+  assets/fossil_minecraft/models/item/neo_legs_blank.json
+  assets/fossil_minecraft/models/item/nychus_arms.json
+  assets/fossil_minecraft/models/item/nychus_arms_blank.json
+  assets/fossil_minecraft/models/item/nychus_body.json
+  assets/fossil_minecraft/models/item/nychus_body_blank.json
+  assets/fossil_minecraft/models/item/nychus_head.json
+  assets/fossil_minecraft/models/item/nychus_head_blank.json
+  assets/fossil_minecraft/models/item/nychus_legs.json
+  assets/fossil_minecraft/models/item/nychus_legs_blank.json
+  assets/fossil_minecraft/models/item/reviver.json
+  assets/fossil_minecraft/models/item/s_raptor_arms.json
+  assets/fossil_minecraft/models/item/s_raptor_arms_blank.json
+  assets/fossil_minecraft/models/item/s_raptor_body.json
+  assets/fossil_minecraft/models/item/s_raptor_body_blank.json
+  assets/fossil_minecraft/models/item/s_raptor_head.json
+  assets/fossil_minecraft/models/item/s_raptor_head_blank.json
+  assets/fossil_minecraft/models/item/s_raptor_legs.json
+  assets/fossil_minecraft/models/item/s_raptor_legs_blank.json
+  assets/fossil_minecraft/models/item/seidon_head.json
+  assets/fossil_minecraft/models/item/seidon_head_fossil.json
+  assets/fossil_minecraft/models/item/seidon_medal.json
+  assets/fossil_minecraft/models/item/seidon_spawn_egg.json
+  assets/fossil_minecraft/models/item/shan_shan_spawn_egg.json
+  assets/fossil_minecraft/models/item/shanshan_arms.json
+  assets/fossil_minecraft/models/item/shanshan_arms_blank.json
+  assets/fossil_minecraft/models/item/shanshan_body.json
+  assets/fossil_minecraft/models/item/shanshan_body_blank.json
+  assets/fossil_minecraft/models/item/shanshan_fossil.json
+  assets/fossil_minecraft/models/item/shanshan_head.json
+  assets/fossil_minecraft/models/item/shanshan_head_blank.json
+  assets/fossil_minecraft/models/item/shanshan_legs.json
+  assets/fossil_minecraft/models/item/shanshan_legs_blank.json
+  assets/fossil_minecraft/models/item/shanshan_medal.json
+  assets/fossil_minecraft/models/item/siamo_arms.json
+  assets/fossil_minecraft/models/item/siamo_arms_blank.json
+  assets/fossil_minecraft/models/item/siamo_body.json
+  assets/fossil_minecraft/models/item/siamo_body_blank.json
+  assets/fossil_minecraft/models/item/siamo_head.json
+  assets/fossil_minecraft/models/item/siamo_head_blank.json
+  assets/fossil_minecraft/models/item/siamo_legs.json
+  assets/fossil_minecraft/models/item/siamo_legs_blank.json
+  assets/fossil_minecraft/models/item/sonar.json
+  assets/fossil_minecraft/models/item/sopteryx_arms.json
+  assets/fossil_minecraft/models/item/sopteryx_arms_blank.json
+  assets/fossil_minecraft/models/item/sopteryx_body.json
+  assets/fossil_minecraft/models/item/sopteryx_body_blank.json
+  assets/fossil_minecraft/models/item/sopteryx_head.json
+  assets/fossil_minecraft/models/item/sopteryx_head_blank.json
+  assets/fossil_minecraft/models/item/sopteryx_legs.json
+  assets/fossil_minecraft/models/item/sopteryx_legs_blank.json
+  assets/fossil_minecraft/models/item/spinax_arms.json
+  assets/fossil_minecraft/models/item/spinax_arms_blank.json
+  assets/fossil_minecraft/models/item/spinax_body.json
+  assets/fossil_minecraft/models/item/spinax_body_blank.json
+  assets/fossil_minecraft/models/item/spinax_head.json
+  assets/fossil_minecraft/models/item/spinax_head_blank.json
+  assets/fossil_minecraft/models/item/spinax_legs.json
+  assets/fossil_minecraft/models/item/spinax_legs_blank.json
+  assets/fossil_minecraft/models/item/super_hammer.json
+  assets/fossil_minecraft/models/item/tarbo_arms.json
+  assets/fossil_minecraft/models/item/tarbo_arms_blank.json
+  assets/fossil_minecraft/models/item/tarbo_body.json
+  assets/fossil_minecraft/models/item/tarbo_body_blank.json
+  assets/fossil_minecraft/models/item/tarbo_head.json
+  assets/fossil_minecraft/models/item/tarbo_head_blank.json
+  assets/fossil_minecraft/models/item/tarbo_legs.json
+  assets/fossil_minecraft/models/item/tarbo_legs_blank.json
+  assets/fossil_minecraft/models/item/trex.mtl
+  assets/fossil_minecraft/models/item/trex.obj
+  assets/fossil_minecraft/models/item/trex_arms.json
+  assets/fossil_minecraft/models/item/trex_arms_blank.json
+  assets/fossil_minecraft/models/item/trex_body.json
+  assets/fossil_minecraft/models/item/trex_body_blank.json
+  assets/fossil_minecraft/models/item/trex_head.json
+  assets/fossil_minecraft/models/item/trex_head_blank.json
+  assets/fossil_minecraft/models/item/trex_legs.json
+  assets/fossil_minecraft/models/item/trex_legs_blank.json
+  assets/fossil_minecraft/models/item/trex_medal.json
+  assets/fossil_minecraft/models/item/trex_spawn_egg.json
+  assets/fossil_minecraft/models/item/tro_arms.json
+  assets/fossil_minecraft/models/item/tro_body.json
+  assets/fossil_minecraft/models/item/tro_head.json
+  assets/fossil_minecraft/models/item/tro_legs.json
+  assets/fossil_minecraft/models/item/unknown_fossil.json
+  assets/fossil_minecraft/models/item/uraptor_medal.json
+  assets/fossil_minecraft/models/item/uraptor_spawn_egg.json
+  assets/fossil_minecraft/models/item/venator_arms.json
+  assets/fossil_minecraft/models/item/venator_arms_blank.json
+  assets/fossil_minecraft/models/item/venator_body_blank.json
+  assets/fossil_minecraft/models/item/venator_head.json
+  assets/fossil_minecraft/models/item/venator_head_blank.json
+  assets/fossil_minecraft/models/item/venator_legs.json
+  assets/fossil_minecraft/models/item/venator_legs_blank.json
+  assets/fossil_minecraft/models/item/ventator_body.json
+  assets/fossil_minecraft/models/item/vraptor_medal.json
+  assets/fossil_minecraft/models/item/vraptor_spawn_egg.json
+  assets/fossil_minecraft/textures/
+  assets/fossil_minecraft/textures/block/
+  assets/fossil_minecraft/textures/block/airfossilrock1.png
+  assets/fossil_minecraft/textures/block/earthfossilrock1.png
+  assets/fossil_minecraft/textures/block/image-1.png_1.png
+  assets/fossil_minecraft/textures/block/new_piskel-1.png_1.png
+  assets/fossil_minecraft/textures/block/new_piskel-1.png_3.png
+  assets/fossil_minecraft/textures/block/new_piskel-2.png_1.png
+  assets/fossil_minecraft/textures/block/new_piskel-2.png_2.png
+  assets/fossil_minecraft/textures/block/new_piskel-3.png_1.png
+  assets/fossil_minecraft/textures/block/redfossilrock1.png
+  assets/fossil_minecraft/textures/block/trex_head_bottom.png
+  assets/fossil_minecraft/textures/block/trex_head_side.png
+  assets/fossil_minecraft/textures/block/trex_head_top.png
+  assets/fossil_minecraft/textures/block/upgradedfossilrock1.png
+  assets/fossil_minecraft/textures/block/waterfossilrock1.png
+  assets/fossil_minecraft/textures/entities/
+  assets/fossil_minecraft/textures/entities/001-trex.png
+  assets/fossil_minecraft/textures/entities/009-shanshan.png
+  assets/fossil_minecraft/textures/entities/017-carchar.png
+  assets/fossil_minecraft/textures/entities/029-v-raptor.png
+  assets/fossil_minecraft/textures/entities/113-seidon.png
+  assets/fossil_minecraft/textures/entities/u-raptor.png
+  assets/fossil_minecraft/textures/item/
+  assets/fossil_minecraft/textures/item/airtypedefault.png
+  assets/fossil_minecraft/textures/item/basichammerproto1.png
+  assets/fossil_minecraft/textures/item/betterbasicdrill1.png
+  assets/fossil_minecraft/textures/item/emptymedal.png
+  assets/fossil_minecraft/textures/item/firetypedefault.png
+  assets/fossil_minecraft/textures/item/image-1.png_7.png
+  assets/fossil_minecraft/textures/item/image-3.png.png
+  assets/fossil_minecraft/textures/item/sauropod.png
+  assets/fossil_minecraft/textures/item/sonar.png
+  assets/fossil_minecraft/textures/item/sonarart1.png
+  assets/fossil_minecraft/textures/item/superhammerproto1.png
+  assets/fossil_minecraft/textures/item/trex.png
+  assets/fossil_minecraft/textures/item/type1-1.png.png
+  assets/fossil_minecraft/textures/item/type1-air.png
+  assets/fossil_minecraft/textures/item/type1-earth.png
+  assets/fossil_minecraft/textures/item/type1-fire.png
+  assets/fossil_minecraft/textures/item/type1-neutral.png
+  assets/fossil_minecraft/textures/item/type1-water.png
+  assets/fossil_minecraft/textures/item/type10-1.png.png
+  assets/fossil_minecraft/textures/item/type10-air.png
+  assets/fossil_minecraft/textures/item/type10-earth.png
+  assets/fossil_minecraft/textures/item/type10-fire.png
+  assets/fossil_minecraft/textures/item/type10-neutral.png
+  assets/fossil_minecraft/textures/item/type10-water.png
+  assets/fossil_minecraft/textures/item/type11-1.png.png
+  assets/fossil_minecraft/textures/item/type11-air.png
+  assets/fossil_minecraft/textures/item/type11-earth.png
+  assets/fossil_minecraft/textures/item/type11-fire.png
+  assets/fossil_minecraft/textures/item/type11-neutral.png
+  assets/fossil_minecraft/textures/item/type11-water.png
+  assets/fossil_minecraft/textures/item/type12-1.png.png
+  assets/fossil_minecraft/textures/item/type12-air.png
+  assets/fossil_minecraft/textures/item/type12-earth.png
+  assets/fossil_minecraft/textures/item/type12-fire.png
+  assets/fossil_minecraft/textures/item/type12-neutral.png
+  assets/fossil_minecraft/textures/item/type12-water.png
+  assets/fossil_minecraft/textures/item/type13-1.png.png
+  assets/fossil_minecraft/textures/item/type13-air.png
+  assets/fossil_minecraft/textures/item/type13-earth.png
+  assets/fossil_minecraft/textures/item/type13-fire.png
+  assets/fossil_minecraft/textures/item/type13-neutral.png
+  assets/fossil_minecraft/textures/item/type13-water.png
+  assets/fossil_minecraft/textures/item/type14-1.png.png
+  assets/fossil_minecraft/textures/item/type14-air.png
+  assets/fossil_minecraft/textures/item/type14-earth.png
+  assets/fossil_minecraft/textures/item/type14-fire.png
+  assets/fossil_minecraft/textures/item/type14-neutral.png
+  assets/fossil_minecraft/textures/item/type14-water.png
+  assets/fossil_minecraft/textures/item/type15-1.png.png
+  assets/fossil_minecraft/textures/item/type15-air.png
+  assets/fossil_minecraft/textures/item/type15-earth.png
+  assets/fossil_minecraft/textures/item/type15-fire.png
+  assets/fossil_minecraft/textures/item/type15-neutral.png
+  assets/fossil_minecraft/textures/item/type15-water.png
+  assets/fossil_minecraft/textures/item/type16-1.png.png
+  assets/fossil_minecraft/textures/item/type16-air.png
+  assets/fossil_minecraft/textures/item/type16-earth.png
+  assets/fossil_minecraft/textures/item/type16-fire.png
+  assets/fossil_minecraft/textures/item/type16-neutral.png
+  assets/fossil_minecraft/textures/item/type16-water.png
+  assets/fossil_minecraft/textures/item/type17-1.png.png
+  assets/fossil_minecraft/textures/item/type17-air.png
+  assets/fossil_minecraft/textures/item/type17-earth.png
+  assets/fossil_minecraft/textures/item/type17-fire.png
+  assets/fossil_minecraft/textures/item/type17-neutral.png
+  assets/fossil_minecraft/textures/item/type17-water.png
+  assets/fossil_minecraft/textures/item/type18-1.png.png
+  assets/fossil_minecraft/textures/item/type18-air.png
+  assets/fossil_minecraft/textures/item/type18-earth.png
+  assets/fossil_minecraft/textures/item/type18-fire.png
+  assets/fossil_minecraft/textures/item/type18-neutral.png
+  assets/fossil_minecraft/textures/item/type18-water.png
+  assets/fossil_minecraft/textures/item/type19-1.png.png
+  assets/fossil_minecraft/textures/item/type19-air.png
+  assets/fossil_minecraft/textures/item/type19-earth.png
+  assets/fossil_minecraft/textures/item/type19-fire.png
+  assets/fossil_minecraft/textures/item/type19-neutral.png
+  assets/fossil_minecraft/textures/item/type19-water.png
+  assets/fossil_minecraft/textures/item/type2-1.png.png
+  assets/fossil_minecraft/textures/item/type2-air.png
+  assets/fossil_minecraft/textures/item/type2-earth.png
+  assets/fossil_minecraft/textures/item/type2-fire.png
+  assets/fossil_minecraft/textures/item/type2-neutral.png
+  assets/fossil_minecraft/textures/item/type2-water.png
+  assets/fossil_minecraft/textures/item/type20-1.png.png
+  assets/fossil_minecraft/textures/item/type20-air.png
+  assets/fossil_minecraft/textures/item/type20-earth.png
+  assets/fossil_minecraft/textures/item/type20-fire.png
+  assets/fossil_minecraft/textures/item/type20-neutral.png
+  assets/fossil_minecraft/textures/item/type20-water.png
+  assets/fossil_minecraft/textures/item/type21-1.png.png
+  assets/fossil_minecraft/textures/item/type21-air.png
+  assets/fossil_minecraft/textures/item/type21-earth.png
+  assets/fossil_minecraft/textures/item/type21-fire.png
+  assets/fossil_minecraft/textures/item/type21-neutral.png
+  assets/fossil_minecraft/textures/item/type21-water.png
+  assets/fossil_minecraft/textures/item/type3-1.png.png
+  assets/fossil_minecraft/textures/item/type3-air.png
+  assets/fossil_minecraft/textures/item/type3-earth.png
+  assets/fossil_minecraft/textures/item/type3-fire.png
+  assets/fossil_minecraft/textures/item/type3-neutral.png
+  assets/fossil_minecraft/textures/item/type3-water.png
+  assets/fossil_minecraft/textures/item/type4-1.png.png
+  assets/fossil_minecraft/textures/item/type4-air.png
+  assets/fossil_minecraft/textures/item/type4-earth.png
+  assets/fossil_minecraft/textures/item/type4-fire.png
+  assets/fossil_minecraft/textures/item/type4-neutral.png
+  assets/fossil_minecraft/textures/item/type4-water.png
+  assets/fossil_minecraft/textures/item/type5-1.png.png
+  assets/fossil_minecraft/textures/item/type5-air.png
+  assets/fossil_minecraft/textures/item/type5-earth.png
+  assets/fossil_minecraft/textures/item/type5-fire.png
+  assets/fossil_minecraft/textures/item/type5-neutral.png
+  assets/fossil_minecraft/textures/item/type5-water.png
+  assets/fossil_minecraft/textures/item/type6-1.png.png
+  assets/fossil_minecraft/textures/item/type6-air.png
+  assets/fossil_minecraft/textures/item/type6-earth.png
+  assets/fossil_minecraft/textures/item/type6-fire.png
+  assets/fossil_minecraft/textures/item/type6-neutral.png
+  assets/fossil_minecraft/textures/item/type6-water.png
+  assets/fossil_minecraft/textures/item/type7-1.png.png
+  assets/fossil_minecraft/textures/item/type7-air.png
+  assets/fossil_minecraft/textures/item/type7-earth.png
+  assets/fossil_minecraft/textures/item/type7-fire.png
+  assets/fossil_minecraft/textures/item/type7-neutral.png
+  assets/fossil_minecraft/textures/item/type7-water.png
+  assets/fossil_minecraft/textures/item/type8-1.png.png
+  assets/fossil_minecraft/textures/item/type8-air.png
+  assets/fossil_minecraft/textures/item/type8-earth.png
+  assets/fossil_minecraft/textures/item/type8-fire.png
+  assets/fossil_minecraft/textures/item/type8-neutral.png
+  assets/fossil_minecraft/textures/item/type8-water.png
+  assets/fossil_minecraft/textures/item/type9-1.png.png
+  assets/fossil_minecraft/textures/item/type9-air.png
+  assets/fossil_minecraft/textures/item/type9-earth.png
+  assets/fossil_minecraft/textures/item/type9-fire.png
+  assets/fossil_minecraft/textures/item/type9-neutral.png
+  assets/fossil_minecraft/textures/item/type9-water.png
+  assets/fossil_minecraft/textures/item/watertypedefault.png
+  assets/fossil_minecraft/textures/screens/
+  assets/fossil_minecraft/textures/screens/cleaner_gui.png
+  assets/fossil_minecraft/textures/screens/reviver_gui.png
+  assets/fossil_minecraft/textures/screens/shanshan_medal_gui.png
+  assets/fossil_minecraft/textures/screens/sonar_upgrade_gui.png
+  assets/fossil_minecraft/textures/screens/trex_medal_gui.png
+  data/
+  data/fossil_minecraft/
+  data/fossil_minecraft/forge/
+  data/fossil_minecraft/forge/biome_modifier/
+  data/fossil_minecraft/forge/biome_modifier/carchar_biome_modifier.json
+  data/fossil_minecraft/forge/biome_modifier/fossil_generation_biome_modifier.json
+  data/fossil_minecraft/forge/biome_modifier/seidon_biome_modifier.json
+  data/fossil_minecraft/forge/biome_modifier/shan_shan_biome_modifier.json
+  data/fossil_minecraft/forge/biome_modifier/trex_biome_modifier.json
+  data/fossil_minecraft/forge/biome_modifier/uraptor_biome_modifier.json
+  data/fossil_minecraft/forge/biome_modifier/vraptor_biome_modifier.json
+  data/fossil_minecraft/recipes/
+  data/fossil_minecraft/recipes/cleaner_recipe.json
+  data/fossil_minecraft/recipes/drill_recipe.json
+  data/fossil_minecraft/recipes/hammer_recipe.json
+  data/fossil_minecraft/recipes/super_hammer_recipe.json
+  data/fossil_minecraft/structures/
+  data/fossil_minecraft/structures/fossil.nbt
+  data/fossil_minecraft/structures/singletrexfossil.nbt
+  data/fossil_minecraft/worldgen/
+  data/fossil_minecraft/worldgen/configured_feature/
+  data/fossil_minecraft/worldgen/configured_feature/fossil_generation.json
+  data/fossil_minecraft/worldgen/placed_feature/
+  data/fossil_minecraft/worldgen/placed_feature/fossil_generation.json
+  data/minecraft/
+  data/minecraft/tags/
+  data/minecraft/tags/blocks/
+  data/minecraft/tags/blocks/mineable/
+  data/minecraft/tags/blocks/mineable/pickaxe.json
+  net/
+  net/mcreator/
+  net/mcreator/fossilminecraft/
+  net/mcreator/fossilminecraft/BattleSystem$ForgeBusEvents.class
+  net/mcreator/fossilminecraft/BattleSystem.class
+  net/mcreator/fossilminecraft/FossilMinecraftMod.class
+  net/mcreator/fossilminecraft/block/
+  net/mcreator/fossilminecraft/block/CleanerBlock$1.class
+  net/mcreator/fossilminecraft/block/CleanerBlock.class
+  net/mcreator/fossilminecraft/block/FossilBlock.class
+  net/mcreator/fossilminecraft/block/ReviverBlock$1.class
+  net/mcreator/fossilminecraft/block/ReviverBlock.class
+  net/mcreator/fossilminecraft/block/entity/
+  net/mcreator/fossilminecraft/block/entity/CleanerBlockEntity.class
+  net/mcreator/fossilminecraft/block/entity/ReviverBlockEntity.class
+  net/mcreator/fossilminecraft/client/
+  net/mcreator/fossilminecraft/client/gui/
+  net/mcreator/fossilminecraft/client/gui/CleanerGUIScreen.class
+  net/mcreator/fossilminecraft/client/gui/ReviverGUIScreen.class
+  net/mcreator/fossilminecraft/client/gui/ShanshanMedalGUIScreen.class
+  net/mcreator/fossilminecraft/client/gui/SonarUpgradeGUIScreen.class
+  net/mcreator/fossilminecraft/client/gui/TrexMedalGUIScreen.class
+  net/mcreator/fossilminecraft/client/model/
+  net/mcreator/fossilminecraft/client/model/ModelCarchar.class
+  net/mcreator/fossilminecraft/client/model/ModelSeidon.class
+  net/mcreator/fossilminecraft/client/model/ModelShanShan.class
+  net/mcreator/fossilminecraft/client/model/ModelTrex.class
+  net/mcreator/fossilminecraft/client/model/ModelURaptor.class
+  net/mcreator/fossilminecraft/client/model/ModelVraptor.class
+  net/mcreator/fossilminecraft/client/renderer/
+  net/mcreator/fossilminecraft/client/renderer/CarcharRenderer.class
+  net/mcreator/fossilminecraft/client/renderer/SeidonRenderer.class
+  net/mcreator/fossilminecraft/client/renderer/ShanShanRenderer.class
+  net/mcreator/fossilminecraft/client/renderer/TrexRenderer.class
+  net/mcreator/fossilminecraft/client/renderer/UraptorRenderer.class
+  net/mcreator/fossilminecraft/client/renderer/VraptorRenderer.class
+  net/mcreator/fossilminecraft/entity/
+  net/mcreator/fossilminecraft/entity/CarcharEntity$1.class
+  net/mcreator/fossilminecraft/entity/CarcharEntity.class
+  net/mcreator/fossilminecraft/entity/SeidonEntity$1.class
+  net/mcreator/fossilminecraft/entity/SeidonEntity.class
+  net/mcreator/fossilminecraft/entity/SeidonMedalEntity.class
+  net/mcreator/fossilminecraft/entity/ShanShanEntity$1.class
+  net/mcreator/fossilminecraft/entity/ShanShanEntity.class
+  net/mcreator/fossilminecraft/entity/ShanshanMedalEntity.class
+  net/mcreator/fossilminecraft/entity/TrexEntity$1.class
+  net/mcreator/fossilminecraft/entity/TrexEntity.class
+  net/mcreator/fossilminecraft/entity/TrexMedalEntity.class
+  net/mcreator/fossilminecraft/entity/UraptorEntity$1.class
+  net/mcreator/fossilminecraft/entity/UraptorEntity.class
+  net/mcreator/fossilminecraft/entity/UraptorMedalEntity.class
+  net/mcreator/fossilminecraft/entity/VraptorEntity$1.class
+  net/mcreator/fossilminecraft/entity/VraptorEntity.class
+  net/mcreator/fossilminecraft/entity/VraptorMedalEntity.class
+  net/mcreator/fossilminecraft/entity/model/
+  net/mcreator/fossilminecraft/entity/model/CarcharModel.class
+  net/mcreator/fossilminecraft/init/
+  net/mcreator/fossilminecraft/init/EntityAnimationFactory.class
+  net/mcreator/fossilminecraft/init/FossilMinecraftModBlockEntities.class
+  net/mcreator/fossilminecraft/init/FossilMinecraftModBlocks.class
+  net/mcreator/fossilminecraft/init/FossilMinecraftModEntities.class
+  net/mcreator/fossilminecraft/init/FossilMinecraftModEntityRenderers.class
+  net/mcreator/fossilminecraft/init/FossilMinecraftModFeatures.class
+  net/mcreator/fossilminecraft/init/FossilMinecraftModItems.class
+  net/mcreator/fossilminecraft/init/FossilMinecraftModMenus.class
+  net/mcreator/fossilminecraft/init/FossilMinecraftModModels.class
+  net/mcreator/fossilminecraft/init/FossilMinecraftModScreens.class
+  net/mcreator/fossilminecraft/init/FossilMinecraftModTabs.class
+  net/mcreator/fossilminecraft/item/
+  net/mcreator/fossilminecraft/item/AcroArmsBlankItem.class
+  net/mcreator/fossilminecraft/item/AcroArmsItem.class
+  net/mcreator/fossilminecraft/item/AcroBodyBlankItem.class
+  net/mcreator/fossilminecraft/item/AcroBodyItem.class
+  net/mcreator/fossilminecraft/item/AcroHeadBlankItem.class
+  net/mcreator/fossilminecraft/item/AcroHeadItem.class
+  net/mcreator/fossilminecraft/item/AcroLegsBlankItem.class
+  net/mcreator/fossilminecraft/item/AcroLegsItem.class
+  net/mcreator/fossilminecraft/item/AlectroArmsBlankItem.class
+  net/mcreator/fossilminecraft/item/AlectroArmsItem.class
+  net/mcreator/fossilminecraft/item/AlectroBodyBlankItem.class
+  net/mcreator/fossilminecraft/item/AlectroBodyItem.class
+  net/mcreator/fossilminecraft/item/AlectroHeadBlankItem.class
+  net/mcreator/fossilminecraft/item/AlectroHeadItem.class
+  net/mcreator/fossilminecraft/item/AlectroLegsBlankItem.class
+  net/mcreator/fossilminecraft/item/AlectroLegsItem.class
+  net/mcreator/fossilminecraft/item/AlioArmsBlankItem.class
+  net/mcreator/fossilminecraft/item/AlioArmsItem.class
+  net/mcreator/fossilminecraft/item/AlioBodyBlankItem.class
+  net/mcreator/fossilminecraft/item/AlioBodyItem.class
+  net/mcreator/fossilminecraft/item/AlioHeadBlankItem.class
+  net/mcreator/fossilminecraft/item/AlioHeadItem.class
+  net/mcreator/fossilminecraft/item/AlioLegsBlankItem.class
+  net/mcreator/fossilminecraft/item/AlioLegsItem.class
+  net/mcreator/fossilminecraft/item/AlloArmsBlankItem.class
+  net/mcreator/fossilminecraft/item/AlloArmsItem.class
+  net/mcreator/fossilminecraft/item/AlloBodyBlankItem.class
+  net/mcreator/fossilminecraft/item/AlloBodyItem.class
+  net/mcreator/fossilminecraft/item/AlloHeadBlankItem.class
+  net/mcreator/fossilminecraft/item/AlloHeadItem.class
+  net/mcreator/fossilminecraft/item/AlloLegsBlankItem.class
+  net/mcreator/fossilminecraft/item/AlloLegsItem.class
+  net/mcreator/fossilminecraft/item/CarcharArmsBlankItem.class
+  net/mcreator/fossilminecraft/item/CarcharArmsItem.class
+  net/mcreator/fossilminecraft/item/CarcharBodyBlankItem.class
+  net/mcreator/fossilminecraft/item/CarcharBodyItem.class
+  net/mcreator/fossilminecraft/item/CarcharHeadBlankItem.class
+  net/mcreator/fossilminecraft/item/CarcharHeadItem.class
+  net/mcreator/fossilminecraft/item/CarcharLegsBlankItem.class
+  net/mcreator/fossilminecraft/item/CarcharLegsItem.class
+  net/mcreator/fossilminecraft/item/CompsoArmsBlankItem.class
+  net/mcreator/fossilminecraft/item/CompsoArmsItem.class
+  net/mcreator/fossilminecraft/item/CompsoBodyBlankItem.class
+  net/mcreator/fossilminecraft/item/CompsoBodyItem.class
+  net/mcreator/fossilminecraft/item/CompsoHeadBlankItem.class
+  net/mcreator/fossilminecraft/item/CompsoHeadItem.class
+  net/mcreator/fossilminecraft/item/CompsoLegsBlankItem.class
+  net/mcreator/fossilminecraft/item/CompsoLegsItem.class
+  net/mcreator/fossilminecraft/item/CryoArmsBlankItem.class
+  net/mcreator/fossilminecraft/item/CryoArmsItem.class
+  net/mcreator/fossilminecraft/item/CryoBodyBlankItem.class
+  net/mcreator/fossilminecraft/item/CryoBodyItem.class
+  net/mcreator/fossilminecraft/item/CryoHeadBlankItem.class
+  net/mcreator/fossilminecraft/item/CryoHeadItem.class
+  net/mcreator/fossilminecraft/item/CryoLegsBlankItem.class
+  net/mcreator/fossilminecraft/item/CryoLegsItem.class
+  net/mcreator/fossilminecraft/item/DaspletoArmsBlankItem.class
+  net/mcreator/fossilminecraft/item/DaspletoArmsItem.class
+  net/mcreator/fossilminecraft/item/DaspletoBodyBlankItem.class
+  net/mcreator/fossilminecraft/item/DaspletoBodyItem.class
+  net/mcreator/fossilminecraft/item/DaspletoHeadBlankItem.class
+  net/mcreator/fossilminecraft/item/DaspletoHeadItem.class
+  net/mcreator/fossilminecraft/item/DaspletoLegsBlankItem.class
+  net/mcreator/fossilminecraft/item/DaspletoLegsItem.class
+  net/mcreator/fossilminecraft/item/DeltaArmsBlankItem.class
+  net/mcreator/fossilminecraft/item/DeltaArmsItem.class
+  net/mcreator/fossilminecraft/item/DeltaBodyBlankItem.class
+  net/mcreator/fossilminecraft/item/DeltaBodyItem.class
+  net/mcreator/fossilminecraft/item/DeltaHeadBlankItem.class
+  net/mcreator/fossilminecraft/item/DeltaHeadItem.class
+  net/mcreator/fossilminecraft/item/DeltaLegsBlankItem.class
+  net/mcreator/fossilminecraft/item/DeltaLegsItem.class
+  net/mcreator/fossilminecraft/item/DrillItem.class
+  net/mcreator/fossilminecraft/item/EmptyMedalItem.class
+  net/mcreator/fossilminecraft/item/FRaptorArmsBlankItem.class
+  net/mcreator/fossilminecraft/item/FRaptorArmsItem.class
+  net/mcreator/fossilminecraft/item/FRaptorBodyBlankItem.class
+  net/mcreator/fossilminecraft/item/FRaptorBodyItem.class
+  net/mcreator/fossilminecraft/item/FRaptorHeadBlankItem.class
+  net/mcreator/fossilminecraft/item/FRaptorHeadItem.class
+  net/mcreator/fossilminecraft/item/FRaptorLegsBlankItem.class
+  net/mcreator/fossilminecraft/item/FRaptorLegsItem.class
+  net/mcreator/fossilminecraft/item/GigantoArmsBlankItem.class
+  net/mcreator/fossilminecraft/item/GigantoArmsItem.class
+  net/mcreator/fossilminecraft/item/GigantoBodyBlankItem.class
+  net/mcreator/fossilminecraft/item/GigantoBodyItem.class
+  net/mcreator/fossilminecraft/item/GigantoHeadBlankItem.class
+  net/mcreator/fossilminecraft/item/GigantoHeadItem.class
+  net/mcreator/fossilminecraft/item/GigantoLegsBlankItem.class
+  net/mcreator/fossilminecraft/item/GigantoLegsItem.class
+  net/mcreator/fossilminecraft/item/GorgoArmsBlankItem.class
+  net/mcreator/fossilminecraft/item/GorgoArmsItem.class
+  net/mcreator/fossilminecraft/item/GorgoBodyBlankItem.class
+  net/mcreator/fossilminecraft/item/GorgoBodyItem.class
+  net/mcreator/fossilminecraft/item/GorgoHeadBlankItem.class
+  net/mcreator/fossilminecraft/item/GorgoHeadItem.class
+  net/mcreator/fossilminecraft/item/GorgoLegsBlankItem.class
+  net/mcreator/fossilminecraft/item/GorgoLegsItem.class
+  net/mcreator/fossilminecraft/item/GuanArmsBlankItem.class
+  net/mcreator/fossilminecraft/item/GuanArmsItem.class
+  net/mcreator/fossilminecraft/item/GuanBodyBlankItem.class
+  net/mcreator/fossilminecraft/item/GuanBodyItem.class
+  net/mcreator/fossilminecraft/item/GuanHeadBlankItem.class
+  net/mcreator/fossilminecraft/item/GuanHeadItem.class
+  net/mcreator/fossilminecraft/item/GuanLegsBlankItem.class
+  net/mcreator/fossilminecraft/item/GuanLegsItem.class
+  net/mcreator/fossilminecraft/item/HammerItem.class
+  net/mcreator/fossilminecraft/item/MRaptorArmsBlankItem.class
+  net/mcreator/fossilminecraft/item/MRaptorArmsItem.class
+  net/mcreator/fossilminecraft/item/MRaptorBodyBlankItem.class
+  net/mcreator/fossilminecraft/item/MRaptorBodyItem.class
+  net/mcreator/fossilminecraft/item/MRaptorHeadBlankItem.class
+  net/mcreator/fossilminecraft/item/MRaptorHeadItem.class
+  net/mcreator/fossilminecraft/item/MRaptorLegsBlankItem.class
+  net/mcreator/fossilminecraft/item/MRaptorLegsItem.class
+  net/mcreator/fossilminecraft/item/MegaloArmsBlankItem.class
+  net/mcreator/fossilminecraft/item/MegaloArmsItem.class
+  net/mcreator/fossilminecraft/item/MegaloBodyBlankItem.class
+  net/mcreator/fossilminecraft/item/MegaloBodyItem.class
+  net/mcreator/fossilminecraft/item/MegaloHeadBlankItem.class
+  net/mcreator/fossilminecraft/item/MegaloHeadItem.class
+  net/mcreator/fossilminecraft/item/MegaloLegsBlankItem.class
+  net/mcreator/fossilminecraft/item/MegaloLegsItem.class
+  net/mcreator/fossilminecraft/item/MetriaArmsBlankItem.class
+  net/mcreator/fossilminecraft/item/MetriaArmsItem.class
+  net/mcreator/fossilminecraft/item/MetriaBodyBlankItem.class
+  net/mcreator/fossilminecraft/item/MetriaBodyItem.class
+  net/mcreator/fossilminecraft/item/MetriaHeadBlankItem.class
+  net/mcreator/fossilminecraft/item/MetriaHeadItem.class
+  net/mcreator/fossilminecraft/item/MetriaLegsBlankItem.class
+  net/mcreator/fossilminecraft/item/MetriaLegsItem.class
+  net/mcreator/fossilminecraft/item/NeoArmsBlankItem.class
+  net/mcreator/fossilminecraft/item/NeoArmsItem.class
+  net/mcreator/fossilminecraft/item/NeoBodyBlankItem.class
+  net/mcreator/fossilminecraft/item/NeoBodyItem.class
+  net/mcreator/fossilminecraft/item/NeoHeadBlankItem.class
+  net/mcreator/fossilminecraft/item/NeoHeadItem.class
+  net/mcreator/fossilminecraft/item/NeoLegsBlankItem.class
+  net/mcreator/fossilminecraft/item/NeoLegsItem.class
+  net/mcreator/fossilminecraft/item/NychusArmsBlankItem.class
+  net/mcreator/fossilminecraft/item/NychusArmsItem.class
+  net/mcreator/fossilminecraft/item/NychusBodyBlankItem.class
+  net/mcreator/fossilminecraft/item/NychusBodyItem.class
+  net/mcreator/fossilminecraft/item/NychusHeadBlankItem.class
+  net/mcreator/fossilminecraft/item/NychusHeadItem.class
+  net/mcreator/fossilminecraft/item/NychusLegsBlankItem.class
+  net/mcreator/fossilminecraft/item/NychusLegsItem.class
+  net/mcreator/fossilminecraft/item/SRaptorArmsBlankItem.class
+  net/mcreator/fossilminecraft/item/SRaptorArmsItem.class
+  net/mcreator/fossilminecraft/item/SRaptorBodyBlankItem.class
+  net/mcreator/fossilminecraft/item/SRaptorBodyItem.class
+  net/mcreator/fossilminecraft/item/SRaptorHeadBlankItem.class
+  net/mcreator/fossilminecraft/item/SRaptorHeadItem.class
+  net/mcreator/fossilminecraft/item/SRaptorLegsBlankItem.class
+  net/mcreator/fossilminecraft/item/SRaptorLegsItem.class
+  net/mcreator/fossilminecraft/item/SeidonHeadFossilItem.class
+  net/mcreator/fossilminecraft/item/SeidonHeadItem.class
+  net/mcreator/fossilminecraft/item/SeidonMedalItem.class
+  net/mcreator/fossilminecraft/item/ShanshanArmsBlankItem.class
+  net/mcreator/fossilminecraft/item/ShanshanArmsItem.class
+  net/mcreator/fossilminecraft/item/ShanshanBodyBlankItem.class
+  net/mcreator/fossilminecraft/item/ShanshanBodyItem.class
+  net/mcreator/fossilminecraft/item/ShanshanFossilItem.class
+  net/mcreator/fossilminecraft/item/ShanshanHeadBlankItem.class
+  net/mcreator/fossilminecraft/item/ShanshanHeadItem.class
+  net/mcreator/fossilminecraft/item/ShanshanLegsBlankItem.class
+  net/mcreator/fossilminecraft/item/ShanshanLegsItem.class
+  net/mcreator/fossilminecraft/item/ShanshanMedalItem.class
+  net/mcreator/fossilminecraft/item/SiamoArmsBlankItem.class
+  net/mcreator/fossilminecraft/item/SiamoArmsItem.class
+  net/mcreator/fossilminecraft/item/SiamoBodyBlankItem.class
+  net/mcreator/fossilminecraft/item/SiamoBodyItem.class
+  net/mcreator/fossilminecraft/item/SiamoHeadBlankItem.class
+  net/mcreator/fossilminecraft/item/SiamoHeadItem.class
+  net/mcreator/fossilminecraft/item/SiamoLegsBlankItem.class
+  net/mcreator/fossilminecraft/item/SiamoLegsItem.class
+  net/mcreator/fossilminecraft/item/SonarItem.class
+  net/mcreator/fossilminecraft/item/SopteryxArmsBlankItem.class
+  net/mcreator/fossilminecraft/item/SopteryxArmsItem.class
+  net/mcreator/fossilminecraft/item/SopteryxBodyBlankItem.class
+  net/mcreator/fossilminecraft/item/SopteryxBodyItem.class
+  net/mcreator/fossilminecraft/item/SopteryxHeadBlankItem.class
+  net/mcreator/fossilminecraft/item/SopteryxHeadItem.class
+  net/mcreator/fossilminecraft/item/SopteryxLegsBlankItem.class
+  net/mcreator/fossilminecraft/item/SopteryxLegsItem.class
+  net/mcreator/fossilminecraft/item/SpinaxArmsBlankItem.class
+  net/mcreator/fossilminecraft/item/SpinaxArmsItem.class
+  net/mcreator/fossilminecraft/item/SpinaxBodyBlankItem.class
+  net/mcreator/fossilminecraft/item/SpinaxBodyItem.class
+  net/mcreator/fossilminecraft/item/SpinaxHeadBlankItem.class
+  net/mcreator/fossilminecraft/item/SpinaxHeadItem.class
+  net/mcreator/fossilminecraft/item/SpinaxLegsBlankItem.class
+  net/mcreator/fossilminecraft/item/SpinaxLegsItem.class
+  net/mcreator/fossilminecraft/item/SuperHammerItem.class
+  net/mcreator/fossilminecraft/item/TarboArmsBlankItem.class
+  net/mcreator/fossilminecraft/item/TarboArmsItem.class
+  net/mcreator/fossilminecraft/item/TarboBodyBlankItem.class
+  net/mcreator/fossilminecraft/item/TarboBodyItem.class
+  net/mcreator/fossilminecraft/item/TarboHeadBlankItem.class
+  net/mcreator/fossilminecraft/item/TarboHeadItem.class
+  net/mcreator/fossilminecraft/item/TarboLegsBlankItem.class
+  net/mcreator/fossilminecraft/item/TarboLegsItem.class
+  net/mcreator/fossilminecraft/item/TrexArmsBlankItem.class
+  net/mcreator/fossilminecraft/item/TrexArmsItem.class
+  net/mcreator/fossilminecraft/item/TrexBodyBlankItem.class
+  net/mcreator/fossilminecraft/item/TrexBodyItem.class
+  net/mcreator/fossilminecraft/item/TrexHeadBlankItem.class
+  net/mcreator/fossilminecraft/item/TrexHeadItem.class
+  net/mcreator/fossilminecraft/item/TrexLegsBlankItem.class
+  net/mcreator/fossilminecraft/item/TrexLegsItem.class
+  net/mcreator/fossilminecraft/item/TrexMedalItem.class
+  net/mcreator/fossilminecraft/item/TroArmsItem.class
+  net/mcreator/fossilminecraft/item/TroBodyItem.class
+  net/mcreator/fossilminecraft/item/TroHeadItem.class
+  net/mcreator/fossilminecraft/item/TroLegsItem.class
+  net/mcreator/fossilminecraft/item/UnknownFossilItem.class
+  net/mcreator/fossilminecraft/item/UraptorMedalItem.class
+  net/mcreator/fossilminecraft/item/VenatorArmsBlankItem.class
+  net/mcreator/fossilminecraft/item/VenatorArmsItem.class
+  net/mcreator/fossilminecraft/item/VenatorBodyBlankItem.class
+  net/mcreator/fossilminecraft/item/VenatorHeadBlankItem.class
+  net/mcreator/fossilminecraft/item/VenatorHeadItem.class
+  net/mcreator/fossilminecraft/item/VenatorLegsBlankItem.class
+  net/mcreator/fossilminecraft/item/VenatorLegsItem.class
+  net/mcreator/fossilminecraft/item/VentatorBodyItem.class
+  net/mcreator/fossilminecraft/item/VraptorMedalItem.class
+  net/mcreator/fossilminecraft/network/
+  net/mcreator/fossilminecraft/network/CleanerGUIButtonMessage.class
+  net/mcreator/fossilminecraft/network/FossilMinecraftModVariables$1.class
+  net/mcreator/fossilminecraft/network/FossilMinecraftModVariables$EventBusVariableHandlers.class
+  net/mcreator/fossilminecraft/network/FossilMinecraftModVariables$PlayerVariables.class
+  net/mcreator/fossilminecraft/network/FossilMinecraftModVariables$PlayerVariablesProvider.class
+  net/mcreator/fossilminecraft/network/FossilMinecraftModVariables$PlayerVariablesSyncMessage.class
+  net/mcreator/fossilminecraft/network/FossilMinecraftModVariables.class
+  net/mcreator/fossilminecraft/network/ReviverGUIButtonMessage.class
+  net/mcreator/fossilminecraft/network/ReviverGUISlotMessage.class
+  net/mcreator/fossilminecraft/procedures/
+  net/mcreator/fossilminecraft/procedures/CleanButtonProcedure$1.class
+  net/mcreator/fossilminecraft/procedures/CleanButtonProcedure$2.class
+  net/mcreator/fossilminecraft/procedures/CleanButtonProcedure$3.class
+  net/mcreator/fossilminecraft/procedures/CleanButtonProcedure$4.class
+  net/mcreator/fossilminecraft/procedures/CleanButtonProcedure.class
+  net/mcreator/fossilminecraft/procedures/CleanPercentageReturnProcedure$1.class
+  net/mcreator/fossilminecraft/procedures/CleanPercentageReturnProcedure.class
+  net/mcreator/fossilminecraft/procedures/FossilBlockDestroyedByPlayerProcedure$1.class
+  net/mcreator/fossilminecraft/procedures/FossilBlockDestroyedByPlayerProcedure.class
+  net/mcreator/fossilminecraft/procedures/ItemInsertedProcedureProcedure.class
+  net/mcreator/fossilminecraft/procedures/ItemTakenOutReviverProcedure.class
+  net/mcreator/fossilminecraft/procedures/RankReturnProcedure.class
+  net/mcreator/fossilminecraft/procedures/ReviverUpdateTickProcedure.class
+  net/mcreator/fossilminecraft/procedures/SeidonMedalProjectileHitsBlockProcedure.class
+  net/mcreator/fossilminecraft/procedures/SeidonMedalRangedItemUsedProcedure.class
+  net/mcreator/fossilminecraft/procedures/ShanshanGUIReturnProcedure.class
+  net/mcreator/fossilminecraft/procedures/ShanshanMedalEntitySwingsItemProcedure$1.class
+  net/mcreator/fossilminecraft/procedures/ShanshanMedalEntitySwingsItemProcedure.class
+  net/mcreator/fossilminecraft/procedures/ShanshanMedalProjectileHitsBlockProcedure.class
+  net/mcreator/fossilminecraft/procedures/ShanshanMedalRangedItemUsedProcedure.class
+  net/mcreator/fossilminecraft/procedures/SonarRightclickedProcedure$1.class
+  net/mcreator/fossilminecraft/procedures/SonarRightclickedProcedure.class
+  net/mcreator/fossilminecraft/procedures/TrexMedalEntitySwingsItemProcedure$1.class
+  net/mcreator/fossilminecraft/procedures/TrexMedalEntitySwingsItemProcedure.class
+  net/mcreator/fossilminecraft/procedures/TrexMedalGUIReturnProcedure.class
+  net/mcreator/fossilminecraft/procedures/TrexMedalProjectileHitsBlockProcedure.class
+  net/mcreator/fossilminecraft/procedures/TrexMedalRangedItemUsedProcedure.class
+  net/mcreator/fossilminecraft/procedures/TrexOnInitialEntitySpawnProcedure.class
+  net/mcreator/fossilminecraft/procedures/UraptorMedalProjectileHitsBlockProcedure.class
+  net/mcreator/fossilminecraft/procedures/UraptorMedalRangedItemUsedProcedure.class
+  net/mcreator/fossilminecraft/procedures/VraptorMedalProjectileHitsBlockProcedure.class
+  net/mcreator/fossilminecraft/procedures/VraptorMedalRangedItemUsedProcedure.class
+  net/mcreator/fossilminecraft/world/
+  net/mcreator/fossilminecraft/world/features/
+  net/mcreator/fossilminecraft/world/features/FossilGenerationFeature.class
+  net/mcreator/fossilminecraft/world/inventory/
+  net/mcreator/fossilminecraft/world/inventory/CleanerGUIMenu$1.class
+  net/mcreator/fossilminecraft/world/inventory/CleanerGUIMenu$2.class
+  net/mcreator/fossilminecraft/world/inventory/CleanerGUIMenu.class
+  net/mcreator/fossilminecraft/world/inventory/ReviverGUIMenu$1.class
+  net/mcreator/fossilminecraft/world/inventory/ReviverGUIMenu$2.class
+  net/mcreator/fossilminecraft/world/inventory/ReviverGUIMenu$3.class
+  net/mcreator/fossilminecraft/world/inventory/ReviverGUIMenu$4.class
+  net/mcreator/fossilminecraft/world/inventory/ReviverGUIMenu$5.class
+  net/mcreator/fossilminecraft/world/inventory/ReviverGUIMenu$6.class
+  net/mcreator/fossilminecraft/world/inventory/ReviverGUIMenu.class
+  net/mcreator/fossilminecraft/world/inventory/ShanshanMedalGUIMenu.class
+  net/mcreator/fossilminecraft/world/inventory/SonarUpgradeGUIMenu$1.class
+  net/mcreator/fossilminecraft/world/inventory/SonarUpgradeGUIMenu$2.class
+  net/mcreator/fossilminecraft/world/inventory/SonarUpgradeGUIMenu$3.class
+  net/mcreator/fossilminecraft/world/inventory/SonarUpgradeGUIMenu.class
+  net/mcreator/fossilminecraft/world/inventory/TrexMedalGUIMenu.class
+  pack.mcmeta

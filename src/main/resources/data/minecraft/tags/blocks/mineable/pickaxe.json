@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "fossil_minecraft:cleaner",
+    "fossil_minecraft:reviver",
+    "fossil_minecraft:fossil"
+  ]
+}

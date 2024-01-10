@@ -1,0 +1,46 @@
+{
+  "_fv": 47,
+  "_type": "rangeditem",
+  "definition": {
+    "renderType": 0,
+    "texture": "airtypedefault",
+    "customModelName": "Normal",
+    "name": "Shanshan Medal",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:FossilMinecraft"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": "CUSTOM:ShanshanMedal"
+    },
+    "shootConstantly": false,
+    "usageCount": 0,
+    "actionSound": {
+      "value": "entity.egg.throw"
+    },
+    "hasGlow": false,
+    "animation": "none",
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "onRangedItemUsed": {
+      "name": "ShanshanMedalRangedItemUsed"
+    },
+    "onEntitySwing": {
+      "name": "ShanshanMedalEntitySwingsItem"
+    },
+    "bulletPower": 0.5,
+    "bulletDamage": 0.0,
+    "bulletKnockback": 0,
+    "bulletParticles": false,
+    "bulletIgnitesFire": false,
+    "bulletItemTexture": {
+      "value": "CUSTOM:ShanshanMedal"
+    },
+    "bulletModel": "Default",
+    "customBulletModelTexture": "",
+    "onBulletHitsBlock": {
+      "name": "ShanshanMedalProjectileHitsBlock"
+    }
+  }
+}

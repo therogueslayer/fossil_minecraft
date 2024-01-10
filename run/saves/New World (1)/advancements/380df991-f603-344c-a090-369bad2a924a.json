@@ -1,0 +1,77 @@
+{
+  "minecraft:recipes/transportation/mangrove_boat": {
+    "criteria": {
+      "in_water": "2023-12-03 21:43:01 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2023-12-03 21:41:18 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/acacia_boat": {
+    "criteria": {
+      "in_water": "2023-12-03 21:43:01 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/cherry_boat": {
+    "criteria": {
+      "in_water": "2023-12-03 21:43:01 -0600"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:taiga": "2023-12-03 21:42:28 -0600",
+      "minecraft:frozen_river": "2023-12-03 21:41:39 -0600",
+      "minecraft:beach": "2023-12-03 21:42:30 -0600",
+      "minecraft:river": "2023-12-03 21:42:43 -0600",
+      "minecraft:snowy_taiga": "2023-12-03 21:41:30 -0600",
+      "minecraft:cold_ocean": "2023-12-03 21:42:27 -0600",
+      "minecraft:lush_caves": "2023-12-03 21:43:19 -0600",
+      "minecraft:frozen_ocean": "2023-12-03 21:42:03 -0600",
+      "minecraft:snowy_beach": "2023-12-03 21:41:19 -0600"
+    },
+    "done": false
+  },
+  "minecraft:recipes/transportation/bamboo_raft": {
+    "criteria": {
+      "in_water": "2023-12-03 21:43:01 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/spruce_boat": {
+    "criteria": {
+      "in_water": "2023-12-03 21:43:01 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/birch_boat": {
+    "criteria": {
+      "in_water": "2023-12-03 21:43:01 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/oak_boat": {
+    "criteria": {
+      "in_water": "2023-12-03 21:43:01 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/jungle_boat": {
+    "criteria": {
+      "in_water": "2023-12-03 21:43:01 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/dark_oak_boat": {
+    "criteria": {
+      "in_water": "2023-12-03 21:43:01 -0600"
+    },
+    "done": true
+  },
+  "DataVersion": 3465
+}

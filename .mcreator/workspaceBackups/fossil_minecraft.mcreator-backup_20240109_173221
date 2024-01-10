@@ -1,0 +1,5314 @@
+{
+  "mod_elements": [
+    {
+      "name": "Trex",
+      "type": "livingentity",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "trex",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fossil_minecraft/models/item/trex_spawn_egg.json",
+          "src/main/java/net/mcreator/fossilminecraft/client/renderer/TrexRenderer.java",
+          "src/main/resources/data/fossil_minecraft/forge/biome_modifier/trex_biome_modifier.json",
+          "src/main/java/net/mcreator/fossilminecraft/entity/TrexEntity.java"
+        ]
+      },
+      "path": "~/Entities"
+    },
+    {
+      "name": "FossilMinecraft",
+      "type": "tab",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fossil_minecraft",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "ShanShan",
+      "type": "livingentity",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shan_shan",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fossil_minecraft/forge/biome_modifier/shan_shan_biome_modifier.json",
+          "src/main/java/net/mcreator/fossilminecraft/entity/ShanShanEntity.java",
+          "src/main/resources/assets/fossil_minecraft/models/item/shan_shan_spawn_egg.json",
+          "src/main/java/net/mcreator/fossilminecraft/client/renderer/ShanShanRenderer.java"
+        ]
+      },
+      "path": "~/Entities"
+    },
+    {
+      "name": "Vraptor",
+      "type": "livingentity",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vraptor",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fossilminecraft/client/renderer/VraptorRenderer.java",
+          "src/main/resources/assets/fossil_minecraft/models/item/vraptor_spawn_egg.json",
+          "src/main/resources/data/fossil_minecraft/forge/biome_modifier/vraptor_biome_modifier.json",
+          "src/main/java/net/mcreator/fossilminecraft/entity/VraptorEntity.java"
+        ]
+      },
+      "path": "~/Entities"
+    },
+    {
+      "name": "TrexMedal",
+      "type": "rangeditem",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "trex_medal",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fossilminecraft/entity/TrexMedalEntity.java",
+          "src/main/resources/assets/fossil_minecraft/models/item/trex_medal.json",
+          "src/main/java/net/mcreator/fossilminecraft/item/TrexMedalItem.java"
+        ]
+      },
+      "path": "~/Medals/001-Trex"
+    },
+    {
+      "name": "TrexMedalProjectileHitsBlock",
+      "type": "procedure",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "trex_medal_projectile_hits_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fossilminecraft/procedures/TrexMedalProjectileHitsBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Medals/001-Trex"
+    },
+    {
+      "name": "TrexMedalRangedItemUsed",
+      "type": "procedure",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "trex_medal_ranged_item_used",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fossilminecraft/procedures/TrexMedalRangedItemUsedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Medals/001-Trex"
+    },
+    {
+      "name": "ShanshanMedal",
+      "type": "rangeditem",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shanshan_medal",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fossilminecraft/item/ShanshanMedalItem.java",
+          "src/main/resources/assets/fossil_minecraft/models/item/shanshan_medal.json",
+          "src/main/java/net/mcreator/fossilminecraft/entity/ShanshanMedalEntity.java"
+        ]
+      },
+      "path": "~/Medals/009-Shanshan"
+    },
+    {
+      "name": "ShanshanMedalProjectileHitsBlock",
+      "type": "procedure",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shanshan_medal_projectile_hits_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fossilminecraft/procedures/ShanshanMedalProjectileHitsBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Medals/009-Shanshan"
+    },
+    {
+      "name": "ShanshanMedalRangedItemUsed",
+      "type": "procedure",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shanshan_medal_ranged_item_used",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fossilminecraft/procedures/ShanshanMedalRangedItemUsedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Medals/009-Shanshan"
+    },
+    {
+      "name": "VraptorMedal",
+      "type": "rangeditem",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vraptor_medal",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fossil_minecraft/models/item/vraptor_medal.json",
+          "src/main/java/net/mcreator/fossilminecraft/entity/VraptorMedalEntity.java",
+          "src/main/java/net/mcreator/fossilminecraft/item/VraptorMedalItem.java"
+        ]
+      },
+      "path": "~/Medals"
+    },
+    {
+      "name": "VraptorMedalProjectileHitsBlock",
+      "type": "procedure",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vraptor_medal_projectile_hits_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fossilminecraft/procedures/VraptorMedalProjectileHitsBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Medals"
+    },
+    {
+      "name": "VraptorMedalRangedItemUsed",
+      "type": "procedure",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vraptor_medal_ranged_item_used",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fossilminecraft/procedures/VraptorMedalRangedItemUsedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Medals"
+    },
+    {
+      "name": "Seidon",
+      "type": "livingentity",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "seidon",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fossil_minecraft/forge/biome_modifier/seidon_biome_modifier.json",
+          "src/main/java/net/mcreator/fossilminecraft/entity/SeidonEntity.java",
+          "src/main/resources/assets/fossil_minecraft/models/item/seidon_spawn_egg.json",
+          "src/main/java/net/mcreator/fossilminecraft/client/renderer/SeidonRenderer.java"
+        ]
+      },
+      "path": "~/Entities"
+    },
+    {
+      "name": "SeidonMedal",
+      "type": "rangeditem",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "seidon_medal",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fossilminecraft/item/SeidonMedalItem.java",
+          "src/main/java/net/mcreator/fossilminecraft/entity/SeidonMedalEntity.java",
+          "src/main/resources/assets/fossil_minecraft/models/item/seidon_medal.json"
+        ]
+      },
+      "path": "~/Medals"
+    },
+    {
+      "name": "SeidonMedalRangedItemUsed",
+      "type": "procedure",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "seidon_medal_ranged_item_used",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fossilminecraft/procedures/SeidonMedalRangedItemUsedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Medals"
+    },
+    {
+      "name": "SeidonMedalProjectileHitsBlock",
+      "type": "procedure",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "seidon_medal_projectile_hits_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fossilminecraft/procedures/SeidonMedalProjectileHitsBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Medals"
+    },
+    {
+      "name": "CleanerGUI",
+      "type": "gui",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cleaner_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fossilminecraft/network/CleanerGUIButtonMessage.java",
+          "src/main/java/net/mcreator/fossilminecraft/world/inventory/CleanerGUIMenu.java",
+          "src/main/java/net/mcreator/fossilminecraft/client/gui/CleanerGUIScreen.java"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "Cleaner",
+      "type": "block",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cleaner",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fossil_minecraft/blockstates/cleaner.json",
+          "src/main/resources/assets/fossil_minecraft/models/block/cleaner.json",
+          "src/main/java/net/mcreator/fossilminecraft/block/entity/CleanerBlockEntity.java",
+          "src/main/resources/assets/fossil_minecraft/models/item/cleaner.json",
+          "src/main/java/net/mcreator/fossilminecraft/block/CleanerBlock.java"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "UnknownFossil",
+      "type": "item",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unknown_fossil",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fossilminecraft/item/UnknownFossilItem.java",
+          "src/main/resources/assets/fossil_minecraft/models/item/unknown_fossil.json"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/001-T-Rex"
+    },
+    {
+      "name": "CleanButton",
+      "type": "procedure",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "clean_button",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fossilminecraft/procedures/CleanButtonProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "ShanshanFossil",
+      "type": "item",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shanshan_fossil",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fossilminecraft/item/ShanshanFossilItem.java",
+          "src/main/resources/assets/fossil_minecraft/models/item/shanshan_fossil.json"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/009-Shanshan"
+    },
+    {
+      "name": "CleanerRecipe",
+      "type": "recipe",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cleaner_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fossil_minecraft/recipes/cleaner_recipe.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "Reviver",
+      "type": "block",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reviver",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fossil_minecraft/models/block/reviver.json",
+          "src/main/java/net/mcreator/fossilminecraft/block/ReviverBlock.java",
+          "src/main/resources/assets/fossil_minecraft/models/item/reviver.json",
+          "src/main/java/net/mcreator/fossilminecraft/block/entity/ReviverBlockEntity.java",
+          "src/main/resources/assets/fossil_minecraft/blockstates/reviver.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "Fossil",
+      "type": "block",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fossil",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fossil_minecraft/models/item/fossil.json",
+          "src/main/resources/assets/fossil_minecraft/blockstates/fossil.json",
+          "src/main/resources/assets/fossil_minecraft/models/block/fossil.json",
+          "src/main/java/net/mcreator/fossilminecraft/block/FossilBlock.java"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "TrexHead",
+      "type": "item",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "trex_head",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fossilminecraft/item/TrexHeadItem.java",
+          "src/main/resources/assets/fossil_minecraft/models/item/trex_head.json"
+        ]
+      },
+      "path": "~/Cleaned Fossils/001-T-Rex"
+    },
+    {
+      "name": "ShanshanHead",
+      "type": "item",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shanshan_head",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fossilminecraft/item/ShanshanHeadItem.java",
+          "src/main/resources/assets/fossil_minecraft/models/item/shanshan_head.json"
+        ]
+      },
+      "path": "~/Cleaned Fossils/Shanshan"
+    },
+    {
+      "name": "EmptyMedal",
+      "type": "item",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "empty_medal",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fossilminecraft/item/EmptyMedalItem.java",
+          "src/main/resources/assets/fossil_minecraft/models/item/empty_medal.json"
+        ]
+      },
+      "path": "~/Medals"
+    },
+    {
+      "name": "ReviverGUI",
+      "type": "gui",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reviver_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fossilminecraft/client/gui/ReviverGUIScreen.java",
+          "src/main/java/net/mcreator/fossilminecraft/world/inventory/ReviverGUIMenu.java",
+          "src/main/java/net/mcreator/fossilminecraft/network/ReviverGUISlotMessage.java",
+          "src/main/java/net/mcreator/fossilminecraft/network/ReviverGUIButtonMessage.java"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "ItemTakenOutReviver",
+      "type": "procedure",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "item_taken_out_reviver",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fossilminecraft/procedures/ItemTakenOutReviverProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "ReviverUpdateTick",
+      "type": "procedure",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reviver_update_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fossilminecraft/procedures/ReviverUpdateTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "ItemInsertedProcedure",
+      "type": "procedure",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "item_inserted_procedure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fossilminecraft/procedures/ItemInsertedProcedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "Drill",
+      "type": "item",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "drill",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fossil_minecraft/models/item/drill.json",
+          "src/main/java/net/mcreator/fossilminecraft/item/DrillItem.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "Hammer",
+      "type": "item",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hammer",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fossil_minecraft/models/item/hammer.json",
+          "src/main/java/net/mcreator/fossilminecraft/item/HammerItem.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "SuperHammer",
+      "type": "item",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "super_hammer",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fossil_minecraft/models/item/super_hammer.json",
+          "src/main/java/net/mcreator/fossilminecraft/item/SuperHammerItem.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "Uraptor",
+      "type": "livingentity",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uraptor",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fossilminecraft/client/renderer/UraptorRenderer.java",
+          "src/main/java/net/mcreator/fossilminecraft/entity/UraptorEntity.java",
+          "src/main/resources/assets/fossil_minecraft/models/item/uraptor_spawn_egg.json",
+          "src/main/resources/data/fossil_minecraft/forge/biome_modifier/uraptor_biome_modifier.json"
+        ]
+      },
+      "path": "~/Entities"
+    },
+    {
+      "name": "HammerRecipe",
+      "type": "recipe",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hammer_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fossil_minecraft/recipes/hammer_recipe.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "DrillRecipe",
+      "type": "recipe",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "drill_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fossil_minecraft/recipes/drill_recipe.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "SuperHammerRecipe",
+      "type": "recipe",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "super_hammer_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fossil_minecraft/recipes/super_hammer_recipe.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "SonarRightclicked",
+      "type": "procedure",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sonar_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fossilminecraft/procedures/SonarRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "Sonar",
+      "type": "item",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sonar",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fossilminecraft/item/SonarItem.java",
+          "src/main/resources/assets/fossil_minecraft/models/item/sonar.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "SeidonHead",
+      "type": "item",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "seidon_head",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fossilminecraft/item/SeidonHeadItem.java",
+          "src/main/resources/assets/fossil_minecraft/models/item/seidon_head.json"
+        ]
+      },
+      "path": "~/Cleaned Fossils/Seidon"
+    },
+    {
+      "name": "UraptorMedal",
+      "type": "rangeditem",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uraptor_medal",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fossilminecraft/entity/UraptorMedalEntity.java",
+          "src/main/resources/assets/fossil_minecraft/models/item/uraptor_medal.json",
+          "src/main/java/net/mcreator/fossilminecraft/item/UraptorMedalItem.java"
+        ]
+      },
+      "path": "~/Medals"
+    },
+    {
+      "name": "UraptorMedalRangedItemUsed",
+      "type": "procedure",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uraptor_medal_ranged_item_used",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fossilminecraft/procedures/UraptorMedalRangedItemUsedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Medals"
+    },
+    {
+      "name": "UraptorMedalProjectileHitsBlock",
+      "type": "procedure",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uraptor_medal_projectile_hits_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fossilminecraft/procedures/UraptorMedalProjectileHitsBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Medals"
+    },
+    {
+      "name": "SonarUpgradeGUI",
+      "type": "gui",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sonar_upgrade_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fossilminecraft/client/gui/SonarUpgradeGUIScreen.java",
+          "src/main/java/net/mcreator/fossilminecraft/world/inventory/SonarUpgradeGUIMenu.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "FossilBlockDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fossil_block_destroyed_by_player",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fossilminecraft/procedures/FossilBlockDestroyedByPlayerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "SeidonHeadFossil",
+      "type": "item",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "seidon_head_fossil",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fossil_minecraft/models/item/seidon_head_fossil.json",
+          "src/main/java/net/mcreator/fossilminecraft/item/SeidonHeadFossilItem.java"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/113-Seidon"
+    },
+    {
+      "name": "FossilMinecraftFossils",
+      "type": "tab",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fossil_minecraft_fossils",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "TrexBody",
+      "type": "item",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "trex_body",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fossilminecraft/item/TrexBodyItem.java",
+          "src/main/resources/assets/fossil_minecraft/models/item/trex_body.json"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/001-T-Rex"
+    },
+    {
+      "name": "TrexArms",
+      "type": "item",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "trex_arms",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fossilminecraft/item/TrexArmsItem.java",
+          "src/main/resources/assets/fossil_minecraft/models/item/trex_arms.json"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/001-T-Rex"
+    },
+    {
+      "name": "TrexLegs",
+      "type": "item",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "trex_legs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fossil_minecraft/models/item/trex_legs.json",
+          "src/main/java/net/mcreator/fossilminecraft/item/TrexLegsItem.java"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/001-T-Rex"
+    },
+    {
+      "name": "DaspletoHead",
+      "type": "item",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "daspleto_head",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fossilminecraft/item/DaspletoHeadItem.java",
+          "src/main/resources/assets/fossil_minecraft/models/item/daspleto_head.json"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/002-Daspleto"
+    },
+    {
+      "name": "DaspletoBody",
+      "type": "item",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "daspleto_body",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fossilminecraft/item/DaspletoBodyItem.java",
+          "src/main/resources/assets/fossil_minecraft/models/item/daspleto_body.json"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/002-Daspleto"
+    },
+    {
+      "name": "DaspletoArms",
+      "type": "item",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "daspleto_arms",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fossilminecraft/item/DaspletoArmsItem.java",
+          "src/main/resources/assets/fossil_minecraft/models/item/daspleto_arms.json"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/002-Daspleto"
+    },
+    {
+      "name": "DaspletoLegs",
+      "type": "item",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "daspleto_legs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fossil_minecraft/models/item/daspleto_legs.json",
+          "src/main/java/net/mcreator/fossilminecraft/item/DaspletoLegsItem.java"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/002-Daspleto"
+    },
+    {
+      "name": "GorgoHead",
+      "type": "item",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gorgo_head",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fossil_minecraft/models/item/gorgo_head.json",
+          "src/main/java/net/mcreator/fossilminecraft/item/GorgoHeadItem.java"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/003-Gorgo"
+    },
+    {
+      "name": "GorgoBody",
+      "type": "item",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gorgo_body",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fossil_minecraft/models/item/gorgo_body.json",
+          "src/main/java/net/mcreator/fossilminecraft/item/GorgoBodyItem.java"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/003-Gorgo"
+    },
+    {
+      "name": "GorgoArms",
+      "type": "item",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gorgo_arms",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fossil_minecraft/models/item/gorgo_arms.json",
+          "src/main/java/net/mcreator/fossilminecraft/item/GorgoArmsItem.java"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/003-Gorgo"
+    },
+    {
+      "name": "GorgoLegs",
+      "type": "item",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gorgo_legs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fossil_minecraft/models/item/gorgo_legs.json",
+          "src/main/java/net/mcreator/fossilminecraft/item/GorgoLegsItem.java"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/003-Gorgo"
+    },
+    {
+      "name": "TarboHead",
+      "type": "item",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tarbo_head",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fossilminecraft/item/TarboHeadItem.java",
+          "src/main/resources/assets/fossil_minecraft/models/item/tarbo_head.json"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/004-Tarbo"
+    },
+    {
+      "name": "TarboBody",
+      "type": "item",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tarbo_body",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fossilminecraft/item/TarboBodyItem.java",
+          "src/main/resources/assets/fossil_minecraft/models/item/tarbo_body.json"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/004-Tarbo"
+    },
+    {
+      "name": "TarboArms",
+      "type": "item",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tarbo_arms",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fossilminecraft/item/TarboArmsItem.java",
+          "src/main/resources/assets/fossil_minecraft/models/item/tarbo_arms.json"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/004-Tarbo"
+    },
+    {
+      "name": "TarboLegs",
+      "type": "item",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tarbo_legs",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fossilminecraft/item/TarboLegsItem.java",
+          "src/main/resources/assets/fossil_minecraft/models/item/tarbo_legs.json"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/004-Tarbo"
+    },
+    {
+      "name": "AlioHead",
+      "type": "item",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alio_head",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fossil_minecraft/models/item/alio_head.json",
+          "src/main/java/net/mcreator/fossilminecraft/item/AlioHeadItem.java"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/005-Alio"
+    },
+    {
+      "name": "AlioBody",
+      "type": "item",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alio_body",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fossilminecraft/item/AlioBodyItem.java",
+          "src/main/resources/assets/fossil_minecraft/models/item/alio_body.json"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/005-Alio"
+    },
+    {
+      "name": "AlioArms",
+      "type": "item",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alio_arms",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fossilminecraft/item/AlioArmsItem.java",
+          "src/main/resources/assets/fossil_minecraft/models/item/alio_arms.json"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/005-Alio"
+    },
+    {
+      "name": "AlioLegs",
+      "type": "item",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alio_legs",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fossilminecraft/item/AlioLegsItem.java",
+          "src/main/resources/assets/fossil_minecraft/models/item/alio_legs.json"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/005-Alio"
+    },
+    {
+      "name": "SiamoHead",
+      "type": "item",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "siamo_head",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fossil_minecraft/models/item/siamo_head.json",
+          "src/main/java/net/mcreator/fossilminecraft/item/SiamoHeadItem.java"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/006-Siamo"
+    },
+    {
+      "name": "SiamoBody",
+      "type": "item",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "siamo_body",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fossil_minecraft/models/item/siamo_body.json",
+          "src/main/java/net/mcreator/fossilminecraft/item/SiamoBodyItem.java"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/006-Siamo"
+    },
+    {
+      "name": "SiamoArms",
+      "type": "item",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "siamo_arms",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fossil_minecraft/models/item/siamo_arms.json",
+          "src/main/java/net/mcreator/fossilminecraft/item/SiamoArmsItem.java"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/006-Siamo"
+    },
+    {
+      "name": "SiamoLegs",
+      "type": "item",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "siamo_legs",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fossilminecraft/item/SiamoLegsItem.java",
+          "src/main/resources/assets/fossil_minecraft/models/item/siamo_legs.json"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/006-Siamo"
+    },
+    {
+      "name": "TrexHeadBlank",
+      "type": "item",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "trex_head_blank",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fossil_minecraft/models/item/trex_head_blank.json",
+          "src/main/java/net/mcreator/fossilminecraft/item/TrexHeadBlankItem.java"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/001-T-Rex"
+    },
+    {
+      "name": "TrexBodyBlank",
+      "type": "item",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "trex_body_blank",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fossilminecraft/item/TrexBodyBlankItem.java",
+          "src/main/resources/assets/fossil_minecraft/models/item/trex_body_blank.json"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/001-T-Rex"
+    },
+    {
+      "name": "TrexArmsBlank",
+      "type": "item",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "trex_arms_blank",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fossil_minecraft/models/item/trex_arms_blank.json",
+          "src/main/java/net/mcreator/fossilminecraft/item/TrexArmsBlankItem.java"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/001-T-Rex"
+    },
+    {
+      "name": "TrexLegsBlank",
+      "type": "item",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "trex_legs_blank",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fossil_minecraft/models/item/trex_legs_blank.json",
+          "src/main/java/net/mcreator/fossilminecraft/item/TrexLegsBlankItem.java"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/001-T-Rex"
+    },
+    {
+      "name": "DaspletoHeadBlank",
+      "type": "item",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "daspleto_head_blank",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fossilminecraft/item/DaspletoHeadBlankItem.java",
+          "src/main/resources/assets/fossil_minecraft/models/item/daspleto_head_blank.json"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/002-Daspleto"
+    },
+    {
+      "name": "DaspletoBodyBlank",
+      "type": "item",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "daspleto_body_blank",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fossil_minecraft/models/item/daspleto_body_blank.json",
+          "src/main/java/net/mcreator/fossilminecraft/item/DaspletoBodyBlankItem.java"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/002-Daspleto"
+    },
+    {
+      "name": "DaspletoArmsBlank",
+      "type": "item",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "daspleto_arms_blank",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fossil_minecraft/models/item/daspleto_arms_blank.json",
+          "src/main/java/net/mcreator/fossilminecraft/item/DaspletoArmsBlankItem.java"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/002-Daspleto"
+    },
+    {
+      "name": "DaspletoLegsBlank",
+      "type": "item",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "daspleto_legs_blank",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fossilminecraft/item/DaspletoLegsBlankItem.java",
+          "src/main/resources/assets/fossil_minecraft/models/item/daspleto_legs_blank.json"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/002-Daspleto"
+    },
+    {
+      "name": "GorgoHeadBlank",
+      "type": "item",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gorgo_head_blank",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fossilminecraft/item/GorgoHeadBlankItem.java",
+          "src/main/resources/assets/fossil_minecraft/models/item/gorgo_head_blank.json"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/003-Gorgo"
+    },
+    {
+      "name": "GorgoBodyBlank",
+      "type": "item",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gorgo_body_blank",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fossilminecraft/item/GorgoBodyBlankItem.java",
+          "src/main/resources/assets/fossil_minecraft/models/item/gorgo_body_blank.json"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/003-Gorgo"
+    },
+    {
+      "name": "GorgoArmsBlank",
+      "type": "item",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gorgo_arms_blank",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fossilminecraft/item/GorgoArmsBlankItem.java",
+          "src/main/resources/assets/fossil_minecraft/models/item/gorgo_arms_blank.json"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/003-Gorgo"
+    },
+    {
+      "name": "GorgoLegsBlank",
+      "type": "item",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gorgo_legs_blank",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fossil_minecraft/models/item/gorgo_legs_blank.json",
+          "src/main/java/net/mcreator/fossilminecraft/item/GorgoLegsBlankItem.java"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/003-Gorgo"
+    },
+    {
+      "name": "TarboHeadBlank",
+      "type": "item",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tarbo_head_blank",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fossilminecraft/item/TarboHeadBlankItem.java",
+          "src/main/resources/assets/fossil_minecraft/models/item/tarbo_head_blank.json"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/004-Tarbo"
+    },
+    {
+      "name": "TarboBodyBlank",
+      "type": "item",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tarbo_body_blank",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fossilminecraft/item/TarboBodyBlankItem.java",
+          "src/main/resources/assets/fossil_minecraft/models/item/tarbo_body_blank.json"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/004-Tarbo"
+    },
+    {
+      "name": "TarboArmsBlank",
+      "type": "item",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tarbo_arms_blank",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fossilminecraft/item/TarboArmsBlankItem.java",
+          "src/main/resources/assets/fossil_minecraft/models/item/tarbo_arms_blank.json"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/004-Tarbo"
+    },
+    {
+      "name": "TarboLegsBlank",
+      "type": "item",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tarbo_legs_blank",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fossil_minecraft/models/item/tarbo_legs_blank.json",
+          "src/main/java/net/mcreator/fossilminecraft/item/TarboLegsBlankItem.java"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/004-Tarbo"
+    },
+    {
+      "name": "AlioHeadBlank",
+      "type": "item",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alio_head_blank",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fossil_minecraft/models/item/alio_head_blank.json",
+          "src/main/java/net/mcreator/fossilminecraft/item/AlioHeadBlankItem.java"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/005-Alio"
+    },
+    {
+      "name": "AlioBodyBlank",
+      "type": "item",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alio_body_blank",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fossilminecraft/item/AlioBodyBlankItem.java",
+          "src/main/resources/assets/fossil_minecraft/models/item/alio_body_blank.json"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/005-Alio"
+    },
+    {
+      "name": "AlioArmsBlank",
+      "type": "item",
+      "sortid": 101,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alio_arms_blank",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fossil_minecraft/models/item/alio_arms_blank.json",
+          "src/main/java/net/mcreator/fossilminecraft/item/AlioArmsBlankItem.java"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/005-Alio"
+    },
+    {
+      "name": "AlioLegsBlank",
+      "type": "item",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alio_legs_blank",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fossilminecraft/item/AlioLegsBlankItem.java",
+          "src/main/resources/assets/fossil_minecraft/models/item/alio_legs_blank.json"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/005-Alio"
+    },
+    {
+      "name": "SiamoHeadBlank",
+      "type": "item",
+      "sortid": 103,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "siamo_head_blank",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fossil_minecraft/models/item/siamo_head_blank.json",
+          "src/main/java/net/mcreator/fossilminecraft/item/SiamoHeadBlankItem.java"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/006-Siamo"
+    },
+    {
+      "name": "SiamoBodyBlank",
+      "type": "item",
+      "sortid": 104,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "siamo_body_blank",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fossil_minecraft/models/item/siamo_body_blank.json",
+          "src/main/java/net/mcreator/fossilminecraft/item/SiamoBodyBlankItem.java"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/006-Siamo"
+    },
+    {
+      "name": "SiamoArmsBlank",
+      "type": "item",
+      "sortid": 105,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "siamo_arms_blank",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fossilminecraft/item/SiamoArmsBlankItem.java",
+          "src/main/resources/assets/fossil_minecraft/models/item/siamo_arms_blank.json"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/006-Siamo"
+    },
+    {
+      "name": "SiamoLegsBlank",
+      "type": "item",
+      "sortid": 106,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "siamo_legs_blank",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fossil_minecraft/models/item/siamo_legs_blank.json",
+          "src/main/java/net/mcreator/fossilminecraft/item/SiamoLegsBlankItem.java"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/006-Siamo"
+    },
+    {
+      "name": "AlectroHead",
+      "type": "item",
+      "sortid": 107,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alectro_head",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fossil_minecraft/models/item/alectro_head.json",
+          "src/main/java/net/mcreator/fossilminecraft/item/AlectroHeadItem.java"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/007-Alectro"
+    },
+    {
+      "name": "AlectroBody",
+      "type": "item",
+      "sortid": 108,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alectro_body",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fossilminecraft/item/AlectroBodyItem.java",
+          "src/main/resources/assets/fossil_minecraft/models/item/alectro_body.json"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/007-Alectro"
+    },
+    {
+      "name": "AlectroArms",
+      "type": "item",
+      "sortid": 109,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alectro_arms",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fossilminecraft/item/AlectroArmsItem.java",
+          "src/main/resources/assets/fossil_minecraft/models/item/alectro_arms.json"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/007-Alectro"
+    },
+    {
+      "name": "AlectroLegs",
+      "type": "item",
+      "sortid": 110,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alectro_legs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fossil_minecraft/models/item/alectro_legs.json",
+          "src/main/java/net/mcreator/fossilminecraft/item/AlectroLegsItem.java"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/007-Alectro"
+    },
+    {
+      "name": "AlectroHeadBlank",
+      "type": "item",
+      "sortid": 111,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alectro_head_blank",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fossil_minecraft/models/item/alectro_head_blank.json",
+          "src/main/java/net/mcreator/fossilminecraft/item/AlectroHeadBlankItem.java"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/007-Alectro"
+    },
+    {
+      "name": "AlectroBodyBlank",
+      "type": "item",
+      "sortid": 112,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alectro_body_blank",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fossilminecraft/item/AlectroBodyBlankItem.java",
+          "src/main/resources/assets/fossil_minecraft/models/item/alectro_body_blank.json"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/007-Alectro"
+    },
+    {
+      "name": "AlectroArmsBlank",
+      "type": "item",
+      "sortid": 113,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alectro_arms_blank",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fossil_minecraft/models/item/alectro_arms_blank.json",
+          "src/main/java/net/mcreator/fossilminecraft/item/AlectroArmsBlankItem.java"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/007-Alectro"
+    },
+    {
+      "name": "AlectroLegsBlank",
+      "type": "item",
+      "sortid": 114,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alectro_legs_blank",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fossilminecraft/item/AlectroLegsBlankItem.java",
+          "src/main/resources/assets/fossil_minecraft/models/item/alectro_legs_blank.json"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/007-Alectro"
+    },
+    {
+      "name": "GuanHead",
+      "type": "item",
+      "sortid": 115,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "guan_head",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fossil_minecraft/models/item/guan_head.json",
+          "src/main/java/net/mcreator/fossilminecraft/item/GuanHeadItem.java"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/008-Guan"
+    },
+    {
+      "name": "GuanBody",
+      "type": "item",
+      "sortid": 116,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "guan_body",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fossilminecraft/item/GuanBodyItem.java",
+          "src/main/resources/assets/fossil_minecraft/models/item/guan_body.json"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/008-Guan"
+    },
+    {
+      "name": "GuanArms",
+      "type": "item",
+      "sortid": 117,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "guan_arms",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fossilminecraft/item/GuanArmsItem.java",
+          "src/main/resources/assets/fossil_minecraft/models/item/guan_arms.json"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/008-Guan"
+    },
+    {
+      "name": "GuanLegs",
+      "type": "item",
+      "sortid": 118,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "guan_legs",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fossilminecraft/item/GuanLegsItem.java",
+          "src/main/resources/assets/fossil_minecraft/models/item/guan_legs.json"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/008-Guan"
+    },
+    {
+      "name": "GuanHeadBlank",
+      "type": "item",
+      "sortid": 119,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "guan_head_blank",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fossil_minecraft/models/item/guan_head_blank.json",
+          "src/main/java/net/mcreator/fossilminecraft/item/GuanHeadBlankItem.java"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/008-Guan"
+    },
+    {
+      "name": "GuanBodyBlank",
+      "type": "item",
+      "sortid": 120,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "guan_body_blank",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fossilminecraft/item/GuanBodyBlankItem.java",
+          "src/main/resources/assets/fossil_minecraft/models/item/guan_body_blank.json"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/008-Guan"
+    },
+    {
+      "name": "GuanArmsBlank",
+      "type": "item",
+      "sortid": 121,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "guan_arms_blank",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fossilminecraft/item/GuanArmsBlankItem.java",
+          "src/main/resources/assets/fossil_minecraft/models/item/guan_arms_blank.json"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/008-Guan"
+    },
+    {
+      "name": "GuanLegsBlank",
+      "type": "item",
+      "sortid": 122,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "guan_legs_blank",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fossilminecraft/item/GuanLegsBlankItem.java",
+          "src/main/resources/assets/fossil_minecraft/models/item/guan_legs_blank.json"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/008-Guan"
+    },
+    {
+      "name": "ShanshanBody",
+      "type": "item",
+      "sortid": 123,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shanshan_body",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fossil_minecraft/models/item/shanshan_body.json",
+          "src/main/java/net/mcreator/fossilminecraft/item/ShanshanBodyItem.java"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/009-Shanshan"
+    },
+    {
+      "name": "ShanshanArms",
+      "type": "item",
+      "sortid": 124,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shanshan_arms",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fossil_minecraft/models/item/shanshan_arms.json",
+          "src/main/java/net/mcreator/fossilminecraft/item/ShanshanArmsItem.java"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/009-Shanshan"
+    },
+    {
+      "name": "ShanshanLegs",
+      "type": "item",
+      "sortid": 125,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shanshan_legs",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fossilminecraft/item/ShanshanLegsItem.java",
+          "src/main/resources/assets/fossil_minecraft/models/item/shanshan_legs.json"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/009-Shanshan"
+    },
+    {
+      "name": "ShanshanHeadBlank",
+      "type": "item",
+      "sortid": 126,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shanshan_head_blank",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fossilminecraft/item/ShanshanHeadBlankItem.java",
+          "src/main/resources/assets/fossil_minecraft/models/item/shanshan_head_blank.json"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/009-Shanshan"
+    },
+    {
+      "name": "ShanshanBodyBlank",
+      "type": "item",
+      "sortid": 127,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shanshan_body_blank",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fossilminecraft/item/ShanshanBodyBlankItem.java",
+          "src/main/resources/assets/fossil_minecraft/models/item/shanshan_body_blank.json"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/009-Shanshan"
+    },
+    {
+      "name": "ShanshanArmsBlank",
+      "type": "item",
+      "sortid": 128,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shanshan_arms_blank",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fossilminecraft/item/ShanshanArmsBlankItem.java",
+          "src/main/resources/assets/fossil_minecraft/models/item/shanshan_arms_blank.json"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/009-Shanshan"
+    },
+    {
+      "name": "ShanshanLegsBlank",
+      "type": "item",
+      "sortid": 129,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shanshan_legs_blank",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fossil_minecraft/models/item/shanshan_legs_blank.json",
+          "src/main/java/net/mcreator/fossilminecraft/item/ShanshanLegsBlankItem.java"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/009-Shanshan"
+    },
+    {
+      "name": "AlloHead",
+      "type": "item",
+      "sortid": 130,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "allo_head",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fossil_minecraft/models/item/allo_head.json",
+          "src/main/java/net/mcreator/fossilminecraft/item/AlloHeadItem.java"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/010-Allo"
+    },
+    {
+      "name": "AlloBody",
+      "type": "item",
+      "sortid": 131,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "allo_body",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fossil_minecraft/models/item/allo_body.json",
+          "src/main/java/net/mcreator/fossilminecraft/item/AlloBodyItem.java"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/010-Allo"
+    },
+    {
+      "name": "AlloArms",
+      "type": "item",
+      "sortid": 132,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "allo_arms",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fossil_minecraft/models/item/allo_arms.json",
+          "src/main/java/net/mcreator/fossilminecraft/item/AlloArmsItem.java"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/010-Allo"
+    },
+    {
+      "name": "AlloLegs",
+      "type": "item",
+      "sortid": 133,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "allo_legs",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fossilminecraft/item/AlloLegsItem.java",
+          "src/main/resources/assets/fossil_minecraft/models/item/allo_legs.json"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/010-Allo"
+    },
+    {
+      "name": "AlloHeadBlank",
+      "type": "item",
+      "sortid": 134,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "allo_head_blank",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fossilminecraft/item/AlloHeadBlankItem.java",
+          "src/main/resources/assets/fossil_minecraft/models/item/allo_head_blank.json"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/010-Allo"
+    },
+    {
+      "name": "AlloBodyBlank",
+      "type": "item",
+      "sortid": 135,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "allo_body_blank",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fossilminecraft/item/AlloBodyBlankItem.java",
+          "src/main/resources/assets/fossil_minecraft/models/item/allo_body_blank.json"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/010-Allo"
+    },
+    {
+      "name": "AlloArmsBlank",
+      "type": "item",
+      "sortid": 136,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "allo_arms_blank",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fossil_minecraft/models/item/allo_arms_blank.json",
+          "src/main/java/net/mcreator/fossilminecraft/item/AlloArmsBlankItem.java"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/010-Allo"
+    },
+    {
+      "name": "AlloLegsBlank",
+      "type": "item",
+      "sortid": 137,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "allo_legs_blank",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fossilminecraft/item/AlloLegsBlankItem.java",
+          "src/main/resources/assets/fossil_minecraft/models/item/allo_legs_blank.json"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/010-Allo"
+    },
+    {
+      "name": "MetriaHead",
+      "type": "item",
+      "sortid": 138,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "metria_head",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fossilminecraft/item/MetriaHeadItem.java",
+          "src/main/resources/assets/fossil_minecraft/models/item/metria_head.json"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/011-Metria"
+    },
+    {
+      "name": "MetriaBody",
+      "type": "item",
+      "sortid": 139,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "metria_body",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fossilminecraft/item/MetriaBodyItem.java",
+          "src/main/resources/assets/fossil_minecraft/models/item/metria_body.json"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/011-Metria"
+    },
+    {
+      "name": "MetriaArms",
+      "type": "item",
+      "sortid": 140,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "metria_arms",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fossil_minecraft/models/item/metria_arms.json",
+          "src/main/java/net/mcreator/fossilminecraft/item/MetriaArmsItem.java"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/011-Metria"
+    },
+    {
+      "name": "MetriaLegs",
+      "type": "item",
+      "sortid": 141,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "metria_legs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fossil_minecraft/models/item/metria_legs.json",
+          "src/main/java/net/mcreator/fossilminecraft/item/MetriaLegsItem.java"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/011-Metria"
+    },
+    {
+      "name": "MetriaHeadBlank",
+      "type": "item",
+      "sortid": 142,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "metria_head_blank",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fossilminecraft/item/MetriaHeadBlankItem.java",
+          "src/main/resources/assets/fossil_minecraft/models/item/metria_head_blank.json"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/011-Metria"
+    },
+    {
+      "name": "MetriaBodyBlank",
+      "type": "item",
+      "sortid": 143,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "metria_body_blank",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fossilminecraft/item/MetriaBodyBlankItem.java",
+          "src/main/resources/assets/fossil_minecraft/models/item/metria_body_blank.json"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/011-Metria"
+    },
+    {
+      "name": "MetriaArmsBlank",
+      "type": "item",
+      "sortid": 144,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "metria_arms_blank",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fossil_minecraft/models/item/metria_arms_blank.json",
+          "src/main/java/net/mcreator/fossilminecraft/item/MetriaArmsBlankItem.java"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/011-Metria"
+    },
+    {
+      "name": "MetriaLegsBlank",
+      "type": "item",
+      "sortid": 145,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "metria_legs_blank",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fossilminecraft/item/MetriaLegsBlankItem.java",
+          "src/main/resources/assets/fossil_minecraft/models/item/metria_legs_blank.json"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/011-Metria"
+    },
+    {
+      "name": "MegaloHead",
+      "type": "item",
+      "sortid": 146,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "megalo_head",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fossilminecraft/item/MegaloHeadItem.java",
+          "src/main/resources/assets/fossil_minecraft/models/item/megalo_head.json"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/012-Megalo"
+    },
+    {
+      "name": "MegaloBody",
+      "type": "item",
+      "sortid": 147,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "megalo_body",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fossil_minecraft/models/item/megalo_body.json",
+          "src/main/java/net/mcreator/fossilminecraft/item/MegaloBodyItem.java"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/012-Megalo"
+    },
+    {
+      "name": "MegaloArms",
+      "type": "item",
+      "sortid": 148,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "megalo_arms",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fossilminecraft/item/MegaloArmsItem.java",
+          "src/main/resources/assets/fossil_minecraft/models/item/megalo_arms.json"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/012-Megalo"
+    },
+    {
+      "name": "MegaloLegs",
+      "type": "item",
+      "sortid": 149,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "megalo_legs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fossil_minecraft/models/item/megalo_legs.json",
+          "src/main/java/net/mcreator/fossilminecraft/item/MegaloLegsItem.java"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/012-Megalo"
+    },
+    {
+      "name": "MegaloHeadBlank",
+      "type": "item",
+      "sortid": 150,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "megalo_head_blank",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fossil_minecraft/models/item/megalo_head_blank.json",
+          "src/main/java/net/mcreator/fossilminecraft/item/MegaloHeadBlankItem.java"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/012-Megalo"
+    },
+    {
+      "name": "MegaloBodyBlank",
+      "type": "item",
+      "sortid": 151,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "megalo_body_blank",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fossilminecraft/item/MegaloBodyBlankItem.java",
+          "src/main/resources/assets/fossil_minecraft/models/item/megalo_body_blank.json"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/012-Megalo"
+    },
+    {
+      "name": "MegaloArmsBlank",
+      "type": "item",
+      "sortid": 152,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "megalo_arms_blank",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fossil_minecraft/models/item/megalo_arms_blank.json",
+          "src/main/java/net/mcreator/fossilminecraft/item/MegaloArmsBlankItem.java"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/012-Megalo"
+    },
+    {
+      "name": "MegaloLegsBlank",
+      "type": "item",
+      "sortid": 153,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "megalo_legs_blank",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fossilminecraft/item/MegaloLegsBlankItem.java",
+          "src/main/resources/assets/fossil_minecraft/models/item/megalo_legs_blank.json"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/012-Megalo"
+    },
+    {
+      "name": "VenatorHead",
+      "type": "item",
+      "sortid": 154,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "venator_head",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fossilminecraft/item/VenatorHeadItem.java",
+          "src/main/resources/assets/fossil_minecraft/models/item/venator_head.json"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/013-Venator"
+    },
+    {
+      "name": "VentatorBody",
+      "type": "item",
+      "sortid": 155,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ventator_body",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fossilminecraft/item/VentatorBodyItem.java",
+          "src/main/resources/assets/fossil_minecraft/models/item/ventator_body.json"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/013-Venator"
+    },
+    {
+      "name": "VenatorArms",
+      "type": "item",
+      "sortid": 156,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "venator_arms",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fossil_minecraft/models/item/venator_arms.json",
+          "src/main/java/net/mcreator/fossilminecraft/item/VenatorArmsItem.java"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/013-Venator"
+    },
+    {
+      "name": "VenatorLegs",
+      "type": "item",
+      "sortid": 157,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "venator_legs",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fossilminecraft/item/VenatorLegsItem.java",
+          "src/main/resources/assets/fossil_minecraft/models/item/venator_legs.json"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/013-Venator"
+    },
+    {
+      "name": "VenatorHeadBlank",
+      "type": "item",
+      "sortid": 158,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "venator_head_blank",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fossilminecraft/item/VenatorHeadBlankItem.java",
+          "src/main/resources/assets/fossil_minecraft/models/item/venator_head_blank.json"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/013-Venator"
+    },
+    {
+      "name": "VenatorBodyBlank",
+      "type": "item",
+      "sortid": 159,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "venator_body_blank",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fossil_minecraft/models/item/venator_body_blank.json",
+          "src/main/java/net/mcreator/fossilminecraft/item/VenatorBodyBlankItem.java"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/013-Venator"
+    },
+    {
+      "name": "VenatorArmsBlank",
+      "type": "item",
+      "sortid": 160,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "venator_arms_blank",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fossilminecraft/item/VenatorArmsBlankItem.java",
+          "src/main/resources/assets/fossil_minecraft/models/item/venator_arms_blank.json"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/013-Venator"
+    },
+    {
+      "name": "VenatorLegsBlank",
+      "type": "item",
+      "sortid": 161,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "venator_legs_blank",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fossil_minecraft/models/item/venator_legs_blank.json",
+          "src/main/java/net/mcreator/fossilminecraft/item/VenatorLegsBlankItem.java"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/013-Venator"
+    },
+    {
+      "name": "SRaptorHead",
+      "type": "item",
+      "sortid": 162,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "s_raptor_head",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fossil_minecraft/models/item/s_raptor_head.json",
+          "src/main/java/net/mcreator/fossilminecraft/item/SRaptorHeadItem.java"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/014-S-Raptor"
+    },
+    {
+      "name": "SRaptorBody",
+      "type": "item",
+      "sortid": 163,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "s_raptor_body",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fossilminecraft/item/SRaptorBodyItem.java",
+          "src/main/resources/assets/fossil_minecraft/models/item/s_raptor_body.json"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/014-S-Raptor"
+    },
+    {
+      "name": "SRaptorArms",
+      "type": "item",
+      "sortid": 164,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "s_raptor_arms",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fossil_minecraft/models/item/s_raptor_arms.json",
+          "src/main/java/net/mcreator/fossilminecraft/item/SRaptorArmsItem.java"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/014-S-Raptor"
+    },
+    {
+      "name": "SRaptorLegs",
+      "type": "item",
+      "sortid": 165,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "s_raptor_legs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fossil_minecraft/models/item/s_raptor_legs.json",
+          "src/main/java/net/mcreator/fossilminecraft/item/SRaptorLegsItem.java"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/014-S-Raptor"
+    },
+    {
+      "name": "SRaptorHeadBlank",
+      "type": "item",
+      "sortid": 166,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "s_raptor_head_blank",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fossilminecraft/item/SRaptorHeadBlankItem.java",
+          "src/main/resources/assets/fossil_minecraft/models/item/s_raptor_head_blank.json"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/014-S-Raptor"
+    },
+    {
+      "name": "SRaptorBodyBlank",
+      "type": "item",
+      "sortid": 167,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "s_raptor_body_blank",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fossilminecraft/item/SRaptorBodyBlankItem.java",
+          "src/main/resources/assets/fossil_minecraft/models/item/s_raptor_body_blank.json"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/014-S-Raptor"
+    },
+    {
+      "name": "SRaptorArmsBlank",
+      "type": "item",
+      "sortid": 168,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "s_raptor_arms_blank",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fossilminecraft/item/SRaptorArmsBlankItem.java",
+          "src/main/resources/assets/fossil_minecraft/models/item/s_raptor_arms_blank.json"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/014-S-Raptor"
+    },
+    {
+      "name": "SRaptorLegsBlank",
+      "type": "item",
+      "sortid": 169,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "s_raptor_legs_blank",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fossil_minecraft/models/item/s_raptor_legs_blank.json",
+          "src/main/java/net/mcreator/fossilminecraft/item/SRaptorLegsBlankItem.java"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/014-S-Raptor"
+    },
+    {
+      "name": "GigantoHead",
+      "type": "item",
+      "sortid": 170,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "giganto_head",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fossilminecraft/item/GigantoHeadItem.java",
+          "src/main/resources/assets/fossil_minecraft/models/item/giganto_head.json"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/015-Giganto"
+    },
+    {
+      "name": "GigantoBody",
+      "type": "item",
+      "sortid": 171,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "giganto_body",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fossilminecraft/item/GigantoBodyItem.java",
+          "src/main/resources/assets/fossil_minecraft/models/item/giganto_body.json"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/015-Giganto"
+    },
+    {
+      "name": "GigantoArms",
+      "type": "item",
+      "sortid": 172,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "giganto_arms",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fossil_minecraft/models/item/giganto_arms.json",
+          "src/main/java/net/mcreator/fossilminecraft/item/GigantoArmsItem.java"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/015-Giganto"
+    },
+    {
+      "name": "GigantoLegs",
+      "type": "item",
+      "sortid": 173,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "giganto_legs",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fossilminecraft/item/GigantoLegsItem.java",
+          "src/main/resources/assets/fossil_minecraft/models/item/giganto_legs.json"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/015-Giganto"
+    },
+    {
+      "name": "GigantoHeadBlank",
+      "type": "item",
+      "sortid": 174,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "giganto_head_blank",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fossil_minecraft/models/item/giganto_head_blank.json",
+          "src/main/java/net/mcreator/fossilminecraft/item/GigantoHeadBlankItem.java"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/015-Giganto"
+    },
+    {
+      "name": "GigantoBodyBlank",
+      "type": "item",
+      "sortid": 175,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "giganto_body_blank",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fossilminecraft/item/GigantoBodyBlankItem.java",
+          "src/main/resources/assets/fossil_minecraft/models/item/giganto_body_blank.json"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/015-Giganto"
+    },
+    {
+      "name": "GigantoArmsBlank",
+      "type": "item",
+      "sortid": 176,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "giganto_arms_blank",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fossil_minecraft/models/item/giganto_arms_blank.json",
+          "src/main/java/net/mcreator/fossilminecraft/item/GigantoArmsBlankItem.java"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/015-Giganto"
+    },
+    {
+      "name": "GigantoLegsBlank",
+      "type": "item",
+      "sortid": 177,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "giganto_legs_blank",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fossil_minecraft/models/item/giganto_legs_blank.json",
+          "src/main/java/net/mcreator/fossilminecraft/item/GigantoLegsBlankItem.java"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/015-Giganto"
+    },
+    {
+      "name": "CryoHead",
+      "type": "item",
+      "sortid": 178,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cryo_head",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fossilminecraft/item/CryoHeadItem.java",
+          "src/main/resources/assets/fossil_minecraft/models/item/cryo_head.json"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/016-Cryo"
+    },
+    {
+      "name": "CryoBody",
+      "type": "item",
+      "sortid": 179,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cryo_body",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fossil_minecraft/models/item/cryo_body.json",
+          "src/main/java/net/mcreator/fossilminecraft/item/CryoBodyItem.java"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/016-Cryo"
+    },
+    {
+      "name": "CryoArms",
+      "type": "item",
+      "sortid": 180,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cryo_arms",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fossilminecraft/item/CryoArmsItem.java",
+          "src/main/resources/assets/fossil_minecraft/models/item/cryo_arms.json"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/016-Cryo"
+    },
+    {
+      "name": "CryoLegs",
+      "type": "item",
+      "sortid": 181,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cryo_legs",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fossilminecraft/item/CryoLegsItem.java",
+          "src/main/resources/assets/fossil_minecraft/models/item/cryo_legs.json"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/016-Cryo"
+    },
+    {
+      "name": "CryoHeadBlank",
+      "type": "item",
+      "sortid": 182,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cryo_head_blank",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fossilminecraft/item/CryoHeadBlankItem.java",
+          "src/main/resources/assets/fossil_minecraft/models/item/cryo_head_blank.json"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/016-Cryo"
+    },
+    {
+      "name": "CryoBodyBlank",
+      "type": "item",
+      "sortid": 183,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cryo_body_blank",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fossilminecraft/item/CryoBodyBlankItem.java",
+          "src/main/resources/assets/fossil_minecraft/models/item/cryo_body_blank.json"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/016-Cryo"
+    },
+    {
+      "name": "CryoArmsBlank",
+      "type": "item",
+      "sortid": 184,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cryo_arms_blank",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fossil_minecraft/models/item/cryo_arms_blank.json",
+          "src/main/java/net/mcreator/fossilminecraft/item/CryoArmsBlankItem.java"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/016-Cryo"
+    },
+    {
+      "name": "CryoLegsBlank",
+      "type": "item",
+      "sortid": 185,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cryo_legs_blank",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fossil_minecraft/models/item/cryo_legs_blank.json",
+          "src/main/java/net/mcreator/fossilminecraft/item/CryoLegsBlankItem.java"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/016-Cryo"
+    },
+    {
+      "name": "TrexMedalGUI",
+      "type": "gui",
+      "sortid": 186,
+      "compiles": false,
+      "locked_code": false,
+      "registry_name": "trex_medal_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fossilminecraft/client/gui/TrexMedalGUIScreen.java",
+          "src/main/java/net/mcreator/fossilminecraft/world/inventory/TrexMedalGUIMenu.java"
+        ]
+      },
+      "path": "~/Medals/001-Trex"
+    },
+    {
+      "name": "TrexMedalEntitySwingsItem",
+      "type": "procedure",
+      "sortid": 188,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "trex_medal_entity_swings_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fossilminecraft/procedures/TrexMedalEntitySwingsItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Medals/001-Trex"
+    },
+    {
+      "name": "TrexMedalGUIReturn",
+      "type": "procedure",
+      "sortid": 189,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "trex_medal_gui_return",
+      "metadata": {
+        "return_type": "entity",
+        "files": [
+          "src/main/java/net/mcreator/fossilminecraft/procedures/TrexMedalGUIReturnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Medals/001-Trex"
+    },
+    {
+      "name": "CleanPercentageReturn",
+      "type": "procedure",
+      "sortid": 190,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "clean_percentage_return",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/fossilminecraft/procedures/CleanPercentageReturnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "ShanshanMedalGUI",
+      "type": "gui",
+      "sortid": 191,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shanshan_medal_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fossilminecraft/world/inventory/ShanshanMedalGUIMenu.java",
+          "src/main/java/net/mcreator/fossilminecraft/client/gui/ShanshanMedalGUIScreen.java"
+        ]
+      },
+      "path": "~/Medals/009-Shanshan"
+    },
+    {
+      "name": "ShanshanMedalEntitySwingsItem",
+      "type": "procedure",
+      "sortid": 192,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shanshan_medal_entity_swings_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fossilminecraft/procedures/ShanshanMedalEntitySwingsItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Medals/009-Shanshan"
+    },
+    {
+      "name": "ShanshanGUIReturn",
+      "type": "procedure",
+      "sortid": 193,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shanshan_gui_return",
+      "metadata": {
+        "return_type": "entity",
+        "files": [
+          "src/main/java/net/mcreator/fossilminecraft/procedures/ShanshanGUIReturnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Medals/009-Shanshan"
+    },
+    {
+      "name": "FossilGeneration",
+      "type": "structure",
+      "sortid": 196,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fossil_generation",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fossil_minecraft/worldgen/configured_feature/fossil_generation.json",
+          "src/main/resources/data/fossil_minecraft/forge/biome_modifier/fossil_generation_biome_modifier.json",
+          "src/main/java/net/mcreator/fossilminecraft/world/features/FossilGenerationFeature.java",
+          "src/main/resources/data/fossil_minecraft/worldgen/placed_feature/fossil_generation.json"
+        ]
+      }
+    },
+    {
+      "name": "CarcharHead",
+      "type": "item",
+      "sortid": 197,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "carchar_head",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fossil_minecraft/models/item/carchar_head.json",
+          "src/main/java/net/mcreator/fossilminecraft/item/CarcharHeadItem.java"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/017-Carchar"
+    },
+    {
+      "name": "CarcharBody",
+      "type": "item",
+      "sortid": 198,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "carchar_body",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fossilminecraft/item/CarcharBodyItem.java",
+          "src/main/resources/assets/fossil_minecraft/models/item/carchar_body.json"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/017-Carchar"
+    },
+    {
+      "name": "CarcharArms",
+      "type": "item",
+      "sortid": 199,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "carchar_arms",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fossilminecraft/item/CarcharArmsItem.java",
+          "src/main/resources/assets/fossil_minecraft/models/item/carchar_arms.json"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/017-Carchar"
+    },
+    {
+      "name": "CarcharLegs",
+      "type": "item",
+      "sortid": 200,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "carchar_legs",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fossilminecraft/item/CarcharLegsItem.java",
+          "src/main/resources/assets/fossil_minecraft/models/item/carchar_legs.json"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/017-Carchar"
+    },
+    {
+      "name": "CarcharHeadBlank",
+      "type": "item",
+      "sortid": 201,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "carchar_head_blank",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fossil_minecraft/models/item/carchar_head_blank.json",
+          "src/main/java/net/mcreator/fossilminecraft/item/CarcharHeadBlankItem.java"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/017-Carchar"
+    },
+    {
+      "name": "CarcharBodyBlank",
+      "type": "item",
+      "sortid": 202,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "carchar_body_blank",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fossilminecraft/item/CarcharBodyBlankItem.java",
+          "src/main/resources/assets/fossil_minecraft/models/item/carchar_body_blank.json"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/017-Carchar"
+    },
+    {
+      "name": "CarcharArmsBlank",
+      "type": "item",
+      "sortid": 203,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "carchar_arms_blank",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fossilminecraft/item/CarcharArmsBlankItem.java",
+          "src/main/resources/assets/fossil_minecraft/models/item/carchar_arms_blank.json"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/017-Carchar"
+    },
+    {
+      "name": "CarcharLegsBlank",
+      "type": "item",
+      "sortid": 204,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "carchar_legs_blank",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fossil_minecraft/models/item/carchar_legs_blank.json",
+          "src/main/java/net/mcreator/fossilminecraft/item/CarcharLegsBlankItem.java"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/017-Carchar"
+    },
+    {
+      "name": "AcroHead",
+      "type": "item",
+      "sortid": 205,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "acro_head",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fossil_minecraft/models/item/acro_head.json",
+          "src/main/java/net/mcreator/fossilminecraft/item/AcroHeadItem.java"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/018-Acro"
+    },
+    {
+      "name": "AcroBody",
+      "type": "item",
+      "sortid": 206,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "acro_body",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fossilminecraft/item/AcroBodyItem.java",
+          "src/main/resources/assets/fossil_minecraft/models/item/acro_body.json"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/018-Acro"
+    },
+    {
+      "name": "AcroArms",
+      "type": "item",
+      "sortid": 207,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "acro_arms",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fossil_minecraft/models/item/acro_arms.json",
+          "src/main/java/net/mcreator/fossilminecraft/item/AcroArmsItem.java"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/018-Acro"
+    },
+    {
+      "name": "AcroLegs",
+      "type": "item",
+      "sortid": 208,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "acro_legs",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fossilminecraft/item/AcroLegsItem.java",
+          "src/main/resources/assets/fossil_minecraft/models/item/acro_legs.json"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/018-Acro"
+    },
+    {
+      "name": "AcroHeadBlank",
+      "type": "item",
+      "sortid": 209,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "acro_head_blank",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fossilminecraft/item/AcroHeadBlankItem.java",
+          "src/main/resources/assets/fossil_minecraft/models/item/acro_head_blank.json"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/018-Acro"
+    },
+    {
+      "name": "AcroBodyBlank",
+      "type": "item",
+      "sortid": 210,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "acro_body_blank",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fossilminecraft/item/AcroBodyBlankItem.java",
+          "src/main/resources/assets/fossil_minecraft/models/item/acro_body_blank.json"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/018-Acro"
+    },
+    {
+      "name": "AcroArmsBlank",
+      "type": "item",
+      "sortid": 211,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "acro_arms_blank",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fossil_minecraft/models/item/acro_arms_blank.json",
+          "src/main/java/net/mcreator/fossilminecraft/item/AcroArmsBlankItem.java"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/018-Acro"
+    },
+    {
+      "name": "AcroLegsBlank",
+      "type": "item",
+      "sortid": 212,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "acro_legs_blank",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fossilminecraft/item/AcroLegsBlankItem.java",
+          "src/main/resources/assets/fossil_minecraft/models/item/acro_legs_blank.json"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/018-Acro"
+    },
+    {
+      "name": "FRaptorHead",
+      "type": "item",
+      "sortid": 213,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "f_raptor_head",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fossilminecraft/item/FRaptorHeadItem.java",
+          "src/main/resources/assets/fossil_minecraft/models/item/f_raptor_head.json"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/019-F-Raptor"
+    },
+    {
+      "name": "FRaptorBody",
+      "type": "item",
+      "sortid": 214,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "f_raptor_body",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fossilminecraft/item/FRaptorBodyItem.java",
+          "src/main/resources/assets/fossil_minecraft/models/item/f_raptor_body.json"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/019-F-Raptor"
+    },
+    {
+      "name": "FRaptorArms",
+      "type": "item",
+      "sortid": 215,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "f_raptor_arms",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fossilminecraft/item/FRaptorArmsItem.java",
+          "src/main/resources/assets/fossil_minecraft/models/item/f_raptor_arms.json"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/019-F-Raptor"
+    },
+    {
+      "name": "FRaptorLegs",
+      "type": "item",
+      "sortid": 216,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "f_raptor_legs",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fossilminecraft/item/FRaptorLegsItem.java",
+          "src/main/resources/assets/fossil_minecraft/models/item/f_raptor_legs.json"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/019-F-Raptor"
+    },
+    {
+      "name": "FRaptorHeadBlank",
+      "type": "item",
+      "sortid": 217,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "f_raptor_head_blank",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fossilminecraft/item/FRaptorHeadBlankItem.java",
+          "src/main/resources/assets/fossil_minecraft/models/item/f_raptor_head_blank.json"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/019-F-Raptor"
+    },
+    {
+      "name": "FRaptorBodyBlank",
+      "type": "item",
+      "sortid": 218,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "f_raptor_body_blank",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fossilminecraft/item/FRaptorBodyBlankItem.java",
+          "src/main/resources/assets/fossil_minecraft/models/item/f_raptor_body_blank.json"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/019-F-Raptor"
+    },
+    {
+      "name": "FRaptorArmsBlank",
+      "type": "item",
+      "sortid": 219,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "f_raptor_arms_blank",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fossil_minecraft/models/item/f_raptor_arms_blank.json",
+          "src/main/java/net/mcreator/fossilminecraft/item/FRaptorArmsBlankItem.java"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/019-F-Raptor"
+    },
+    {
+      "name": "FRaptorLegsBlank",
+      "type": "item",
+      "sortid": 220,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "f_raptor_legs_blank",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fossilminecraft/item/FRaptorLegsBlankItem.java",
+          "src/main/resources/assets/fossil_minecraft/models/item/f_raptor_legs_blank.json"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/019-F-Raptor"
+    },
+    {
+      "name": "Carchar",
+      "type": "animatedentity",
+      "sortid": 221,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "carchar",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fossilminecraft/entity/CarcharEntity.java",
+          "src/main/resources/data/fossil_minecraft/forge/biome_modifier/carchar_biome_modifier.json",
+          "src/main/resources/assets/fossil_minecraft/models/item/carchar_spawn_egg.json",
+          "src/main/java/net/mcreator/fossilminecraft/entity/model/CarcharModel.java",
+          "src/main/java/net/mcreator/fossilminecraft/client/renderer/CarcharRenderer.java"
+        ]
+      },
+      "path": "~/Entities"
+    },
+    {
+      "name": "SpinaxHead",
+      "type": "item",
+      "sortid": 222,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spinax_head",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fossil_minecraft/models/item/spinax_head.json",
+          "src/main/java/net/mcreator/fossilminecraft/item/SpinaxHeadItem.java"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/020-Spinax"
+    },
+    {
+      "name": "SpinaxBody",
+      "type": "item",
+      "sortid": 223,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spinax_body",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fossilminecraft/item/SpinaxBodyItem.java",
+          "src/main/resources/assets/fossil_minecraft/models/item/spinax_body.json"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/020-Spinax"
+    },
+    {
+      "name": "SpinaxArms",
+      "type": "item",
+      "sortid": 224,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spinax_arms",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fossilminecraft/item/SpinaxArmsItem.java",
+          "src/main/resources/assets/fossil_minecraft/models/item/spinax_arms.json"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/020-Spinax"
+    },
+    {
+      "name": "SpinaxLegs",
+      "type": "item",
+      "sortid": 225,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spinax_legs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fossil_minecraft/models/item/spinax_legs.json",
+          "src/main/java/net/mcreator/fossilminecraft/item/SpinaxLegsItem.java"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/020-Spinax"
+    },
+    {
+      "name": "SpinaxHeadBlank",
+      "type": "item",
+      "sortid": 226,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spinax_head_blank",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fossilminecraft/item/SpinaxHeadBlankItem.java",
+          "src/main/resources/assets/fossil_minecraft/models/item/spinax_head_blank.json"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/020-Spinax"
+    },
+    {
+      "name": "SpinaxBodyBlank",
+      "type": "item",
+      "sortid": 227,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spinax_body_blank",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fossilminecraft/item/SpinaxBodyBlankItem.java",
+          "src/main/resources/assets/fossil_minecraft/models/item/spinax_body_blank.json"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/020-Spinax"
+    },
+    {
+      "name": "SpinaxArmsBlank",
+      "type": "item",
+      "sortid": 228,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spinax_arms_blank",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fossil_minecraft/models/item/spinax_arms_blank.json",
+          "src/main/java/net/mcreator/fossilminecraft/item/SpinaxArmsBlankItem.java"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/020-Spinax"
+    },
+    {
+      "name": "SpinaxLegsBlank",
+      "type": "item",
+      "sortid": 229,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spinax_legs_blank",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fossilminecraft/item/SpinaxLegsBlankItem.java",
+          "src/main/resources/assets/fossil_minecraft/models/item/spinax_legs_blank.json"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/020-Spinax"
+    },
+    {
+      "name": "NeoHead",
+      "type": "item",
+      "sortid": 230,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neo_head",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fossilminecraft/item/NeoHeadItem.java",
+          "src/main/resources/assets/fossil_minecraft/models/item/neo_head.json"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/021-Neo"
+    },
+    {
+      "name": "NeoBody",
+      "type": "item",
+      "sortid": 231,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neo_body",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fossilminecraft/item/NeoBodyItem.java",
+          "src/main/resources/assets/fossil_minecraft/models/item/neo_body.json"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/021-Neo"
+    },
+    {
+      "name": "NeoArms",
+      "type": "item",
+      "sortid": 232,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neo_arms",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fossil_minecraft/models/item/neo_arms.json",
+          "src/main/java/net/mcreator/fossilminecraft/item/NeoArmsItem.java"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/021-Neo"
+    },
+    {
+      "name": "NeoLegs",
+      "type": "item",
+      "sortid": 233,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neo_legs",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fossilminecraft/item/NeoLegsItem.java",
+          "src/main/resources/assets/fossil_minecraft/models/item/neo_legs.json"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/021-Neo"
+    },
+    {
+      "name": "NeoHeadBlank",
+      "type": "item",
+      "sortid": 234,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neo_head_blank",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fossilminecraft/item/NeoHeadBlankItem.java",
+          "src/main/resources/assets/fossil_minecraft/models/item/neo_head_blank.json"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/021-Neo"
+    },
+    {
+      "name": "NeoBodyBlank",
+      "type": "item",
+      "sortid": 235,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neo_body_blank",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fossil_minecraft/models/item/neo_body_blank.json",
+          "src/main/java/net/mcreator/fossilminecraft/item/NeoBodyBlankItem.java"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/021-Neo"
+    },
+    {
+      "name": "NeoArmsBlank",
+      "type": "item",
+      "sortid": 236,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neo_arms_blank",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fossil_minecraft/models/item/neo_arms_blank.json",
+          "src/main/java/net/mcreator/fossilminecraft/item/NeoArmsBlankItem.java"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/021-Neo"
+    },
+    {
+      "name": "NeoLegsBlank",
+      "type": "item",
+      "sortid": 237,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neo_legs_blank",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fossilminecraft/item/NeoLegsBlankItem.java",
+          "src/main/resources/assets/fossil_minecraft/models/item/neo_legs_blank.json"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/021-Neo"
+    },
+    {
+      "name": "CompsoHead",
+      "type": "item",
+      "sortid": 238,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "compso_head",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fossilminecraft/item/CompsoHeadItem.java",
+          "src/main/resources/assets/fossil_minecraft/models/item/compso_head.json"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/022-Compso"
+    },
+    {
+      "name": "CompsoBody",
+      "type": "item",
+      "sortid": 239,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "compso_body",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fossil_minecraft/models/item/compso_body.json",
+          "src/main/java/net/mcreator/fossilminecraft/item/CompsoBodyItem.java"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/022-Compso"
+    },
+    {
+      "name": "CompsoArms",
+      "type": "item",
+      "sortid": 240,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "compso_arms",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fossilminecraft/item/CompsoArmsItem.java",
+          "src/main/resources/assets/fossil_minecraft/models/item/compso_arms.json"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/022-Compso"
+    },
+    {
+      "name": "CompsoLegs",
+      "type": "item",
+      "sortid": 241,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "compso_legs",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fossilminecraft/item/CompsoLegsItem.java",
+          "src/main/resources/assets/fossil_minecraft/models/item/compso_legs.json"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/022-Compso"
+    },
+    {
+      "name": "CompsoHeadBlank",
+      "type": "item",
+      "sortid": 242,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "compso_head_blank",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fossil_minecraft/models/item/compso_head_blank.json",
+          "src/main/java/net/mcreator/fossilminecraft/item/CompsoHeadBlankItem.java"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/022-Compso"
+    },
+    {
+      "name": "CompsoBodyBlank",
+      "type": "item",
+      "sortid": 243,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "compso_body_blank",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fossilminecraft/item/CompsoBodyBlankItem.java",
+          "src/main/resources/assets/fossil_minecraft/models/item/compso_body_blank.json"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/022-Compso"
+    },
+    {
+      "name": "CompsoArmsBlank",
+      "type": "item",
+      "sortid": 244,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "compso_arms_blank",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fossil_minecraft/models/item/compso_arms_blank.json",
+          "src/main/java/net/mcreator/fossilminecraft/item/CompsoArmsBlankItem.java"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/022-Compso"
+    },
+    {
+      "name": "CompsoLegsBlank",
+      "type": "item",
+      "sortid": 245,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "compso_legs_blank",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fossilminecraft/item/CompsoLegsBlankItem.java",
+          "src/main/resources/assets/fossil_minecraft/models/item/compso_legs_blank.json"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/022-Compso"
+    },
+    {
+      "name": "SopteryxHead",
+      "type": "item",
+      "sortid": 246,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sopteryx_head",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fossilminecraft/item/SopteryxHeadItem.java",
+          "src/main/resources/assets/fossil_minecraft/models/item/sopteryx_head.json"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/023-Sopteryx"
+    },
+    {
+      "name": "SopteryxBody",
+      "type": "item",
+      "sortid": 247,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sopteryx_body",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fossil_minecraft/models/item/sopteryx_body.json",
+          "src/main/java/net/mcreator/fossilminecraft/item/SopteryxBodyItem.java"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/023-Sopteryx"
+    },
+    {
+      "name": "SopteryxArms",
+      "type": "item",
+      "sortid": 248,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sopteryx_arms",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fossil_minecraft/models/item/sopteryx_arms.json",
+          "src/main/java/net/mcreator/fossilminecraft/item/SopteryxArmsItem.java"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/023-Sopteryx"
+    },
+    {
+      "name": "SopteryxLegs",
+      "type": "item",
+      "sortid": 249,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sopteryx_legs",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fossilminecraft/item/SopteryxLegsItem.java",
+          "src/main/resources/assets/fossil_minecraft/models/item/sopteryx_legs.json"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/023-Sopteryx"
+    },
+    {
+      "name": "SopteryxHeadBlank",
+      "type": "item",
+      "sortid": 250,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sopteryx_head_blank",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fossilminecraft/item/SopteryxHeadBlankItem.java",
+          "src/main/resources/assets/fossil_minecraft/models/item/sopteryx_head_blank.json"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/023-Sopteryx"
+    },
+    {
+      "name": "SopteryxBodyBlank",
+      "type": "item",
+      "sortid": 251,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sopteryx_body_blank",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fossil_minecraft/models/item/sopteryx_body_blank.json",
+          "src/main/java/net/mcreator/fossilminecraft/item/SopteryxBodyBlankItem.java"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/023-Sopteryx"
+    },
+    {
+      "name": "SopteryxArmsBlank",
+      "type": "item",
+      "sortid": 252,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sopteryx_arms_blank",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fossil_minecraft/models/item/sopteryx_arms_blank.json",
+          "src/main/java/net/mcreator/fossilminecraft/item/SopteryxArmsBlankItem.java"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/023-Sopteryx"
+    },
+    {
+      "name": "SopteryxLegsBlank",
+      "type": "item",
+      "sortid": 253,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sopteryx_legs_blank",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fossilminecraft/item/SopteryxLegsBlankItem.java",
+          "src/main/resources/assets/fossil_minecraft/models/item/sopteryx_legs_blank.json"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/023-Sopteryx"
+    },
+    {
+      "name": "DeltaHead",
+      "type": "item",
+      "sortid": 254,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "delta_head",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fossil_minecraft/models/item/delta_head.json",
+          "src/main/java/net/mcreator/fossilminecraft/item/DeltaHeadItem.java"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/024-Delta"
+    },
+    {
+      "name": "DeltaBody",
+      "type": "item",
+      "sortid": 255,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "delta_body",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fossil_minecraft/models/item/delta_body.json",
+          "src/main/java/net/mcreator/fossilminecraft/item/DeltaBodyItem.java"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/024-Delta"
+    },
+    {
+      "name": "DeltaArms",
+      "type": "item",
+      "sortid": 256,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "delta_arms",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fossilminecraft/item/DeltaArmsItem.java",
+          "src/main/resources/assets/fossil_minecraft/models/item/delta_arms.json"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/024-Delta"
+    },
+    {
+      "name": "DeltaLegs",
+      "type": "item",
+      "sortid": 257,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "delta_legs",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fossilminecraft/item/DeltaLegsItem.java",
+          "src/main/resources/assets/fossil_minecraft/models/item/delta_legs.json"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/024-Delta"
+    },
+    {
+      "name": "DeltaHeadBlank",
+      "type": "item",
+      "sortid": 258,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "delta_head_blank",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fossilminecraft/item/DeltaHeadBlankItem.java",
+          "src/main/resources/assets/fossil_minecraft/models/item/delta_head_blank.json"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/024-Delta"
+    },
+    {
+      "name": "DeltaBodyBlank",
+      "type": "item",
+      "sortid": 259,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "delta_body_blank",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fossil_minecraft/models/item/delta_body_blank.json",
+          "src/main/java/net/mcreator/fossilminecraft/item/DeltaBodyBlankItem.java"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/024-Delta"
+    },
+    {
+      "name": "DeltaArmsBlank",
+      "type": "item",
+      "sortid": 260,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "delta_arms_blank",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fossil_minecraft/models/item/delta_arms_blank.json",
+          "src/main/java/net/mcreator/fossilminecraft/item/DeltaArmsBlankItem.java"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/024-Delta"
+    },
+    {
+      "name": "DeltaLegsBlank",
+      "type": "item",
+      "sortid": 261,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "delta_legs_blank",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fossil_minecraft/models/item/delta_legs_blank.json",
+          "src/main/java/net/mcreator/fossilminecraft/item/DeltaLegsBlankItem.java"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/024-Delta"
+    },
+    {
+      "name": "TroHead",
+      "type": "item",
+      "sortid": 262,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tro_head",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fossil_minecraft/models/item/tro_head.json",
+          "src/main/java/net/mcreator/fossilminecraft/item/TroHeadItem.java"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/025-Tro"
+    },
+    {
+      "name": "TroBody",
+      "type": "item",
+      "sortid": 263,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tro_body",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fossilminecraft/item/TroBodyItem.java",
+          "src/main/resources/assets/fossil_minecraft/models/item/tro_body.json"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/025-Tro"
+    },
+    {
+      "name": "TroArms",
+      "type": "item",
+      "sortid": 264,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tro_arms",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fossilminecraft/item/TroArmsItem.java",
+          "src/main/resources/assets/fossil_minecraft/models/item/tro_arms.json"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/025-Tro"
+    },
+    {
+      "name": "TroLegs",
+      "type": "item",
+      "sortid": 265,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tro_legs",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fossilminecraft/item/TroLegsItem.java",
+          "src/main/resources/assets/fossil_minecraft/models/item/tro_legs.json"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/025-Tro"
+    },
+    {
+      "name": "NychusHead",
+      "type": "item",
+      "sortid": 266,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nychus_head",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fossilminecraft/item/NychusHeadItem.java",
+          "src/main/resources/assets/fossil_minecraft/models/item/nychus_head.json"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/026-Nychus"
+    },
+    {
+      "name": "NychusBody",
+      "type": "item",
+      "sortid": 267,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nychus_body",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fossil_minecraft/models/item/nychus_body.json",
+          "src/main/java/net/mcreator/fossilminecraft/item/NychusBodyItem.java"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/026-Nychus"
+    },
+    {
+      "name": "NychusArms",
+      "type": "item",
+      "sortid": 268,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nychus_arms",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fossilminecraft/item/NychusArmsItem.java",
+          "src/main/resources/assets/fossil_minecraft/models/item/nychus_arms.json"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/026-Nychus"
+    },
+    {
+      "name": "NychusLegs",
+      "type": "item",
+      "sortid": 269,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nychus_legs",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fossilminecraft/item/NychusLegsItem.java",
+          "src/main/resources/assets/fossil_minecraft/models/item/nychus_legs.json"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/026-Nychus"
+    },
+    {
+      "name": "NychusHeadBlank",
+      "type": "item",
+      "sortid": 270,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nychus_head_blank",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fossilminecraft/item/NychusHeadBlankItem.java",
+          "src/main/resources/assets/fossil_minecraft/models/item/nychus_head_blank.json"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/026-Nychus"
+    },
+    {
+      "name": "NychusBodyBlank",
+      "type": "item",
+      "sortid": 271,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nychus_body_blank",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fossil_minecraft/models/item/nychus_body_blank.json",
+          "src/main/java/net/mcreator/fossilminecraft/item/NychusBodyBlankItem.java"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/026-Nychus"
+    },
+    {
+      "name": "NychusArmsBlank",
+      "type": "item",
+      "sortid": 272,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nychus_arms_blank",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fossilminecraft/item/NychusArmsBlankItem.java",
+          "src/main/resources/assets/fossil_minecraft/models/item/nychus_arms_blank.json"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/026-Nychus"
+    },
+    {
+      "name": "NychusLegsBlank",
+      "type": "item",
+      "sortid": 273,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nychus_legs_blank",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fossil_minecraft/models/item/nychus_legs_blank.json",
+          "src/main/java/net/mcreator/fossilminecraft/item/NychusLegsBlankItem.java"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/026-Nychus"
+    },
+    {
+      "name": "MRaptorHead",
+      "type": "item",
+      "sortid": 274,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "m_raptor_head",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fossilminecraft/item/MRaptorHeadItem.java",
+          "src/main/resources/assets/fossil_minecraft/models/item/m_raptor_head.json"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/027-M-Raptor"
+    },
+    {
+      "name": "MRaptorBody",
+      "type": "item",
+      "sortid": 275,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "m_raptor_body",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fossilminecraft/item/MRaptorBodyItem.java",
+          "src/main/resources/assets/fossil_minecraft/models/item/m_raptor_body.json"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/027-M-Raptor"
+    },
+    {
+      "name": "MRaptorArms",
+      "type": "item",
+      "sortid": 276,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "m_raptor_arms",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fossil_minecraft/models/item/m_raptor_arms.json",
+          "src/main/java/net/mcreator/fossilminecraft/item/MRaptorArmsItem.java"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/027-M-Raptor"
+    },
+    {
+      "name": "MRaptorLegs",
+      "type": "item",
+      "sortid": 277,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "m_raptor_legs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fossil_minecraft/models/item/m_raptor_legs.json",
+          "src/main/java/net/mcreator/fossilminecraft/item/MRaptorLegsItem.java"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/027-M-Raptor"
+    },
+    {
+      "name": "MRaptorHeadBlank",
+      "type": "item",
+      "sortid": 278,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "m_raptor_head_blank",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fossilminecraft/item/MRaptorHeadBlankItem.java",
+          "src/main/resources/assets/fossil_minecraft/models/item/m_raptor_head_blank.json"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/027-M-Raptor"
+    },
+    {
+      "name": "MRaptorBodyBlank",
+      "type": "item",
+      "sortid": 279,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "m_raptor_body_blank",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fossilminecraft/item/MRaptorBodyBlankItem.java",
+          "src/main/resources/assets/fossil_minecraft/models/item/m_raptor_body_blank.json"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/027-M-Raptor"
+    },
+    {
+      "name": "MRaptorArmsBlank",
+      "type": "item",
+      "sortid": 280,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "m_raptor_arms_blank",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fossil_minecraft/models/item/m_raptor_arms_blank.json",
+          "src/main/java/net/mcreator/fossilminecraft/item/MRaptorArmsBlankItem.java"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/027-M-Raptor"
+    },
+    {
+      "name": "MRaptorLegsBlank",
+      "type": "item",
+      "sortid": 281,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "m_raptor_legs_blank",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fossilminecraft/item/MRaptorLegsBlankItem.java",
+          "src/main/resources/assets/fossil_minecraft/models/item/m_raptor_legs_blank.json"
+        ]
+      },
+      "path": "~/Uncleaned Fossils/027-M-Raptor"
+    },
+    {
+      "name": "BattleSystem",
+      "type": "code",
+      "sortid": 282,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "battle_system",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fossilminecraft/BattleSystem.java"
+        ]
+      }
+    },
+    {
+      "name": "RankReturn",
+      "type": "procedure",
+      "sortid": 283,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rank_return",
+      "metadata": {
+        "return_type": "number",
+        "files": [
+          "src/main/java/net/mcreator/fossilminecraft/procedures/RankReturnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Medals/001-Trex"
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "Battling",
+      "type": "logic",
+      "scope": "player_lifetime",
+      "value": "false"
+    },
+    {
+      "name": "XofPlayer",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "YofPlayer",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "ZofPlayer",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    }
+  ],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.fossil_minecraft.venator_arms": "Venator Arms",
+      "item.fossil_minecraft.tarbo_body_blank": "Tarbo Body",
+      "item.fossil_minecraft.compso_arms_blank": "Compso Arms",
+      "item.fossil_minecraft.venator_legs_blank": "Venator Legs",
+      "item.fossil_minecraft.uraptor_spawn_egg": "U-Raptor Spawn Egg",
+      "item.fossil_minecraft.seidon_medal": "113-Seidon Medal",
+      "item.fossil_minecraft.cryo_head": "Cryo Head",
+      "item.fossil_minecraft.allo_body_blank": "Allo Body",
+      "item.fossil_minecraft.acro_legs_blank": "Acro Legs",
+      "item.fossil_minecraft.siamo_body": "Siamo Body",
+      "item.fossil_minecraft.siamo_arms": "Siamo Arms",
+      "item.fossil_minecraft.compso_head": "Compso Head",
+      "item.fossil_minecraft.m_raptor_arms_blank": "M-Raptor Arms",
+      "item.fossil_minecraft.alio_body_blank": "Alio Body",
+      "entity.fossil_minecraft.shan_shan": "Shanshan",
+      "item.fossil_minecraft.tro_head": "Tro Head",
+      "item.fossil_minecraft.seidon_spawn_egg": "Seidon Spawn Egg",
+      "item.fossil_minecraft.s_raptor_legs_blank": "S-Raptor Legs",
+      "item.fossil_minecraft.acro_body_blank": "Acro Body",
+      "item.fossil_minecraft.allo_arms_blank": "Allo Arms",
+      "item.fossil_minecraft.neo_arms_blank": "Neo Arms",
+      "item.fossil_minecraft.compso_body_blank": "Compso Body",
+      "item.fossil_minecraft.sopteryx_legs_blank": "Sopteryx Legs",
+      "item.fossil_minecraft.tarbo_legs_blank": "Tarbo Legs",
+      "item.fossil_minecraft.giganto_head": "Giganto Head",
+      "item.fossil_minecraft.allo_head": "Allo Head",
+      "item.fossil_minecraft.tarbo_arms_blank": "Tarbo Arms",
+      "item.fossil_minecraft.tarbo_head": "Tarbo Head",
+      "item.fossil_minecraft.nychus_legs": "Nychus Body",
+      "item.fossil_minecraft.alectro_body_blank": "Alectro Body",
+      "item.fossil_minecraft.s_raptor_body_blank": "S-Raptor Body",
+      "entity.fossil_minecraft.seidon": "Seidon",
+      "item.fossil_minecraft.sonar": "Sonar",
+      "item.fossil_minecraft.f_raptor_legs": "F-Raptor Legs",
+      "item.fossil_minecraft.alio_legs_blank": "Alio Legs",
+      "item.fossil_minecraft.drill": "Drill",
+      "item.fossil_minecraft.cryo_body": "Cryo Body",
+      "item.fossil_minecraft.m_raptor_legs": "M-Raptor Legs",
+      "item.fossil_minecraft.tarbo_arms": "Tarbo Arms",
+      "item.fossil_minecraft.siamo_head": "Siamo Head",
+      "item.fossil_minecraft.siamo_head_blank": "Siamo Head",
+      "item.fossil_minecraft.compso_body": "Compso Body",
+      "gui.fossil_minecraft.trex_medal_gui.label_attack": "Attack:",
+      "item.fossil_minecraft.s_raptor_legs": "S-Raptor Legs",
+      "gui.fossil_minecraft.trex_medal_gui.label_accuracy": "Accuracy:",
+      "item.fossil_minecraft.compso_arms": "Compso Arms",
+      "item.fossil_minecraft.super_hammer": "Super Hammer",
+      "item.fossil_minecraft.carchar_head_blank": "Carchar Head",
+      "item.fossil_minecraft.allo_legs_blank": "Allo Legs",
+      "item.fossil_minecraft.trex_legs": "Trex legs",
+      "item.fossil_minecraft.shanshan_head_blank": "Shanshan Head",
+      "item.fossil_minecraft.alectro_body": "Alectro Body",
+      "item.fossil_minecraft.allo_arms": "Allo Arms",
+      "item.fossil_minecraft.tarbo_body": "Tarbo Body",
+      "item.fossil_minecraft.cryo_head_blank": "Cryo Head",
+      "item.fossil_minecraft.nychus_legs_blank": "Nychus Body",
+      "entity.fossil_minecraft.carchar": "Carchar",
+      "item.fossil_minecraft.alectro_arms": "Alectro Arms",
+      "item.fossil_minecraft.spinax_legs": "Spinax Legs",
+      "item.fossil_minecraft.daspleto_head_blank": "Daspleto Head",
+      "item.fossil_minecraft.tro_legs": "Tro Legs",
+      "item.fossil_minecraft.guan_legs_blank": "Guan Legs",
+      "item.fossil_minecraft.giganto_legs": "Giganto Legs",
+      "item.fossil_minecraft.giganto_head_blank": "Giganto Head",
+      "item.fossil_minecraft.delta_legs_blank": "Delta Legs",
+      "item.fossil_minecraft.cryo_arms": "Cryo Arms",
+      "item.fossil_minecraft.allo_body": "Allo Body",
+      "item.fossil_minecraft.neo_body_blank": "Neo Body",
+      "item.fossil_minecraft.alectro_arms_blank": "Alectro Arms",
+      "item.fossil_minecraft.daspleto_head": "Daspleto Head",
+      "item.fossil_minecraft.compso_legs_blank": "Compso Legs",
+      "item.fossil_minecraft.f_raptor_head_blank": "F-Raptor Head",
+      "item.fossil_minecraft.spinax_legs_blank": "Spinax Legs",
+      "item.fossil_minecraft.neo_legs_blank": "Neo Arms",
+      "item.fossil_minecraft.siamo_legs": "Siamo Legs",
+      "gui.fossil_minecraft.trex_medal_gui.label_support_accuracy": "Support Accuracy:",
+      "item.fossil_minecraft.guan_head": "Guan Head",
+      "item.fossil_minecraft.carchar_body_blank": "Carchar Body",
+      "item.fossil_minecraft.shanshan_head": "Shanshan Head",
+      "item.fossil_minecraft.s_raptor_head": "S-Raptor Head",
+      "item.fossil_minecraft.carchar_arms_blank": "Carchar Arms",
+      "item.fossil_minecraft.sopteryx_head_blank": "Sopteryx Head",
+      "item.fossil_minecraft.giganto_legs_blank": "Giganto Legs",
+      "item.fossil_minecraft.sopteryx_arms_blank": "Sopteryx Arms",
+      "item.fossil_minecraft.gorgo_body_blank": "Gorgo Body",
+      "item.fossil_minecraft.alectro_head": "Alectro Head",
+      "item.fossil_minecraft.venator_arms_blank": "Venator Arms",
+      "item.fossil_minecraft.metria_legs": "Metria Legs",
+      "item.fossil_minecraft.acro_legs": "Acro Legs",
+      "item.fossil_minecraft.trex_spawn_egg": "Trex Spawn Egg",
+      "item.fossil_minecraft.nychus_arms": "Nychus Body",
+      "item.fossil_minecraft.trex_head": "Trex Head",
+      "item.fossil_minecraft.delta_body_blank": "Delta Body",
+      "item.fossil_minecraft.venator_head_blank": "Venator Head",
+      "item.fossil_minecraft.delta_legs": "Delta Legs",
+      "item.fossil_minecraft.m_raptor_head": "M-Raptor Head",
+      "item.fossil_minecraft.spinax_head": "Spinax Head",
+      "item.fossil_minecraft.nychus_body": "Nychus Body",
+      "item.fossil_minecraft.daspleto_legs": "Daspleto Body",
+      "item.fossil_minecraft.gorgo_legs": "Gorgo Legs",
+      "item.fossil_minecraft.m_raptor_body_blank": "M-Raptor Body",
+      "item.fossil_minecraft.spinax_body_blank": "Spinax Body",
+      "item.fossil_minecraft.megalo_arms_blank": "Megalo Arms",
+      "item.fossil_minecraft.m_raptor_body": "M-Raptor Body",
+      "entity.fossil_minecraft.uraptor": "U-Raptor",
+      "item.fossil_minecraft.delta_arms_blank": "Delta Arms",
+      "gui.fossil_minecraft.reviver_gui.button_revive": "REVIVE!",
+      "item.fossil_minecraft.seidon_head": "Seidon Head",
+      "item.fossil_minecraft.gorgo_head_blank": "Gorgo Head",
+      "item.fossil_minecraft.alio_head_blank": "Alio Head",
+      "item.fossil_minecraft.guan_arms": "Guan Arms",
+      "item.fossil_minecraft.acro_head_blank": "Acro Head",
+      "item.fossil_minecraft.vraptor_spawn_egg": "V-Raptor Spawn Egg",
+      "item_group.fossil_minecraft.fossil_minecraft": "Fossil Minecraft",
+      "item.fossil_minecraft.carchar_spawn_egg": "Carchar Spawn Egg",
+      "item.fossil_minecraft.gorgo_arms_blank": "Gorgo Arms",
+      "item.fossil_minecraft.guan_body": "Guan Body",
+      "item.fossil_minecraft.shanshan_legs": "Shanshan Legs",
+      "gui.fossil_minecraft.cleaner_gui.label_clean_statis": "Clean status:",
+      "item.fossil_minecraft.alio_arms_blank": "Alio Arms",
+      "item.fossil_minecraft.sopteryx_body_blank": "Sopteryx Body",
+      "item.fossil_minecraft.s_raptor_body": "S-Raptor Body",
+      "item.fossil_minecraft.acro_arms_blank": "Acro Arms",
+      "item.fossil_minecraft.trex_body": "Trex Body",
+      "item.fossil_minecraft.shanshan_fossil": "Shanshan Head",
+      "item.fossil_minecraft.alectro_legs": "Alectro Arms",
+      "item.fossil_minecraft.alectro_legs_blank": "Alectro Arms",
+      "item.fossil_minecraft.s_raptor_arms": "S-Raptor Arms",
+      "item.fossil_minecraft.spinax_arms_blank": "Spinax Arms",
+      "item.fossil_minecraft.delta_head_blank": "Delta Head",
+      "item.fossil_minecraft.allo_legs": "Allo Legs",
+      "item.fossil_minecraft.acro_head": "Acro Head",
+      "item.fossil_minecraft.compso_head_blank": "Compso Head",
+      "gui.fossil_minecraft.trex_medal_gui.label_rank": "Rank:",
+      "item.fossil_minecraft.delta_head": "Delta Head",
+      "item.fossil_minecraft.nychus_head": "Nychus Head",
+      "item.fossil_minecraft.spinax_arms": "Spinax Arms",
+      "item.fossil_minecraft.m_raptor_arms": "M-Raptor Arms",
+      "item.fossil_minecraft.gorgo_head": "Gorgo Head",
+      "entity.fossil_minecraft.vraptor": "V-Raptor",
+      "item.fossil_minecraft.megalo_body_blank": "Megalo Body",
+      "item.fossil_minecraft.siamo_legs_blank": "Siamo Legs",
+      "item.fossil_minecraft.trex_arms": "Trex Arms",
+      "item.fossil_minecraft.tarbo_legs": "Tarbo Legs",
+      "item.fossil_minecraft.spinax_body": "Spinax Body",
+      "item.fossil_minecraft.venator_body_blank": "Venator Body",
+      "item.fossil_minecraft.cryo_legs_blank": "Cryo Legs",
+      "item.fossil_minecraft.m_raptor_head_blank": "M-Raptor Head",
+      "item.fossil_minecraft.metria_legs_blank": "Metria Legs",
+      "item.fossil_minecraft.f_raptor_legs_blank": "F-Raptor Legs",
+      "item.fossil_minecraft.siamo_body_blank": "Siamo Body",
+      "item.fossil_minecraft.spinax_head_blank": "Spinax Head",
+      "item.fossil_minecraft.daspleto_body_blank": "Daspleto Body",
+      "item.fossil_minecraft.gorgo_arms": "Gorgo Arms",
+      "item.fossil_minecraft.neo_arms": "Neo Arms",
+      "item.fossil_minecraft.sopteryx_arms": "Sopteryx Arms",
+      "item.fossil_minecraft.sopteryx_body": "Sopteryx Body",
+      "item.fossil_minecraft.delta_arms": "Delta Arms",
+      "item.fossil_minecraft.trex_legs_blank": "Trex legs",
+      "item.fossil_minecraft.metria_body_blank": "Metria Body",
+      "gui.fossil_minecraft.trex_medal_gui.label_defense": "Defense:",
+      "item.fossil_minecraft.seidon_head_fossil": "Seidon Head Fossil",
+      "item.fossil_minecraft.metria_body": "Metria Body",
+      "item.fossil_minecraft.f_raptor_body_blank": "F-Raptor Body",
+      "item.fossil_minecraft.shanshan_body_blank": "Shanshan Body",
+      "item.fossil_minecraft.alio_head": "Alio Head",
+      "item.fossil_minecraft.shanshan_arms": "Shanshan Arms",
+      "item.fossil_minecraft.allo_head_blank": "Allo Head",
+      "item.fossil_minecraft.acro_body": "Acro Body",
+      "item.fossil_minecraft.delta_body": "Delta Body",
+      "item.fossil_minecraft.megalo_head_blank": "Megalo Head",
+      "item.fossil_minecraft.neo_head_blank": "Neo Head",
+      "item.fossil_minecraft.cryo_body_blank": "Cryo Body",
+      "item.fossil_minecraft.metria_arms": "Metria Arms",
+      "item.fossil_minecraft.carchar_legs": "Carchar Legs",
+      "item.fossil_minecraft.gorgo_body": "Gorgo Body",
+      "item.fossil_minecraft.tarbo_head_blank": "Tarbo Head",
+      "item.fossil_minecraft.vraptor_medal": "V-Raptor Medal",
+      "item.fossil_minecraft.alectro_head_blank": "Alectro Head",
+      "item.fossil_minecraft.giganto_arms_blank": "Giganto Arms",
+      "block.fossil_minecraft.reviver": "Reviver",
+      "item.fossil_minecraft.guan_legs": "Guan Legs",
+      "item.fossil_minecraft.uraptor_medal": "U-Raptor Medal",
+      "block.fossil_minecraft.fossil": "Desert Fossil",
+      "item.fossil_minecraft.megalo_legs": "Megalo Legs",
+      "item.fossil_minecraft.acro_arms": "Acro Arms",
+      "item.fossil_minecraft.unknown_fossil": "Trex Head",
+      "item.fossil_minecraft.shanshan_body": "Shanshan Body",
+      "item.fossil_minecraft.neo_body": "Neo Body",
+      "item.fossil_minecraft.siamo_arms_blank": "Siamo Arms",
+      "item.fossil_minecraft.daspleto_arms_blank": "Daspleto Body",
+      "item.fossil_minecraft.metria_head": "Metria Head",
+      "item.fossil_minecraft.alio_legs": "Alio Legs",
+      "item.fossil_minecraft.shan_shan_spawn_egg": "Shanshan Spawn Egg",
+      "item.fossil_minecraft.carchar_head": "Carchar Head",
+      "item.fossil_minecraft.trex_body_blank": "Trex Body",
+      "item.fossil_minecraft.venator_legs": "Venator Legs",
+      "item.fossil_minecraft.shanshan_arms_blank": "Shanshan Arms",
+      "item.fossil_minecraft.f_raptor_arms_blank": "F-Raptor Arms",
+      "item.fossil_minecraft.cryo_arms_blank": "Cryo Arms",
+      "item.fossil_minecraft.s_raptor_head_blank": "S-Raptor Head",
+      "item.fossil_minecraft.f_raptor_head": "F-Raptor Head",
+      "gui.fossil_minecraft.cleaner_gui.button_clean": "Clean!",
+      "item.fossil_minecraft.nychus_head_blank": "Nychus Head",
+      "item.fossil_minecraft.nychus_arms_blank": "Nychus Body",
+      "item.fossil_minecraft.s_raptor_arms_blank": "S-Raptor Arms",
+      "item.fossil_minecraft.hammer": "Hammer",
+      "item.fossil_minecraft.gorgo_legs_blank": "Gorgo Legs",
+      "item.fossil_minecraft.megalo_head": "Megalo Head",
+      "item.fossil_minecraft.sopteryx_legs": "Sopteryx Legs",
+      "item.fossil_minecraft.ventator_body": "Venator Body",
+      "item.fossil_minecraft.m_raptor_legs_blank": "M-Raptor Legs",
+      "item.fossil_minecraft.trex_head_blank": "Trex Head",
+      "item.fossil_minecraft.carchar_arms": "Carchar Arms",
+      "item.fossil_minecraft.tro_arms": "Tro Arms",
+      "item.fossil_minecraft.neo_head": "Neo Head",
+      "item.fossil_minecraft.trex_medal": "Trex Medal",
+      "item.fossil_minecraft.trex_arms_blank": "Trex Arms",
+      "entity.fossil_minecraft.trex": "Trex",
+      "item.fossil_minecraft.megalo_legs_blank": "Megalo Legs",
+      "item.fossil_minecraft.giganto_body_blank": "Giganto Body",
+      "item.fossil_minecraft.compso_legs": "Compso Legs",
+      "item.fossil_minecraft.carchar_body": "Carchar Body",
+      "item.fossil_minecraft.guan_body_blank": "Guan Body",
+      "item.fossil_minecraft.venator_head": "Venator Head",
+      "item.fossil_minecraft.guan_head_blank": "Guan Head",
+      "block.fossil_minecraft.cleaner": "Cleaner",
+      "item.fossil_minecraft.daspleto_body": "Daspleto Body",
+      "item.fossil_minecraft.megalo_arms": "Megalo Arms",
+      "item.fossil_minecraft.f_raptor_body": "F-Raptor Body",
+      "item.fossil_minecraft.nychus_body_blank": "Nychus Body",
+      "gui.fossil_minecraft.trex_medal_gui.label_health": "Health:",
+      "item.fossil_minecraft.carchar_legs_blank": "Carchar Legs",
+      "item.fossil_minecraft.daspleto_arms": "Daspleto Body",
+      "item.fossil_minecraft.megalo_body": "Megalo Body",
+      "item.fossil_minecraft.sopteryx_head": "Sopteryx Head",
+      "item.fossil_minecraft.tro_body": "Tro Body",
+      "item.fossil_minecraft.cryo_legs": "Cryo Legs",
+      "item.fossil_minecraft.daspleto_legs_blank": "Daspleto Body",
+      "item.fossil_minecraft.empty_medal": "Empty Medal",
+      "item.fossil_minecraft.f_raptor_arms": "F-Raptor Arms",
+      "gui.fossil_minecraft.trex_medal_gui.label_support_defense": "Support Defense:",
+      "item_group.fossil_minecraft.fossil_minecraft_fossils": "Fossil Minecraft Fossils",
+      "item.fossil_minecraft.shanshan_medal": "Shanshan Medal",
+      "item.fossil_minecraft.neo_legs": "Neo Arms",
+      "gui.fossil_minecraft.trex_medal_gui.label_support_attack": "Support Attack:",
+      "item.fossil_minecraft.alio_body": "Alio Body",
+      "gui.fossil_minecraft.cleaner_gui.label_0": "0",
+      "gui.fossil_minecraft.trex_medal_gui.label_speed": "Speed:",
+      "item.fossil_minecraft.guan_arms_blank": "Guan Arms",
+      "item.fossil_minecraft.alio_arms": "Alio Arms",
+      "item.fossil_minecraft.giganto_body": "Giganto Body",
+      "gui.fossil_minecraft.trex_medal_gui.label_supportspeed": "Support Speed:",
+      "item.fossil_minecraft.metria_head_blank": "Metria Head",
+      "item.fossil_minecraft.giganto_arms": "Giganto Arms",
+      "item.fossil_minecraft.shanshan_legs_blank": "Shanshan Legs",
+      "item.fossil_minecraft.metria_arms_blank": "Metria Arms"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Entities",
+        "children": []
+      },
+      {
+        "name": "Blocks",
+        "children": []
+      },
+      {
+        "name": "Medals",
+        "children": [
+          {
+            "name": "001-Trex",
+            "children": []
+          },
+          {
+            "name": "001-Trex-Lord",
+            "children": []
+          },
+          {
+            "name": "009-Shanshan",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Uncleaned Fossils",
+        "children": [
+          {
+            "name": "001-T-Rex",
+            "children": []
+          },
+          {
+            "name": "002-Daspleto",
+            "children": []
+          },
+          {
+            "name": "003-Gorgo",
+            "children": []
+          },
+          {
+            "name": "004-Tarbo",
+            "children": []
+          },
+          {
+            "name": "005-Alio",
+            "children": []
+          },
+          {
+            "name": "006-Siamo",
+            "children": []
+          },
+          {
+            "name": "007-Alectro",
+            "children": []
+          },
+          {
+            "name": "008-Guan",
+            "children": []
+          },
+          {
+            "name": "009-Shanshan",
+            "children": []
+          },
+          {
+            "name": "010-Allo",
+            "children": []
+          },
+          {
+            "name": "011-Metria",
+            "children": []
+          },
+          {
+            "name": "012-Megalo",
+            "children": []
+          },
+          {
+            "name": "013-Venator",
+            "children": []
+          },
+          {
+            "name": "014-S-Raptor",
+            "children": []
+          },
+          {
+            "name": "015-Giganto",
+            "children": []
+          },
+          {
+            "name": "016-Cryo",
+            "children": []
+          },
+          {
+            "name": "017-Carchar",
+            "children": []
+          },
+          {
+            "name": "018-Acro",
+            "children": []
+          },
+          {
+            "name": "019-F-Raptor",
+            "children": []
+          },
+          {
+            "name": "020-Spinax",
+            "children": []
+          },
+          {
+            "name": "021-Neo",
+            "children": []
+          },
+          {
+            "name": "022-Compso",
+            "children": []
+          },
+          {
+            "name": "023-Sopteryx",
+            "children": []
+          },
+          {
+            "name": "024-Delta",
+            "children": []
+          },
+          {
+            "name": "025-Tro",
+            "children": []
+          },
+          {
+            "name": "026-Nychus",
+            "children": []
+          },
+          {
+            "name": "027-M-Raptor",
+            "children": []
+          },
+          {
+            "name": "028-U-Raptor",
+            "children": []
+          },
+          {
+            "name": "029-V-Raptor",
+            "children": []
+          },
+          {
+            "name": "030-Breme",
+            "children": []
+          },
+          {
+            "name": "031-Aopteryx",
+            "children": []
+          },
+          {
+            "name": "032-Coelo",
+            "children": []
+          },
+          {
+            "name": "033-Dilopho",
+            "children": []
+          },
+          {
+            "name": "034-Spino",
+            "children": []
+          },
+          {
+            "name": "035-Angato",
+            "children": []
+          },
+          {
+            "name": "036-Sucho",
+            "children": []
+          },
+          {
+            "name": "037-Onyx",
+            "children": []
+          },
+          {
+            "name": "038-Cerato",
+            "children": []
+          },
+          {
+            "name": "039-Carno",
+            "children": []
+          },
+          {
+            "name": "040-Orno",
+            "children": []
+          },
+          {
+            "name": "041-Cheirus",
+            "children": []
+          },
+          {
+            "name": "042-O-Raptor",
+            "children": []
+          },
+          {
+            "name": "043-Zino",
+            "children": []
+          },
+          {
+            "name": "044-Brachio",
+            "children": []
+          },
+          {
+            "name": "045-Salto",
+            "children": []
+          },
+          {
+            "name": "046-Shuno",
+            "children": []
+          },
+          {
+            "name": "047-Perso",
+            "children": []
+          },
+          {
+            "name": "048-Seismo",
+            "children": []
+          },
+          {
+            "name": "049-Apato",
+            "children": []
+          },
+          {
+            "name": "050-Amargo",
+            "children": []
+          },
+          {
+            "name": "051-Stego",
+            "children": []
+          },
+          {
+            "name": "052-Yango",
+            "children": []
+          },
+          {
+            "name": "053-Jiango",
+            "children": []
+          },
+          {
+            "name": "054-Kentro",
+            "children": []
+          },
+          {
+            "name": "055-Lexo",
+            "children": []
+          },
+          {
+            "name": "056-Nodo",
+            "children": []
+          },
+          {
+            "name": "057-Ankylo",
+            "children": []
+          },
+          {
+            "name": "058-Saichan",
+            "children": []
+          },
+          {
+            "name": "059-Goyle",
+            "children": []
+          },
+          {
+            "name": "060-Pelto",
+            "children": []
+          },
+          {
+            "name": "061-Hypsi",
+            "children": []
+          },
+          {
+            "name": "062-Nasaur",
+            "children": []
+          },
+          {
+            "name": "063-Igua",
+            "children": []
+          },
+          {
+            "name": "064-Ourano",
+            "children": []
+          },
+          {
+            "name": "065-Lambeo",
+            "children": []
+          },
+          {
+            "name": "066-Maia",
+            "children": []
+          },
+          {
+            "name": "067-Anato",
+            "children": []
+          },
+          {
+            "name": "068-Paraloph",
+            "children": []
+          },
+          {
+            "name": "069-Pachy",
+            "children": []
+          },
+          {
+            "name": "070-Stygi",
+            "children": []
+          },
+          {
+            "name": "071-Goyo",
+            "children": []
+          },
+          {
+            "name": "072-Proto",
+            "children": []
+          },
+          {
+            "name": "073-Tricera",
+            "children": []
+          },
+          {
+            "name": "074-Styraco",
+            "children": []
+          },
+          {
+            "name": "075-Einio",
+            "children": []
+          },
+          {
+            "name": "076-Centro",
+            "children": []
+          },
+          {
+            "name": "077-Penta",
+            "children": []
+          },
+          {
+            "name": "078-Pachrino",
+            "children": []
+          },
+          {
+            "name": "079-Mihu",
+            "children": []
+          },
+          {
+            "name": "080-Ptera",
+            "children": []
+          },
+          {
+            "name": "081-Coatlus",
+            "children": []
+          },
+          {
+            "name": "082-Jara",
+            "children": []
+          },
+          {
+            "name": "083-Dimorph",
+            "children": []
+          },
+          {
+            "name": "084-Guera",
+            "children": []
+          },
+          {
+            "name": "085-Krona",
+            "children": []
+          },
+          {
+            "name": "086-Futabi",
+            "children": []
+          },
+          {
+            "name": "087-Elasmo",
+            "children": []
+          },
+          {
+            "name": "088-Plesio",
+            "children": []
+          },
+          {
+            "name": "089-Shoni",
+            "children": []
+          },
+          {
+            "name": "090-Arsith",
+            "children": []
+          },
+          {
+            "name": "091-Brontoth",
+            "children": []
+          },
+          {
+            "name": "092-Elasmoth",
+            "children": []
+          },
+          {
+            "name": "093-Hoplo",
+            "children": []
+          },
+          {
+            "name": "094-Andrarch",
+            "children": []
+          },
+          {
+            "name": "095-Paki",
+            "children": []
+          },
+          {
+            "name": "096-Smilo",
+            "children": []
+          },
+          {
+            "name": "097-Mammoth",
+            "children": []
+          },
+          {
+            "name": "098-Tryma",
+            "children": []
+          },
+          {
+            "name": "099-Megath",
+            "children": []
+          },
+          {
+            "name": "100-Chelon",
+            "children": []
+          },
+          {
+            "name": "101-Aeros",
+            "children": [
+              {
+                "name": "118-Pacro",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "102-Mapo",
+            "children": []
+          },
+          {
+            "name": "103-Berto",
+            "children": []
+          },
+          {
+            "name": "104-Raja",
+            "children": []
+          },
+          {
+            "name": "105-Krypto",
+            "children": []
+          },
+          {
+            "name": "106-Archaeo",
+            "children": []
+          },
+          {
+            "name": "107-Epidex",
+            "children": []
+          },
+          {
+            "name": "108-Lagia",
+            "children": []
+          },
+          {
+            "name": "109-E-Raptor",
+            "children": []
+          },
+          {
+            "name": "110-Toba",
+            "children": []
+          },
+          {
+            "name": "111-Nigo",
+            "children": []
+          },
+          {
+            "name": "112-Camara",
+            "children": []
+          },
+          {
+            "name": "113-Seidon",
+            "children": []
+          },
+          {
+            "name": "114-Menchi",
+            "children": []
+          },
+          {
+            "name": "115-Argento",
+            "children": []
+          },
+          {
+            "name": "116-Dacerus",
+            "children": []
+          },
+          {
+            "name": "117-Tsintao",
+            "children": []
+          },
+          {
+            "name": "118-Pacro",
+            "children": []
+          },
+          {
+            "name": "119-Oloro",
+            "children": []
+          },
+          {
+            "name": "120-Nippono",
+            "children": []
+          },
+          {
+            "name": "121-Chasmo",
+            "children": []
+          },
+          {
+            "name": "122-Berta",
+            "children": []
+          },
+          {
+            "name": "123-Nycto",
+            "children": []
+          },
+          {
+            "name": "124-Sungari",
+            "children": []
+          },
+          {
+            "name": "125-Thalasso",
+            "children": []
+          },
+          {
+            "name": "126-Hopter",
+            "children": []
+          },
+          {
+            "name": "127-Machai",
+            "children": []
+          },
+          {
+            "name": "128-Peloro",
+            "children": []
+          },
+          {
+            "name": "129-Metri",
+            "children": []
+          },
+          {
+            "name": "130-Gomp",
+            "children": []
+          },
+          {
+            "name": "131-Anan",
+            "children": []
+          },
+          {
+            "name": "132-Parium",
+            "children": []
+          },
+          {
+            "name": "133-Ceros",
+            "children": []
+          },
+          {
+            "name": "134-Synthos",
+            "children": []
+          },
+          {
+            "name": "135-Titanis",
+            "children": []
+          },
+          {
+            "name": "136-Dimetro",
+            "children": []
+          },
+          {
+            "name": "137-Edapho",
+            "children": []
+          },
+          {
+            "name": "138-Tanstro",
+            "children": []
+          },
+          {
+            "name": "139-Pendem",
+            "children": []
+          },
+          {
+            "name": "140-Tophis",
+            "children": []
+          },
+          {
+            "name": "141-Coelanth",
+            "children": []
+          },
+          {
+            "name": "142-Dunkle",
+            "children": []
+          },
+          {
+            "name": "143-Parapu",
+            "children": []
+          },
+          {
+            "name": "144-Desmo",
+            "children": []
+          },
+          {
+            "name": "145-Gaudry",
+            "children": []
+          },
+          {
+            "name": "146-Radox",
+            "children": []
+          },
+          {
+            "name": "147-Terata",
+            "children": []
+          },
+          {
+            "name": "148-Dikelo",
+            "children": []
+          },
+          {
+            "name": "149-Anomalo",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Cleaned Fossils",
+        "children": [
+          {
+            "name": "001-T-Rex",
+            "children": []
+          },
+          {
+            "name": "Shanshan",
+            "children": []
+          },
+          {
+            "name": "Seidon",
+            "children": []
+          },
+          {
+            "name": "V-Raptor",
+            "children": []
+          },
+          {
+            "name": "U-Raptor",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Items",
+        "children": []
+      },
+      {
+        "name": "Battle",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "fossil_minecraft",
+    "modName": "Fossil Minecraft",
+    "version": "1.0.0",
+    "author": "Gavinh, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [
+      "geckolib"
+    ],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.fossilminecraft",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300336712
+}

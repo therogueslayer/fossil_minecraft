@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "fossil_minecraft:block/new_piskel-3.png_1",
+    "up": "fossil_minecraft:block/new_piskel-2.png_1",
+    "north": "fossil_minecraft:block/new_piskel-1.png_1",
+    "east": "fossil_minecraft:block/new_piskel-1.png_1",
+    "south": "fossil_minecraft:block/new_piskel-1.png_1",
+    "west": "fossil_minecraft:block/new_piskel-1.png_1",
+    "particle": "fossil_minecraft:block/new_piskel-3.png_1"
+  },
+  "render_type": "solid"
+}

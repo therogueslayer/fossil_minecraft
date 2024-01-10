@@ -1,0 +1,10 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": "badlands",
+  "spawners": {
+    "type": "fossil_minecraft:trex",
+    "weight": 20,
+    "minCount": 1,
+    "maxCount": 4
+  }
+}
